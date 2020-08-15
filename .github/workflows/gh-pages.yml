@@ -14,6 +14,14 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+      - name: Setup Imagemagick
+        run: |
+          sudo apt-get install libtiff5 imagemagick
+
+      - name: Convert source file
+        run: |
+          convert "Source Files/Logo/img001-color.jpg" -crop 5324x3260+0+90 content/logo/img001.jpg
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -24,9 +32,8 @@ jobs:
           pip install iiif
       - name: Generate Tiles
         run: |
-          cd static/images
-          iiif_static.py -d ../../content/post/rossitten rossitten-33.jpeg rossitten-34.jpeg
-          iiif_static.py  -d ../../content/post/kurische-nehrung kurische-nehrung-59.jpeg kurische-nehrung-60.jpeg
+          cd content/logo
+          iiif_static.py -d . img001.jpg
 
       - name: Setup Node.js
         uses: actions/setup-node@v1

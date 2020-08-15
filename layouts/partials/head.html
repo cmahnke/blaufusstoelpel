@@ -1,0 +1,50 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Site.Title }}</title>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ hugo.Generator }}
+
+
+  {{ range .Site.Params.plugins.css }}
+  <link rel="stylesheet" href="{{ .link | absURL }} ">
+  {{ end }}
+
+
+  {{- $mainStyle := resources.Get "css/style.css" -}}
+  {{- $bootstrapStyle := resources.Get "css/bootstrap/bootstrap.css" -}}
+  {{- $leafletStyle := resources.Get "js/leaflet/leaflet.css" -}}
+  {{- $leafletFullscreenStyle := resources.Get "js/leaflet.fullscreen/Control.FullScreen.css" -}}
+  {{- $options := (dict "targetPath" "base.css" "outputStyle" "compressed" "includePaths" (slice "node_modules/slick-carousel/slick")) -}}
+  {{- $scssTemplate := resources.Get "scss/base.scss" -}}
+  {{- $scssStyle := $scssTemplate | resources.ExecuteAsTemplate "scss/base.scss" . | toCSS $options -}}
+  {{- $style := slice $mainStyle $bootstrapStyle $leafletStyle $leafletFullscreenStyle $scssStyle | resources.Concat "css/concated.css" | minify  | fingerprint -}}
+  <link href="{{ $style.RelPermalink }}" rel="stylesheet" integrity="{{ $style.Data.Integrity }}">
+
+{{/*
+  {{ $styles := resources.Get "css/style.css" | minify }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+*/}}
+
+  {{- $jqueryLib := resources.Get "js/jquery/jquery.js" -}}
+  {{- $bootstrapLib := resources.Get "js/bootstrap/bootstrap.js" -}}
+  {{- $headroomLib := resources.Get "js/headroom/headroom.js" -}}
+  {{- $headroomJQueryLib := resources.Get "js/headroom/jQuery.headroom.js" -}}
+  {{- $masonryLib := resources.Get "js/masonry/masonry.pkgd.js" -}}
+  {{- $slickLib := resources.Get "js/slick/slick.js" -}}
+  {{- $leafletLib := resources.Get "js/leaflet/leaflet.js" -}}
+  {{- $leafletIiifLib := resources.Get "js/leaflet-iiif/leaflet-iiif.js" -}}
+  {{- $leafletFullscreenLib := resources.Get "js/leaflet.fullscreen/Control.FullScreen.js" -}}
+  {{- $themeLib := resources.Get "js/script.js" -}}
+
+  {{ $js := slice $jqueryLib $bootstrapLib $headroomLib $headroomJQueryLib $masonryLib $slickLib $leafletLib $leafletIiifLib $leafletFullscreenLib $themeLib | resources.Concat "js/concated.js" | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+
+
+  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+  <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+
+</head>

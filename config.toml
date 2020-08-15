@@ -1,3 +1,76 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+theme = "parsa"
+languageCode = "de"
+title = "Blaufußtölpel"
+languagecode = "de"
+defaultcontentlanguage = "de"
+publishDir = "docs"
+canonifyurls = true
+
+
+[params]
+layout = "1"
+#logo = "images/blaufusstoelpel.svg"
+# font https://fonts.google.com/specimen/Prata body
+# https://fonts.google.com/specimen/Montserrat head
+
+
+# navigation
+[[menu.main]]
+name = "Über"
+URL = "about"
+weight = 2
+
+[[menu.main]]
+name = "Kontakt"
+URL = "contact"
+weight = 3
+
+
+[markup.goldmark.renderer]
+  unsafe= true
+
+[module]
+  [[module.mounts]]
+    source = "node_modules/jquery/dist"
+    target = "assets/js/jquery"
+
+  [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js"
+    target = "assets/js/bootstrap"
+
+  [[module.mounts]]
+    source = "node_modules/bootstrap/dist/css"
+    target = "assets/css/bootstrap"
+
+  [[module.mounts]]
+    source = "node_modules/headroom.js/dist"
+    target = "assets/js/headroom"
+
+  [[module.mounts]]
+    source = "node_modules/masonry-layout/dist"
+    target = "assets/js/masonry"
+
+  [[module.mounts]]
+    source = "node_modules/slick-carousel/slick"
+    target = "assets/js/slick"
+
+  [[module.mounts]]
+    source = "node_modules/leaflet/dist"
+    target = "assets/js/leaflet"
+
+  [[module.mounts]]
+    source = "node_modules/leaflet-iiif"
+    target = "assets/js/leaflet-iiif"
+
+  [[module.mounts]]
+    source = "node_modules/leaflet.fullscreen"
+    target = "assets/js/leaflet.fullscreen"
+
+  [[module.mounts]]
+    source = "assets/scss"
+    target = "assets/scss"
+
+  [[module.mounts]]
+    source = "node_modules/leaflet/dist/images"
+    target = "assets/images/leaflet"

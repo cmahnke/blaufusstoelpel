@@ -1,5 +1,17 @@
 #!/bin/sh
 
+WD=`pwd`
+
+# IIFF
+for IMAGE in `ls -1 content/post/**/page*.jpg content/post/**/front.jpg`
+do
+    iiif_static.py -d `dirname $IMAGE` $IMAGE
+#    cd `dirname $IMAGE`
+#    cd $WD
+done
+
+cd $WD
+
 # Favicons
 # See https://gist.github.com/pfig/1808188
 convert static/images/blaufusstoelpel.svg static/images/blaufusstoelpel.png

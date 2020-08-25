@@ -3,3 +3,7 @@ docs
 node_modules/
 resources
 static/images/blaufusstoelpel.svg
+static/images/blaufusstoelpel.png
+static/images/favicon*
+content/post/**/page*/
+content/post/**/front/

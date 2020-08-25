@@ -5,6 +5,7 @@ tags:
 - 1987
 - DDR
 - 80er
+- Featured
 resources:
 - src: "front.jpg"
   name: title

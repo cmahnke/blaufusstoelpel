@@ -1,7 +1,7 @@
 Blaufußtölpel
 =============
 
-# Setup for local (offine) development
+# Setup for local (offline) development
 
 Run the following script to generate assets
 
@@ -21,6 +21,33 @@ convert 0001.tif -define webp:method=6  -define webp:lossless=true -quality 100 
 
 
 [WebP Options for ImageMagick](https://imagemagick.org/script/webp.php), [WebP Options for `cwebp`](https://developers.google.com/speed/webp/docs/cwebp)
+
+# Creating clean derivates from source folder
+
+```
+find . -name '*.tif' -depth 2 -exec tiff2rgba "{}" "{}-uc.tif" \;
+find . -name '*-uc.tif' -depth 2 -exec convert "{}" -quality 95 "{}.jpg" \;
+find . -name '*-uc.tif' -exec rm "{}" \;
+find . -name '*.tif.jpg' -print -exec bash -c 'mv "{}"  $(dirname "{}")/$(basename -s .tif-uc.tif.jpg "{}").jpg' \;
+```
+
+Use `depth` to exclude original images.
+
+# Generating Tiles
+
+We start to use [LibVIPS](), since it's very fast:
+
+On Mac OS X just run:
+
+```
+brew install vips
+```
+
+## Generate tiles for a single file
+
+```
+vips dzsave front.jpg front -t 512 --layout iiif --id '.'
+```
 
 # Starting hugo
 

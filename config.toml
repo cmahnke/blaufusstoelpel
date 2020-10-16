@@ -1,12 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "https://xn--blaufusstlpel-qmb.de"
 theme = "parsa"
-languageCode = "de"
 title = "Blaufußtölpel"
+languageCode = "de"
 languagecode = "de"
 defaultcontentlanguage = "de"
 publishDir = "docs"
 canonifyurls = true
-
 
 [params]
 layout = "1"
@@ -16,19 +15,23 @@ layout = "1"
 
 
 # navigation
-[[menu.main]]
-name = "Über"
-URL = "about"
-weight = 2
+[menu]
+    [[menu.main]]
+    name = "Über"
+    URL = "about"
+    weight = 2
 
-[[menu.main]]
-name = "Kontakt"
-URL = "contact"
-weight = 3
+    [[menu.main]]
+    name = "Kontakt"
+    URL = "contact"
+    weight = 3
 
 
 [markup.goldmark.renderer]
   unsafe= true
+
+[imaging]
+    quality = 95
 
 [module]
   [[module.mounts]]
@@ -54,18 +57,6 @@ weight = 3
   [[module.mounts]]
     source = "node_modules/slick-carousel/slick"
     target = "assets/js/slick"
-
-  [[module.mounts]]
-    source = "node_modules/leaflet/dist"
-    target = "assets/js/leaflet"
-
-  [[module.mounts]]
-    source = "node_modules/leaflet-iiif"
-    target = "assets/js/leaflet-iiif"
-
-  [[module.mounts]]
-    source = "node_modules/leaflet.fullscreen"
-    target = "assets/js/leaflet.fullscreen"
 
   [[module.mounts]]
     source = "assets/scss"

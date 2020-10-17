@@ -1,3 +1,5 @@
+@import "bootstrap.scss";
+@import "ol.css";
 @import "slick.scss";
 @import "slick-theme.scss";
 
@@ -5,18 +7,6 @@
 @import "ol-iiif";
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,200;1,400&family=Prata&display=swap');
-
-// Leaflet fullscreen
-.fullscreen-icon {
-    {{ $leafletFullscreenIcon := resources.Get "js/leaflet.fullscreen/icon-fullscreen.png" }}
-    background-image: url({{ $leafletFullscreenIcon.RelPermalink }})
-}
-
-.leaflet-retina .fullscreen-icon {
-    {{ $leafletFullscreenIconRetina := resources.Get "js/leaflet.fullscreen/icon-fullscreen.png" }}
-    background-image: url({{ $leafletFullscreenIconRetina.RelPermalink }});
-    background-size: 26px 26px
-}
 
 
 h1, h2, h3, h4, nav {

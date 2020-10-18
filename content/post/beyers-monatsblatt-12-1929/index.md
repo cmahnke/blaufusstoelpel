@@ -1,6 +1,27 @@
 ---
 title: "Beyers Monatsblatt 12 1929"
 date: 2020-09-17T19:01:38+02:00
-draft: true
+tags:
+- 1929
+- 20er
+resources:
+- src: "front.jpg"
+  name: front
+  params:
+    iiif: front/info.json
+- src: "page230.jpg"
+  params:
+    iiif: page230/info.json
+- src: "page231.jpg"
+  params:
+    iiif: page231/info.json
+- src: "page232.jpg"
+  params:
+    iiif: page232/info.json
+- src: "page233.jpg"
+  params:
+    iiif: page233/info.json
+- src: "page234.jpg"
+  params:
+    iiif: page234/info.json
 ---
-

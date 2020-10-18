@@ -1,33 +1,27 @@
 ---
 title: "Mode und Heim Nr. 12 1939: Herbstmode 1939"
-draft: true
 tags:
 - 1939
 - Kindermode
 - 30er
 resources:
 - src: "front.jpg"
-  name: title
+  name: front
   params:
     iiif: front/info.json
 - src: "page003.jpg"
-  name: page
   params:
     iiif: page003/info.json
 - src: "page012.jpg"
-  name: page
   params:
     iiif: page012/info.json
 - src: "page013.jpg"
-  name: page
   params:
     iiif: page013/info.json
 - src: "page018.jpg"
-  name: page
   params:
     iiif: page018/info.json
 - src: "page019.jpg"
-  name: page
   params:
     iiif: page019/info.json
 ---

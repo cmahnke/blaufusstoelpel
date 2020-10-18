@@ -1,25 +1,21 @@
 ---
 title: "Gartenlaube Nr 12 1924"
-draft: true
 tags:
 - 1924
 - Handarbeit
 - 20er
 resources:
 - src: "front.jpg"
-  name: title
+  name: front
   params:
     iiif: front/info.json
 - src: "page235.jpg"
-  name: page
   params:
     iiif: page235/info.json
 - src: "page236.jpg"
-  name: page
   params:
     iiif: page236/info.json
 - src: "page237.jpg"
-  name: page
   params:
     iiif: page237/info.json
 ---

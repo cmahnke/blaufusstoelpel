@@ -1,6 +1,6 @@
 ---
 title: "Beyers Handarbeit 9 1951"
-date: 2020-09-17T17:20:49+02:00
+date: 2020-09-09T17:56:49+02:00
 tags:
 - 1951
 - Kindermode
@@ -38,3 +38,5 @@ resources:
   params:
     iiif: page321/info.json
 ---
+In den Fünfzigern war die Welt noch in Ordnung: Der seriöse Mann raucht Pfeife oder trägt zumindest einen Pullunder, <!--more-->
+die ältere Dame (bzw. Kriegermutter) darf sich noch wie eine Klischeeoma aus dem Märchen anziehen und die Puppen der Kinder wurden noch nicht gecanceld.

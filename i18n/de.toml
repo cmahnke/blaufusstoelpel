@@ -1,0 +1,42 @@
+# Overview
+[readMore]
+other = "Mehr lesen"
+
+[continue]
+other = "Weiter"
+
+# Single post
+
+[tags]
+other = "Schlagworte"
+
+[categories]
+other = "Kategorien"
+
+[latestPosts]
+other = "Letzte Beiträge"
+
+[postedBy]
+other = "Veröffentlicht von"
+
+# Languages
+[en]
+other = "Englisch"
+
+[de]
+other = "Deutsch"
+
+# Pagination
+
+[next]
+other = "Vor"
+
+[previous]
+other = "Zurück"
+
+
+[next_page]
+other = "Nächste Seite"
+
+[previous_page]
+other = "Vorige Seite"

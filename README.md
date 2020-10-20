@@ -49,7 +49,24 @@ brew install vips
 vips dzsave front.jpg front -t 512 --layout iiif --id '.'
 ```
 
-# Starting hugo
+# Remove generated IIIF directories
+
+```
+find content/post/ -name info.json -exec dirname {} \; | xargs rm -r
+```
+
+# Running hugo
+
+## Without watching
+
+This might be needed if there are to many sub directories (with IIIF structures) generated, since watching might not work in this setup.
+
+```
+hugo serve -F --debug --disableFastRender  --disableLiveReload --watch=false --renderToDisk
+
+```
+
+## With writing files to disk and watching
 
 ```
 /usr/local/bin/hugo server -D --debug --disableFastRender --renderToDisk

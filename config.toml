@@ -6,6 +6,7 @@ languagecode = "de"
 defaultcontentlanguage = "de"
 publishDir = "docs"
 canonifyurls = true
+disablePathToLower = true
 
 [params]
 layout = "1"
@@ -17,14 +18,16 @@ layout = "1"
 # navigation
 [menu]
     [[menu.main]]
-    name = "Über"
-    URL = "about"
-    weight = 2
+        name = "Zeitstrahl"
+        URL = "timeline"
+        weight = 1
 
     [[menu.main]]
-    name = "Kontakt"
-    URL = "contact"
-    weight = 3
+        name = "Über"
+        URL = "about"
+        weight = 2
+
+
 
 
 [markup.goldmark.renderer]

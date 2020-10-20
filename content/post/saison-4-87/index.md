@@ -1,5 +1,6 @@
 ---
 title: "Saison Nr. 4 1987: Großes 80er Spezial"
+featured: true
 tags:
 - 1987
 - DDR

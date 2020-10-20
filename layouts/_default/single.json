@@ -1,0 +1,14 @@
+{
+  "@context":"http://iiif.io/api/presentation/2/context.json",
+  "@type":"sc:Manifest",
+  "@id":"{{ .Permalink }}",
+
+  "label":"{{ .Title }}",
+  {{- if isset .Params "metadata" -}}
+      {{- jsonfy .Params.metadata -}}
+  {{- end -}}
+  {{- if .Description -}}
+    "description": "{{ .Description }}",
+  {{- end -}}
+
+}

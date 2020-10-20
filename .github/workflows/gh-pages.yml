@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  schedule:
+#    - cron:  '0 7 * * */2'
 
 jobs:
   deploy:
@@ -14,35 +16,31 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+      - name: Login to GitHub Packages Docker Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.CR_PAT }}
+          logout: false
+
       - name: Setup Imagemagick
         run: |
           sudo apt-get install libtiff5 imagemagick
-
-      - name: Generate Files
-        run: |
-          ./scripts/setup.sh
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.7.8
-      - name: Install Python dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install iiif
-      - name: Generate Tiles
-        run: |
-          cd content/logo
-          iiif_static.py -d . img001.jpg
 
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
           node-version: 10.22.0
-      - name: Install Node dependencies
+
+#      - name: Create IIIF derivates
+#        run: docker run -v ${PWD}:${PWD} ghcr.io/cmahnke/iiif-action:latest sh -c "cd ${PWD} && ./scripts/iiif.sh"
+#
+      - name: Generate Files
+        env:
+          SKIP_IIIF: yes
         run: |
-          yarn install
-          yarn run svgo
+          ./scripts/setup.sh
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2

@@ -1,6 +1,7 @@
 ---
 title: "Moden Zeitung fürs Deutsche Haus"
 date: 2020-09-17T17:21:11+02:00
+featured: true
 tags:
 - 1900
 - 00er

@@ -1,15 +1,11 @@
 #!/bin/sh
 
-WD=`pwd`
+# IIIF tiles
+echo "Set SKIP_IIIF to something to disable generation of IIIF derivates"
 
-# IIFF
-for IMAGE in `ls -1 content/post/**/page*.jpg content/post/**/front.jpg`
-do
-    echo "Generating IIIF files for $IMAGE"
-#    iiif_static.py -d `dirname $IMAGE` $IMAGE
-done
-
-#cd "$WD"
+if [[ -z "$SKIP_IIIF" ]] ; then
+    ./scripts/iiif.sh
+fi
 
 # Favicons
 # See https://gist.github.com/pfig/1808188
@@ -19,3 +15,7 @@ convert static/images/favicon-128.png -resize 16x16 static/images/favicon-16.png
 convert static/images/favicon-128.png -resize 32x32 static/images/favicon-32.png
 convert static/images/favicon-128.png -resize 64x64 static/images/favicon-64.png
 convert static/images/favicon-16.png static/images/favicon-32.png static/images/favicon-64.png static/images/favicon-128.png -colors 256 static/images/favicon.ico
+
+#NPM dependencies
+yarn install
+yarn run svgo

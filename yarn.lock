@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@knight-lab/timelinejs@^3.8.5":
+  version "3.8.5"
+  resolved "https://registry.yarnpkg.com/@knight-lab/timelinejs/-/timelinejs-3.8.5.tgz#9b0d3ba6fa3597395c1bcd7a392e93d28846bfc4"
+  integrity sha512-x9CCmUMgwLgn6e/J54WlLd7FIEbiFitifb0TMAxIve3mAP7Fg3a470c5qsgjPLw6cKfQX5XVDZZKQNFRpuvU8Q==
+  dependencies:
+    dompurify "^2.0.11"
+
 "@mapbox/jsonlint-lines-primitives@~2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@mapbox/jsonlint-lines-primitives/-/jsonlint-lines-primitives-2.0.2.tgz#ce56e539f83552b58d10d672ea4d6fc9adc7b234"
@@ -168,6 +175,11 @@ domelementtype@^2.0.1:
   resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-2.0.1.tgz#1f8bdfe91f5a78063274e803b4bdcedf6e94f94d"
   integrity sha512-5HOHUDsYZWV8FGWN0Njbr/Rn7f/eWSQi1v7+HsUVwXgn8nWWlL64zKDkS0n8ZmQ3mlWOMuXOnR+7Nx/5tMO5AQ==
 
+dompurify@^2.0.11:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.1.1.tgz#b5aa988676b093a9c836d8b855680a8598af25fe"
+  integrity sha512-NijiNVkS/OL8mdQL1hUbCD6uty/cgFpmNiuFxrmJ5YPH2cXrPKIewoixoji56rbZ6XBPmtM8GA8/sf9unlSuwg==
+
 domutils@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/domutils/-/domutils-1.7.0.tgz#56ea341e834e06e6748af7a1cb25da67ea9f8c2a"
@@ -290,7 +302,14 @@ is-symbol@^1.0.2:
   dependencies:
     has-symbols "^1.0.1"
 
-jquery@^3.5.1:
+jquery-bridget@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/jquery-bridget/-/jquery-bridget-2.0.1.tgz#784d17a85e641780c5d89ac3f8a7eb47b0bce1fc"
+  integrity sha1-eE0XqF5kF4DF2JrD+KfrR7C84fw=
+  dependencies:
+    jquery ">=1.4.2 <4"
+
+"jquery@>=1.4.2 <4", jquery@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
   integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==

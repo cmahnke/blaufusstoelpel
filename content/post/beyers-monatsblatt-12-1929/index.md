@@ -1,6 +1,6 @@
 ---
 title: "Beyers Monatsblatt 12 1929"
-date: 2020-09-17T19:01:38+02:00
+date: 2020-08-12T19:01:38+02:00
 tags:
 - 1929
 - 20er
@@ -25,3 +25,5 @@ resources:
   params:
     iiif: page234/info.json
 ---
+Diesmal einige Stickereien, z.B. Art Deco Muster! 
+<!--more-->

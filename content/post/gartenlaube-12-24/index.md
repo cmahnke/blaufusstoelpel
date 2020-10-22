@@ -1,6 +1,6 @@
 ---
 title: "Gartenlaube Nr 12 1924"
-date: 2020-08-31T17:54:49+02:00
+date: 2020-09-05T17:54:49+02:00
 tags:
 - 1924
 - Handarbeit

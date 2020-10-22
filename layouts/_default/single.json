@@ -5,7 +5,7 @@
 
   "label":"{{ .Title }}",
   {{- if isset .Params "metadata" -}}
-      {{- jsonfy .Params.metadata -}}
+      {{- jsonify .Params.metadata -}}
   {{- end -}}
   {{- if .Description -}}
     "description": "{{ .Description }}",

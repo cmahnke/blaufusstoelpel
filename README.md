@@ -24,10 +24,12 @@ convert 0001.tif -define webp:method=6  -define webp:lossless=true -quality 100 
 
 # Creating clean derivates from source folder
 
+## Batch conversion
+
 ```
-find . -name '*.tif' -depth 2 -exec tiff2rgba "{}" "{}-uc.tif" \;
-find . -name '*-uc.tif' -depth 2 -exec convert "{}" -quality 95 "{}.jpg" \;
-find . -name '*-uc.tif' -exec rm "{}" \;
+find . -name '*.tif' -depth 1 -print -exec tiff2rgba {} {}-uc.tif \;
+find . -name '*-uc.tif' -depth 1 -print -exec convert {} -quality 95 {}.jpg \;
+find . -name '*-uc.tif' -print -exec rm "{}" \;
 find . -name '*.tif.jpg' -print -exec bash -c 'mv "{}"  $(dirname "{}")/$(basename -s .tif-uc.tif.jpg "{}").jpg' \;
 ```
 

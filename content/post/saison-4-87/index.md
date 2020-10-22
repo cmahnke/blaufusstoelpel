@@ -1,6 +1,7 @@
 ---
 title: "Saison Nr. 4 1987: Großes 80er Spezial"
 featured: true
+date: 2020-10-14T17:20:49+02:00
 tags:
 - 1987
 - DDR
@@ -51,3 +52,6 @@ resources:
   params:
     iiif: page051/info.json
 ---
+Die 80er sind wieder da! Auf der Straße, in den Videospielen, im Kino und TV (wie wir damals sagten - für die Jüngeren: Bei Netflix oder Amazon Prime).<!--more-->
+Und das nicht erst seit heute oder auch nur diesem Jahr, es begann vor drei oder vier Jahren - vielen junge Menschen waren plötzlich schlecht angezogen (hätte meine Oma in den 80ern dazu gesagt). Daher hier ein Blich in die DDR Mode der zweiten Hälfte der 80er.
+Einges von dem hier gezeigten vermissen wir allerdings noch...

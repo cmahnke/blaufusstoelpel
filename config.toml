@@ -27,14 +27,14 @@ layout = "1"
         URL = "about"
         weight = 2
 
-
-
-
 [markup.goldmark.renderer]
   unsafe= true
 
 [imaging]
     quality = 95
+
+[outputs]
+    page = ["HTML", "JSON"]
 
 [module]
 

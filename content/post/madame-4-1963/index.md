@@ -1,5 +1,6 @@
 ---
 title: "Madame April 1963"
+date: 2020-08-22T17:20:49+02:00
 tags:
 - 1963
 - 60er
@@ -54,4 +55,6 @@ resources:
   params:
     iiif: page125/info.json
 ---
-Wien im Jahre 1963
+Wien im Jahre 1963, alleine schon an der Aufmachung sieht man, dass hier eine andere Zielgruppe als die schneidernde Hausfrau angesprochen werden soll...<!--more-->
+Hier fährt das Fräulein Direktorentochter mit dem Sportwagen, während die Mutter ihre Zeit im Country Club verbring. Aber: Die Handtasche nicht vergessen.
+Für den Herrn Direktor gibt es fesche Socken - nicht nur zu Weihnachten...

@@ -1,10 +1,11 @@
 ---
-title: "Beyers Handarbeit 9 1951"
+title: "Beyer's Handarbeit und Wäsche 9 1951"
 date: 2020-09-09T17:56:49+02:00
 tags:
 - 1951
 - Kindermode
 - 50er
+- Beyers Monatsblatt
 resources:
 - src: "front.jpg"
   name: front

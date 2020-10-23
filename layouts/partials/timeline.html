@@ -1,0 +1,28 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <article class="content">
+          {{.Content}}
+        </article>
+            <div id="timeline" class="timeline"></div>
+            {{- $issues := where .Site.Pages "Params.issueyear" "!=" nil -}}
+            <script type="text/javascript">
+                var issues = [
+                    {{- range $issues -}}
+                            {{- $year := .Params.issueYear -}}
+                            {{- $month := 1 -}}
+                            {{ if isset .Params "issueMonth" -}}
+                                {{- $month = .Params.issueMonth -}}
+                            {{- end -}}
+                            {"content": "{{ .Title }}", "start": new Date({{- $year -}}, {{- $month -}}, 1), "url": {{ .RelPermalink | jsonify }}},
+
+                    {{- end -}}
+                ];
+                var options = {};
+                var timeline = addTimeline('timeline', issues, options);
+            </script>
+      </div>
+    </div>
+  </div>
+</section>

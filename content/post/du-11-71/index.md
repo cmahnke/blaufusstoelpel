@@ -1,6 +1,9 @@
 ---
-title: "du November 1971: Die Idee für dieses Blog"
+title: du November 1971
+subTitle: Die Idee für dieses Blog
 date: 2020-07-28T16:51:27+02:00
+issueYear: 1971
+issueMonth: 11
 tags:
 - 1971
 - Werbung

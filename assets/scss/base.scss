@@ -1,4 +1,7 @@
+@import "parsa";
+
 @import "bootstrap.scss";
+
 @import "ol.css";
 @import "slick.scss";
 @import "slick-theme.scss";
@@ -6,15 +9,92 @@
 @import "icons";
 @import "ol-iiif";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,200;1,400&family=Prata&display=swap');
 
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/open-sans-v18-latin-regular.woff2') format('woff2'),
+       url('/fonts/open-sans-v18-latin-regular.woff') format('woff'),
+       url('/fonts/open-sans-v18-latin-regular.ttf') format('truetype');
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/open-sans-v18-latin-600.woff2') format('woff2'),
+       url('/fonts/open-sans-v18-latin-600.woff') format('woff'),
+       url('/fonts/open-sans-v18-latin-600.ttf') format('truetype');
+}
+
+/* montserrat-200 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/montserrat-v15-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/montserrat-v15-latin-200.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/montserrat-v15-latin-200.ttf') format('truetype');
+}
+/* montserrat-200italic - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 200;
+  src: url('/fonts/montserrat-v15-latin-200italic.woff2') format('woff2'),
+       url('/fonts/montserrat-v15-latin-200italic.woff') format('woff'),
+       url('/fonts/montserrat-v15-latin-200italic.ttf') format('truetype');
+}
+/* montserrat-300 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/montserrat-v15-latin-300.woff2') format('woff2'),
+       url('/fonts/montserrat-v15-latin-300.woff') format('woff'),
+       url('/fonts/montserrat-v15-latin-300.ttf') format('truetype');
+}
+/* montserrat-italic - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/fonts/montserrat-v15-latin-italic.woff2') format('woff2'),
+       url('/fonts/montserrat-v15-latin-italic.woff') format('woff'),
+       url('/fonts/montserrat-v15-latin-italic.ttf') format('truetype');
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/montserrat-v15-latin-regular.woff2') format('woff2'),
+       url('/fonts/montserrat-v15-latin-regular.woff') format('woff'),
+       url('/fonts/montserrat-v15-latin-regular.ttf') format('truetype');
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/montserrat-v15-latin-700.woff2') format('woff2'),
+       url('/fonts/montserrat-v15-latin-700.woff') format('woff'),
+       url('/fonts/montserrat-v15-latin-700.ttf') format('truetype');
+}
 
 h1, h2, h3, h4, nav {
     font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    font-family: 'Prata', serif;
+    &.about {
+        background-position: 90% 27em;
+        background-image: url("/images/cm.svg");
+        background-repeat: no-repeat;
+    }
+
 }
 
 nav {
@@ -24,4 +104,59 @@ nav {
 
 .navbar .nav-item .nav-link {
     padding: .5rem 1rem
+}
+
+.content img {
+        max-width: 20%;
+}
+
+.section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    .row  {
+        .post-title,
+        .list-title {
+            font-size: 3em;
+            font-weight: 300;
+        }
+
+        img.header {
+            max-width: 15%;
+        }
+
+        img.list {
+            max-width: 70%;
+        }
+
+    }
+}
+
+.content p {
+    padding-left: .5em;
+}
+
+.ti-calendar {
+    display: none;
+}
+
+.navbar-brand {
+    .logo {
+        max-width: 10%;
+            vertical-align: baseline;
+    }
+    .title {
+        display: inline-block;
+        max-width: 70%;
+        width: 45vw;
+        margin-left: 2rem;
+    }
+}
+
+.content.meta {
+    margin-top: 3rem;
+}
+
+.timeline {
+
 }

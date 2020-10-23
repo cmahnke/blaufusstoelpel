@@ -1,14 +1,15 @@
 {
   "dependencies": {
-    "@knight-lab/timelinejs": "^3.8.5",
     "bootstrap": "^4.5.2",
     "headroom.js": "^0.11.0",
     "jquery": "^3.5.1",
     "jquery-bridget": "^2.0.1",
     "masonry-layout": "^4.2.2",
+    "moment": "^2.29.1",
     "ol": "^6.4.3",
     "popper.js": "^1.16.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "vis-timeline": "^7.4.0"
   },
   "devDependencies": {
     "svgo": "^1.3.2"
@@ -16,6 +17,8 @@
   "scripts": {
     "build": "hugo",
     "start": "hugo server -D --debug --disableFastRender --buildFuture",
-    "svgo": "node_modules/.bin/svgo -i Source\\ Files/Logo/Blaufußtölpel.svg -o static/images/blaufusstoelpel.svg"
+    "logo": "svgo -i Source\\ Files/Logo/Blaufußtölpel.svg -o static/images/blaufusstoelpel.svg",
+    "header": "svgo --config '{ \"plugins\": [ {\"removeAttrs\": { \"attrs\": \"(style|font-weight|font-size|font-family)\" } } ] }' --enable=removeAttrs -i Source\\ Files/Logo/Header.svg -o static/images/header.svg",
+    "svgo": "yarn run logo && yarn run header"
   }
 }

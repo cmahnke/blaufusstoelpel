@@ -1,5 +1,7 @@
 ---
-title: "Beyer's Handarbeit und Wäsche 9 1951"
+title: Beyer's Handarbeit und Wäsche 9 1951
+issueYear: 1951
+issueMonth: 9
 date: 2020-09-09T17:56:49+02:00
 tags:
 - 1951

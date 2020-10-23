@@ -2,7 +2,7 @@
 title: Über dieses Blog
 slug: about
 displayinlist: false
-mataPage: true
+metaPage: true
 ---
 
 

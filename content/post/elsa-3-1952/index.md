@@ -1,6 +1,9 @@
 ---
-title: "Elsa 3 1952"
+title: Elsa Heft 3 1952
+subTitle: Früher hieß Halloween Schulanfang
 date: 2020-10-31T17:21:01+02:00
+issueYear: 1952
+issueMonth: 3
 tags:
 - 1952
 - Kindermode
@@ -50,7 +53,7 @@ resources:
   params:
     iiif: back/info.json
 ---
-Diese Ausgabe sollte zuerst zur Einschulung erscheinen, da sich dieses Blog aber immer weiter verzögerte, wird dieses Heft nun zu Halloween präsentiert!
+Dieser Beitrag sollte zuerst zur Einschulung erscheinen, da sich dieses Blog aber immer weiter verzögerte, wird dieses Heft nun zu Halloween präsentiert!
 <!--more-->
 Ob nun die Kinder oder die Backfische gruseliger sind, sei den Lesern überlassen. aber besonders gruselig ist die Werbung für die Strümpfe, die der Dame ein Bein Zaubern, das mit dem eines Pferdes mithalten kann.
 

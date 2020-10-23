@@ -2,5 +2,7 @@
 title: Zeitstrahl
 slug: timeline
 displayinlist: false
-mataPage: true
+metaPage: true
 ---
+
+Auf diesem Zeitstrahl werden alle Ausgaben angezeigt

@@ -1,6 +1,9 @@
 ---
-title: "Mode und Heim Nr. 12 1939: Herbstmode 1939"
+title: Mode und Heim Nr. 12 1939
+subTitle: Herbstmode 1939
 date: 2020-09-17T17:57:49+02:00
+issueYear: 1939
+issueMonth: 6
 featured: true
 tags:
 - 1939

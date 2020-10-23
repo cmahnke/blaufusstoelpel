@@ -19,6 +19,9 @@ other = "Letzte Beiträge"
 [postedBy]
 other = "Veröffentlicht von"
 
+[postedOn]
+other = "Veröffentlicht am"
+
 # Languages
 [en]
 other = "Englisch"

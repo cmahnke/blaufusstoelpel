@@ -7,10 +7,14 @@ defaultcontentlanguage = "de"
 publishDir = "docs"
 canonifyurls = true
 disablePathToLower = true
+paginate = 6
+#disableKinds = ["taxonomy"]
+#ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
 layout = "1"
-#logo = "images/blaufusstoelpel.svg"
+logo = "images/blaufusstoelpel.svg"
+header = "images/header.svg"
 # font https://fonts.google.com/specimen/Prata body
 # https://fonts.google.com/specimen/Montserrat head
 

@@ -1,6 +1,8 @@
 ---
-title: "Pramo Nr. 11 1973"
+title: Pramo Nr. 11 1973
 date: 2020-08-03T17:20:49+02:00
+issueYear: 1973
+issueMonth: 11
 tags:
 - Praktische Mode
 - 1973

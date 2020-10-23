@@ -26,8 +26,10 @@
       </div>
       <div class="media-body">
         <ul class="list-inline d-flex justify-content-between mb-2">
-          <li class="list-inline-item">{{ i18n "postedBy" }} {{.Site.Params.author}}</li>
-          <li class="list-inline-item">{{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}</li>
+          {{/*
+              <li class="list-inline-item">{{ i18n "postedBy" }} {{.Site.Params.author}}</li>
+          */}}
+          <li class="list-inline-item">{{ i18n "postedOn" }} {{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}</li>
         </ul>
         <h6><a class="text-dark" href="{{ .Permalink }}">{{.Title}}</a></h6>
       </div>
@@ -35,27 +37,27 @@
     {{ end }}
   </div>
   <div class="widget">
+    {{- if isset .Params "tags" }}
     <h6 class="mb-4">{{ i18n "tags" }}</h6>
-    {{- if isset .Site.Taxonomies "tags" }}
-    {{- if not (eq (len .Site.Taxonomies.tags) 0) }}
-    <ul class="list-inline tag-list">
-      {{- range $name, $items := .Site.Taxonomies.tags }}
-      <li class="list-inline-item m-1"><a href="{{ "tags/" | relLangURL }}{{ $name | urlize | lower }}">{{ partial "tag.html" (dict "tag" $name) }}</a></li>
-      {{- end }}
-    </ul>
-    {{- end }}
+        <ul class="list-inline tag-list">
+          {{ range $tag := .Params.tags }}
+            <li class="list-inline-item m-1"><a href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}">{{ partial "tag.html" (dict "tag" $tag) }}</a></li>
+          {{- end }}
+        </ul>
     {{- end }}
   </div>
+{{/*
   <div class="widget">
-    <h6 class="mb-4">{{ i18n "categories" }}</h6>
     {{- if isset .Site.Taxonomies "categories" }}
-    {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
-    <ul class="list-inline tag-list">
-      {{- range $name, $items := .Site.Taxonomies.categories }}
-      <li class="list-inline-item m-1"><a href="{{ "categories/" | relLangURL }}{{ $name | urlize | lower }}">{{ $name | title | humanize }}</a></li>
-      {{- end }}
-    </ul>
-    {{- end }}
+        <h6 class="mb-4">{{ i18n "categories" }}</h6>
+        {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
+        <ul class="list-inline tag-list">
+          {{- range $name, $items := .Site.Taxonomies.categories }}
+          <li class="list-inline-item m-1"><a href="{{ "categories/" | relLangURL }}{{ $name | urlize }}">{{ $name | title | humanize }}</a></li>
+          {{- end }}
+        </ul>
+        {{- end }}
     {{- end }}
   </div>
 </div>
+*/}}

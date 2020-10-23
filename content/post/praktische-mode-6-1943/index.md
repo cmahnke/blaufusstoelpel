@@ -1,6 +1,8 @@
 ---
-title: "Praktische Mode 6 1943"
+title: Praktische Mode Heft 6 1943
 date: 2020-10-03T17:21:11+02:00
+issueYear: 1943
+issueMonth: 12
 tags:
 - Praktische Mode
 - 1943

@@ -1,6 +1,8 @@
 ---
-title: "Moden Zeitung fürs Deutsche Haus"
+title: Moden Zeitung fürs Deutsche Haus Nr. 7 1900
 date: 2020-09-25T17:21:11+02:00
+issueYear: 1900
+issueMonth: 3
 featured: true
 tags:
 - 1900

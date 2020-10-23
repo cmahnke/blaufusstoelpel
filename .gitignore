@@ -7,3 +7,5 @@ static/images/blaufusstoelpel.png
 static/images/favicon*
 content/post/**/page*/
 content/post/**/front/
+static/images/header.svg
+yarn-error.log

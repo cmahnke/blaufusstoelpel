@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     {{- partial "head.html" . -}}
-    <body>
+    {{- $class := "" -}}
+    {{- if hasPrefix .Page.File.Path "about" -}}
+        {{- $class = "about" -}}
+    {{- end -}}
+    {{- if .Params.metaPage -}}
+        {{- $class = printf "%s %s" $class "meta" -}}
+    {{ end }}
+    <body class="{{ $class }}">
         {{- partial "preloader.html" . -}}
         {{- partial "header.html" . -}}
         {{- block "main" . }}{{- end }}

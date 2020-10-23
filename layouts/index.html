@@ -33,7 +33,13 @@
                   <div class="card-img-overlay">
                     <div class="card-content">
                       <p class="text-uppercase">{{range .Params.Categories}}{{. | humanize}}{{end}}</p>
-                      <h4 class="card-title mb-4"><a class="text-white" href="{{.Permalink}}">{{.Title}}</a></h4>
+                      {{- $title := "" -}}
+                      {{ if isset .Params "subtitle" -}}
+                        {{- $title = printf "%s: %s" .Title .Params.subTitle -}}
+                      {{- else -}}
+                        {{- $title = .Title -}}
+                      {{- end -}}
+                      <h4 class="card-title mb-4"><a class="text-white" href="{{.Permalink}}">{{ $title }}</a></h4>
                       <a class="btn btn-outline-light" href="{{.Permalink}}">read more</a>
                     </div>
                   </div>
@@ -111,7 +117,13 @@
                     <img class="img-fluid mb-4" src="{{ $previewImg.RelPermalink }}" alt="post-thumb">
                   </a>
                   <p class="text-uppercase mb-2">{{range .Params.Categories}}{{. | humanize}}{{end}}</p>
-                  <h4 class="title-border"><a class="text-dark" href="{{.Permalink}}">{{.Title}}</a></h4>
+                  {{- $title := "" -}}
+                  {{ if isset .Params "subtitle" -}}
+                    {{- $title = printf "%s: %s" .Title .Params.subTitle -}}
+                  {{- else -}}
+                    {{- $title = .Title -}}
+                  {{- end -}}
+                  <h4 class="title-border"><a class="text-dark" href="{{.Permalink}}">{{ $title }}</a></h4>
                   <p>{{.Summary}}</p>
                   <a href="{{.Permalink}}" class="btn btn-transparent">{{ i18n "readMore" }}</a>
                 </article>

@@ -1,6 +1,9 @@
 ---
-title: "Saison Nr. 4 1987: Großes 80er Spezial"
+title: Saison Nr. 4 1987
+subTitle: Großes 80er Spezial
 featured: true
+issueYear: 1987
+issueMonth: 12
 date: 2020-10-14T17:20:49+02:00
 tags:
 - 1987

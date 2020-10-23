@@ -1,5 +1,5 @@
 ---
-title: "Kleiderbügel gestartet"
+title: Spinoff "Kleiderbügel" gestartet
 date: 2020-08-29T18:22:44+02:00
 tags:
 - status

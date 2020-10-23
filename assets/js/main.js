@@ -8,7 +8,15 @@ jQueryBridget('headroom', require('headroom.js'), window.jQuery );
 
 jQueryBridget('masonry', require('masonry-layout'), window.jQuery );
 require('slick-carousel');
-//require('@knight-lab/timelinejs');
 require('./iiif-viewer');
 
+import { Timeline } from "vis-timeline/standalone";
+
 require('./script');
+
+window.addTimeline = function (id, data, options) {
+    // See https://visjs.github.io/vis-timeline/docs/timeline/
+    var div = document.getElementById(id);
+    var timeline = new Timeline(div, data, options);
+    return timeline;
+}

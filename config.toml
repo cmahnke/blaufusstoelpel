@@ -12,12 +12,13 @@ paginate = 6
 #ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
-layout = "1"
-logo = "images/blaufusstoelpel.svg"
-header = "images/header.svg"
+    layout = "1"
+    logo = "images/blaufusstoelpel.svg"
+    header = "images/header.svg"
 # font https://fonts.google.com/specimen/Prata body
 # https://fonts.google.com/specimen/Montserrat head
-
+    iiifCanvasHeight = 400
+    iiifCanvasWidth = 300
 
 # navigation
 [menu]

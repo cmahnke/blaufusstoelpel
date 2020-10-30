@@ -5,6 +5,7 @@
     "jquery": "^3.5.1",
     "jquery-bridget": "^2.0.1",
     "masonry-layout": "^4.2.2",
+    "mirador": "ProjectMirador/mirador",
     "moment": "^2.29.1",
     "ol": "^6.4.3",
     "popper.js": "^1.16.1",
@@ -12,13 +13,16 @@
     "vis-timeline": "^7.4.0"
   },
   "devDependencies": {
-    "svgo": "^1.3.2"
+    "svgo": "^1.3.2",
+    "patch-package": "^6.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "url": "^0.11.0"
   },
   "scripts": {
-    "build": "hugo",
-    "start": "hugo server -D --debug --disableFastRender --buildFuture",
     "logo": "svgo -i Source\\ Files/Logo/Blaufußtölpel.svg -o static/images/blaufusstoelpel.svg",
     "header": "svgo --config '{ \"plugins\": [ {\"removeAttrs\": { \"attrs\": \"(style|font-weight|font-size|font-family)\" } } ] }' --enable=removeAttrs -i Source\\ Files/Logo/Header.svg -o static/images/header.svg",
-    "svgo": "yarn run logo && yarn run header"
+    "svgo": "yarn run logo && yarn run header",
+    "postinstall": "yarn run patch-package && cd node_modules/mirador && yarn install && yarn run build && yarn run build:es"
   }
 }

@@ -1,0 +1,7 @@
+{{- $contextPath := path.Dir .File.Path -}}
+{{- $urlBase := printf "%s%s" .Site.BaseURL $contextPath -}}
+{{- $manifestUrl := printf "%s%s/%s" .Site.BaseURL $contextPath (replaceRE "^\\./(.*)$" "$1" .Params.iiifManifest) -}}
+<div id="iiif-presentation" class="viewer presentation-api"></div>
+<script type="text/javascript">
+    var viewer = addMirador('iiif-presentation', '{{ $manifestUrl }}');
+</script>

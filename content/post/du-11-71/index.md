@@ -2,6 +2,7 @@
 title: du November 1971
 subTitle: Die Idee für dieses Blog
 date: 2020-07-28T16:51:27+02:00
+iiifContext: http://iiif.io/api/presentation/2/context.json
 issueYear: 1971
 issueMonth: 11
 tags:
@@ -16,18 +17,25 @@ resources:
 - src: "page879.jpg"
   params:
     iiif: page879/info.json
+    label: 879
 - src: "page880.jpg"
   params:
     iiif: page880/info.json
+    label: 880
 - src: "page881.jpg"
   params:
     iiif: page881/info.json
+    label: 881
 - src: "page884.jpg"
   params:
     iiif: page884/info.json
+    label: 884
+    hint: non-paged
 - src: "page888.jpg"
   params:
     iiif: page888/info.json
+    label: 888
+    hint: non-paged
 - src: "end.jpg"
   params:
     iiif: end/info.json

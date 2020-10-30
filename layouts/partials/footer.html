@@ -1,0 +1,34 @@
+<footer class="bg-secondary footer">
+  <div class="section pb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+        </div>
+        <div class="col-md-3 col-sm-6 design-credit">
+             <h6 class="projektemacher">
+                 {{ .Site.Title }} {{ i18n "projektemacher" | safeHTML }}
+             </h6>
+             {{ range .Site.Params.copyright }}
+                   <p>{{ . | markdownify }}</p>
+             {{ else }}
+                 <p>{{ i18n "cc" | safeHTML }}</p>
+                 <div class="font-secondary text-dark">
+                     Theme basiert auf Parsa für Hugo von <a target="_blank" href="https://gethugothemes.com/products/parsa-hugo-theme/">Themefisher</a> - Freie Version verfügbar auf <a href="https://github.com/themefisher/parsa-hugo">GitHub</a>.
+                 </div>
+             {{ end }}
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0 logo">
+          <a href="{{.Site.BaseURL}}">
+              <img src="{{.Site.Params.logo | absURL }}" alt="{{.Site.Title}}" class="img-fluid float-right">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := (resources.Get "js/script.js" | minify).Content }}
+<script type="text/javascript">
+    {{ $script | safeJS }}
+</script>

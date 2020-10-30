@@ -1,13 +1,9 @@
 (function ($) {
   'use strict';
 
-  // Preloader js
-  $(window).on('load', function () {
-    $('.preloader').fadeOut(300);
-  });
-
-  // headroom js
-  $('.navigation').headroom();
+  var options = {};
+  var header = new Headroom(document.getElementById('header'), options);
+  header.init();
 
   // Background-images
   $('[data-background]').each(function () {
@@ -16,12 +12,21 @@
     });
   });
 
+  // Masonry
+  setTimeout(function(){
+    $('.masonry-container').masonry({
+      itemSelector: '.masonry-container > div',
+      columnWidth: 1
+    });
+  }, 500);
+
+/*
   $('.featured-post-slider').slick({
     dots: false,
     speed: 300,
     autoplay: true,
-    arrows: false,
-    slidesToShow: 4,
+    arrows: true,
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [{
         breakpoint: 1024,
@@ -32,7 +37,7 @@
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2
+          slidesToShow: 1
         }
       },
       {
@@ -44,13 +49,8 @@
     ]
   });
 
-  // Masonry
-  setTimeout(function(){
-    $('.masonry-container').masonry({
-      itemSelector: '.masonry-container > div',
-      columnWidth: 1
-    });
-  }, 500);
+*/
+
 
 
 })(jQuery);

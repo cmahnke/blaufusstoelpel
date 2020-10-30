@@ -1,4 +1,5 @@
 <!-- blog single -->
+{{- $page := .Page -}}
 <section>
   <div class="container">
     <div class="row">
@@ -15,6 +16,23 @@
         {{- end -}}
         <article class="content {{ $class }}">
           {{.Content}}
+
+          <div class="iiif">
+              {{- $context := path.Dir .File.Path -}}
+              {{- $pageURL := .Permalink -}}
+              {{- if not (hasPrefix .Params.iiifContext "http://iiif.io/api/presentation/") -}}
+                  {{- range .Params.resources -}}
+                    {{- if or (and (ne $.Params.itemType "work") (ne $.Params.itemType "book")) (not (or (or (eq .name "front") (eq .name "title")) (eq .name "cover"))) -}}
+                      {{- if .params.iiif -}}
+                        {{ partial "iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink "pageContext" $page) }}
+                      {{- end -}}
+                    {{- end -}}
+                  {{- end -}}
+              {{- else -}}
+                {{- partial "mirador.html" . -}}
+              {{- end -}}
+          </div>
+
         </article>
       </div>
       {{partial "sidebar.html" . }}

@@ -2,6 +2,7 @@
 title: Mode und Heim Nr. 12 1939
 subTitle: Herbstmode 1939
 date: 2020-09-17T17:57:49+02:00
+iiifContext: http://iiif.io/api/presentation/2/context.json
 issueYear: 1939
 issueMonth: 6
 featured: true
@@ -17,18 +18,26 @@ resources:
 - src: "page003.jpg"
   params:
     iiif: page003/info.json
+    featured: true
+    hint: non-paged
+    animation: '{center:[1000,-3000], duration: 3000, zoom: 1}'
+    label: 3
 - src: "page012.jpg"
   params:
     iiif: page012/info.json
+    label: 12
 - src: "page013.jpg"
   params:
     iiif: page013/info.json
+    label: 13
 - src: "page018.jpg"
   params:
     iiif: page018/info.json
+    label: 18
 - src: "page019.jpg"
   params:
     iiif: page019/info.json
+    label: 19
 ---
 
 *Was trägt man gerade in Berlin?*

@@ -2,6 +2,7 @@
 title: Elsa Heft 3 1952
 subTitle: Früher hieß Halloween Schulanfang
 date: 2020-10-31T17:21:01+02:00
+iiifContext: http://iiif.io/api/presentation/2/context.json
 issueYear: 1952
 issueMonth: 3
 tags:
@@ -16,39 +17,51 @@ resources:
 - src: "page004.jpg"
   params:
     iiif: page004/info.json
+    label: 4
 - src: "page005.jpg"
   params:
     iiif: page005/info.json
+    label: 5
 - src: "page006.jpg"
   params:
     iiif: page006/info.json
+    label: 6
 - src: "page007.jpg"
   params:
     iiif: page007/info.json
+    label: 7
 - src: "page008.jpg"
   params:
     iiif: page008/info.json
+    label: 8
 - src: "page009.jpg"
   params:
     iiif: page009/info.json
+    label: 9
 - src: "page012.jpg"
   params:
     iiif: page012/info.json
+    label: 12
 - src: "page013.jpg"
   params:
     iiif: page013/info.json
+    label: 13
 - src: "page018.jpg"
   params:
     iiif: page018/info.json
+    label: 18
 - src: "page019.jpg"
   params:
     iiif: page019/info.json
+    label: 19
 - src: "page024.jpg"
   params:
     iiif: page024/info.json
+    label: 24
 - src: "page025.jpg"
   params:
     iiif: page025/info.json
+    label: 25
 - src: "back.jpg"
   params:
     iiif: back/info.json

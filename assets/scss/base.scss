@@ -1,90 +1,85 @@
 @import "parsa";
-
 @import "bootstrap.scss";
-
-@import "ol.css";
 @import "slick.scss";
 @import "slick-theme.scss";
-
 @import "icons";
+@import "ol";
 @import "ol-iiif";
-
-
 /* open-sans-regular - latin */
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/open-sans-v18-latin-regular.woff2') format('woff2'),
-       url('/fonts/open-sans-v18-latin-regular.woff') format('woff'),
-       url('/fonts/open-sans-v18-latin-regular.ttf') format('truetype');
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/open-sans-v18-latin-regular.woff2") format('woff2'),
+         url("/fonts/open-sans-v18-latin-regular.woff") format('woff'),
+         url("/fonts/open-sans-v18-latin-regular.ttf") format('truetype');
 }
 /* open-sans-600 - latin */
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: url('/fonts/open-sans-v18-latin-600.woff2') format('woff2'),
-       url('/fonts/open-sans-v18-latin-600.woff') format('woff'),
-       url('/fonts/open-sans-v18-latin-600.ttf') format('truetype');
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url("/fonts/open-sans-v18-latin-600.woff2") format('woff2'),
+         url("/fonts/open-sans-v18-latin-600.woff") format('woff'), url("/fonts/open-sans-v18-latin-600.ttf") format('truetype');
 }
-
 /* montserrat-200 - latin */
 @font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 200;
-  src: url('/fonts/montserrat-v15-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/montserrat-v15-latin-200.woff') format('woff'), /* Modern Browsers */
-       url('/fonts/montserrat-v15-latin-200.ttf') format('truetype');
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    src:url('/fonts/montserrat-v15-latin-200.woff2') format('woff2'),
+        url('/fonts/montserrat-v15-latin-200.woff') format('woff'),
+        url('/fonts/montserrat-v15-latin-200.ttf') format('truetype');
 }
 /* montserrat-200italic - latin */
 @font-face {
-  font-family: 'Montserrat';
-  font-style: italic;
-  font-weight: 200;
-  src: url('/fonts/montserrat-v15-latin-200italic.woff2') format('woff2'),
-       url('/fonts/montserrat-v15-latin-200italic.woff') format('woff'),
-       url('/fonts/montserrat-v15-latin-200italic.ttf') format('truetype');
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 200;
+    src: url("/fonts/montserrat-v15-latin-200italic.woff2") format('woff2'),
+         url("/fonts/montserrat-v15-latin-200italic.woff") format('woff'),
+         url("/fonts/montserrat-v15-latin-200italic.ttf") format('truetype');
 }
 /* montserrat-300 - latin */
 @font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  src: url('/fonts/montserrat-v15-latin-300.woff2') format('woff2'),
-       url('/fonts/montserrat-v15-latin-300.woff') format('woff'),
-       url('/fonts/montserrat-v15-latin-300.ttf') format('truetype');
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url("/fonts/montserrat-v15-latin-300.woff2") format('woff2'),
+         url("/fonts/montserrat-v15-latin-300.woff") format('woff'),
+         url("/fonts/montserrat-v15-latin-300.ttf") format('truetype');
 }
 /* montserrat-italic - latin */
 @font-face {
-  font-family: 'Montserrat';
-  font-style: italic;
-  font-weight: 400;
-  src: url('/fonts/montserrat-v15-latin-italic.woff2') format('woff2'),
-       url('/fonts/montserrat-v15-latin-italic.woff') format('woff'),
-       url('/fonts/montserrat-v15-latin-italic.ttf') format('truetype');
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    src: url("/fonts/montserrat-v15-latin-italic.woff2") format('woff2'),
+         url("/fonts/montserrat-v15-latin-italic.woff") format('woff'),
+         url("/fonts/montserrat-v15-latin-italic.ttf") format('truetype');
 }
 /* montserrat-regular - latin */
 @font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/montserrat-v15-latin-regular.woff2') format('woff2'),
-       url('/fonts/montserrat-v15-latin-regular.woff') format('woff'),
-       url('/fonts/montserrat-v15-latin-regular.ttf') format('truetype');
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/montserrat-v15-latin-regular.woff2") format('woff2'),
+         url("/fonts/montserrat-v15-latin-regular.woff") format('woff'), url("/fonts/montserrat-v15-latin-regular.ttf") format('truetype');
 }
 /* montserrat-700 - latin */
 @font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  src: url('/fonts/montserrat-v15-latin-700.woff2') format('woff2'),
-       url('/fonts/montserrat-v15-latin-700.woff') format('woff'),
-       url('/fonts/montserrat-v15-latin-700.ttf') format('truetype');
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/montserrat-v15-latin-700.woff2") format('woff2'),
+         url("/fonts/montserrat-v15-latin-700.woff") format('woff'), url("/fonts/montserrat-v15-latin-700.ttf") format('truetype');
 }
 
-h1, h2, h3, h4, nav {
+h1,
+h2,
+h3,
+h4,
+nav {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -94,7 +89,6 @@ body {
         background-image: url("/images/cm.svg");
         background-repeat: no-repeat;
     }
-
 }
 
 nav {
@@ -102,21 +96,25 @@ nav {
     font-size: 1.6em;
 }
 
+#navigation {
+    margin-top: auto;
+}
+
 .navbar .nav-item .nav-link {
-    padding: .5rem 1rem
+    padding: 0.5rem 1rem;
 }
 
 .content img {
-        max-width: 20%;
+    max-width: 20%;
 }
 
 .section {
     padding-top: 2em;
     padding-bottom: 2em;
 
-    .row  {
-        .post-title,
-        .list-title {
+    .row {
+        .list-title,
+        .post-title {
             font-size: 3em;
             font-weight: 300;
         }
@@ -128,28 +126,33 @@ nav {
         img.list {
             max-width: 70%;
         }
-
     }
 }
 
 .content p {
-    padding-left: .5em;
+    padding-left: 0.5em;
 }
 
 .ti-calendar {
     display: none;
 }
 
+.navbar {
+    flex-wrap: unset;
+}
+
 .navbar-brand {
     .logo {
         max-width: 10%;
-            vertical-align: baseline;
+        vertical-align: bottom;
     }
+
     .title {
         display: inline-block;
         max-width: 70%;
         width: 45vw;
         margin-left: 2rem;
+        vertical-align: bottom;
     }
 }
 
@@ -157,6 +160,129 @@ nav {
     margin-top: 3rem;
 }
 
-.timeline {
+.timeline {}
 
+.footer {
+    .logo img {
+        max-width: 20%;
+    }
+
+    .design-credit {
+        max-width: 50%;
+        font-size: 1rem;
+        display: block;
+        flex: 0 0 50%;
+        text-align: center;
+    }
+}
+
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+
+.headroom--pinned {
+    transform: translateY(0%);
+}
+
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+.iiif-preview .previewer {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.book-description-images,
+.iiif {
+    .viewer {
+        width: 100%;
+        display: block;
+        height: 90vw;
+
+        &.portrait {
+            width: 60vw;
+            height: calc(60vw * 1.6);
+            @media (max-width: 37.5em) {
+                width: 90vw;
+                height: calc(90vw * 1.5);
+            }
+        }
+
+        &.landscape {
+            width: 60vw;
+            height: calc(60vw / 1.5);
+            @media (max-width: 37.5em) {
+                width: 90vw;
+                height: calc(90vw / 1.5);
+            }
+        }
+    }
+
+    .iiif-image {
+        width: 100%;
+        padding: 0.3em;
+    }
+
+    .iiif-image.cover {
+        display: inline-block;
+    }
+
+    .iiif-image.cover {
+        order: 1;
+    }
+
+    .iiif-image.front {
+        order: 2;
+    }
+
+    .iiif-image.title {
+        order: 3;
+    }
+
+    .lanscape {
+        width: 100%;
+    }
+
+    .iiif-image.order-1 {
+        order: 11;
+        width: 100%;
+    }
+
+    .iiif-image.order-2 {
+        order: 12;
+        width: 100%;
+    }
+
+    .iiif-image.order-3 {
+        order: 13;
+        width: 100%;
+    }
+
+    .iiif-image.order-4 {
+        order: 14;
+        width: 100%;
+    }
+
+    .iiif-image.order-5 {
+        order: 15;
+        width: 100%;
+    }
+
+    .iiif-image.order-6 {
+        order: 16;
+        width: 100%;
+    }
+
+    .iiif-image.order-7 {
+        order: 17;
+        width: 100%;
+    }
+
+    .iiif-image.order-8 {
+        order: 18;
+        width: 100%;
+    }
 }

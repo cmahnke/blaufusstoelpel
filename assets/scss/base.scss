@@ -156,8 +156,12 @@ nav {
     }
 }
 
-.content.meta {
-    margin-top: 3rem;
+.content {
+    position: relative;
+
+    &.meta {
+        margin-top: 3rem;
+    }
 }
 
 .timeline {}
@@ -195,8 +199,13 @@ nav {
     display: block;
 }
 
+.bg-secondary {
+    background-color: lighten(#6c757d, 20%)!important;
+}
+
 .book-description-images,
 .iiif {
+
     .viewer {
         width: 100%;
         display: block;

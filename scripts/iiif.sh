@@ -60,7 +60,8 @@ do
         iiif_static.py -d $TARGET -i "$IIIF_ID" -t $TILE_SIZE $IMAGE
     fi
     if [[ -z "$CHOWN_UID" ]] ; then
-      chown -R :$CHOWN_UID $TARGET
+        echo "Changing owner of $TARGET to $CHOWN_UID"
+        chown -R :$CHOWN_UID $TARGET
     fi
 
 done

@@ -33,7 +33,10 @@ jobs:
           node-version: 10.22.0
 
       - name: Create IIIF derivates
-        run: docker run -e CHOWN_UID=$(id -u) -e URL_PREFIX="https://xn--blaufusstlpel-qmb.de/" -v ${PWD}:${PWD} ghcr.io/cmahnke/iiif-action:latest sh -c "cd ${PWD} && ./scripts/iiif.sh"
+# UID is als available via $(id -u)
+        run: |
+          echo "Running as ${UID}"
+          docker run -e CHOWN_UID=${UID} -e URL_PREFIX="https://xn--blaufusstlpel-qmb.de/" -v ${PWD}:${PWD} ghcr.io/cmahnke/iiif-action:latest sh -c "cd ${PWD} && ./scripts/iiif.sh"
 
       - name: Generate Files
         env:

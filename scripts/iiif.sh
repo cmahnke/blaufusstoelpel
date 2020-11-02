@@ -57,6 +57,10 @@ do
     if [ $IIIF_STATIC_CMD = "vips" ] ; then
         vips dzsave $IMAGE $TARGET -t $TILE_SIZE --layout iiif --id "$IIIF_ID"
     elif [ $IIIF_STATIC_CMD = "iiif_static.py" ] ; then
-        iiif_static.py -d $TARGE -i "$IIIF_ID" -t $TILE_SIZE $IMAGE
+        iiif_static.py -d $TARGET -i "$IIIF_ID" -t $TILE_SIZE $IMAGE
     fi
+    if [[ -z "$CHOWN_UID" ]] ; then
+      chown -R :$CHOWN_UID $TARGET
+    fi
+
 done

@@ -61,7 +61,7 @@ do
     fi
     if [[ -n "$CHOWN_UID" ]] ; then
         echo "Changing owner of $TARGET to $CHOWN_UID"
-        chown -R :$CHOWN_UID $TARGET
+        chown -R $CHOWN_UID $TARGET
     fi
 
 done

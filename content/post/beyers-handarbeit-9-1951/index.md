@@ -4,6 +4,7 @@ issueYear: 1951
 issueMonth: 9
 iiifContext: http://iiif.io/api/presentation/2/context.json
 date: 2020-09-09T17:56:49+02:00
+iiifManifest: ./index.json
 tags:
 - 1951
 - Kindermode

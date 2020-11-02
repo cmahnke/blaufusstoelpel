@@ -2,6 +2,7 @@
 title: Pramo Nr. 7 1974
 subTitle: Die Kragen waren nie breiter!
 date: 2020-11-07T17:20:49+02:00
+iiifManifest: ./index.json
 iiifContext: http://iiif.io/api/presentation/2/context.json
 issueYear: 1974
 issueMonth: 7

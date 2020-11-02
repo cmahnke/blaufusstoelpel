@@ -1,6 +1,7 @@
 ---
 title: Pramo Nr. 11 1973
 date: 2020-08-03T17:20:49+02:00
+iiifManifest: ./index.json
 iiifContext: http://iiif.io/api/presentation/2/context.json
 issueYear: 1973
 issueMonth: 11

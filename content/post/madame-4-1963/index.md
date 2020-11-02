@@ -1,6 +1,7 @@
 ---
 title: Madame April 1963
 date: 2020-08-22T17:20:49+02:00
+iiifManifest: ./index.json
 iiifContext: http://iiif.io/api/presentation/2/context.json
 issueYear: 1963
 issueMonth: 4

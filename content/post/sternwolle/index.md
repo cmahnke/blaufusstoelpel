@@ -4,6 +4,7 @@ subTitle: Wolle tragen - schafft Wohlbehagen
 issueYear: 1954
 draft: true
 date: 2020-10-14T17:20:49+02:00
+iiifManifest: ./index.json
 iiifContext: http://iiif.io/api/presentation/2/context.json
 tags:
 - 1954

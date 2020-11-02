@@ -8,58 +8,73 @@ import View from 'ol/View';
 import {Control, FullScreen, Rotate, Zoom} from 'ol/control';
 
 /* TODO finish this
-
-View.prototype.pauseableAnimations_ = [];
-View.prototype.lastAnimation_ = {};
-
-View.prototype.pauseAnimation = function () {
-    if (!this.getAnimating()) {
-      return;
-    }
-    const animation = this.animations_[0][0];
-    //Safe state
-    const now = Date.now();
-    const elapsed = now - animation.start;
-    let stopState = {
-        center: this.getCenter(),
-        zoom: this.getZoom(),
-        duration: animation.duration - elapsed
-    };
-    this.lastAnimation_ = stopState;
-    // Stop running animation
-    this.cancelAnimations();
-}
-
-View.prototype.startAnimation_ = function () {
-    if (this.getAnimating()) {
-      return;
-    }
-    // Check if we stopped
-    const startAnimation;
-    if () {
-
-    } else {
-
-    }
-    // Get first animation
-
-
-    // Pass it to animation method and add a callback
-
-
-}
-
-View.prototype.resumeAnimation = function () {
-    this.startAnimation_();
-}
-
-View.prototype.pauseableAnimation = function (var_args    ) {
-    const args = new Array(arguments.length);
-    this.pauseableAnimations_ = args;
-    this.startAnimation_();
-}
-
 */
+
+var AnimatedView = /*@__PURE__*/ (function(View) {
+
+    function AnimatedView(opt_options) {
+        View.call(this, opt_options);
+        this.pauseableAnimations_ = [];
+        this.lastAnimation_ = {};
+    }
+
+    if (View) AnimatedView.__proto__ = View;
+    AnimatedView.prototype = Object.create(View && View.prototype);
+    AnimatedView.prototype.constructor = AnimatedView;
+
+    AnimatedView.prototype.pauseAnimation = function () {
+        if (!this.getAnimating()) {
+          return;
+        }
+        var animation = this.animations_[0][0];
+        //Safe state
+        var now = Date.now();
+        var elapsed = now - animation.start;
+        let stopState = {
+            center: this.getCenter(),
+            zoom: this.getZoom(),
+            duration: animation.duration - elapsed
+        };
+        this.lastAnimation_ = stopState;
+        // Stop running animation
+        this.cancelAnimations();
+    }
+
+    AnimatedView.prototype.startAnimation_ = function () {
+        if (this.getAnimating()) {
+          return;
+        }
+        // Check if we stopped
+        var startAnimation;
+/*
+        if () {
+
+        } else {
+
+        }
+*/
+        // Get first animation
+
+
+        // Pass it to animation method and add a callback
+
+
+    }
+
+    AnimatedView.prototype.resumeAnimation = function () {
+        this.startAnimation_();
+    }
+
+    AnimatedView.prototype.pauseableAnimation = function (var_args) {
+        var args = new Array(arguments.length);
+        this.pauseableAnimations_ = args;
+        this.startAnimation_();
+    }
+
+
+
+    return AnimatedView;
+}(View));
 
 var RotateLeftControl = /*@__PURE__*/ (function(Control) {
     function RotateLeftControl(opt_options) {
@@ -227,7 +242,7 @@ window.animatedMap = function(element, url, rotation, baseURL, initialZoom, anim
                     var iiifTileSource = new IIIF(options);
                     layer.setSource(iiifTileSource);
                     map.setView(
-                        new View({
+                        new AnimatedView({
                             resolutions: iiifTileSource.getTileGrid().getResolutions(),
                             extent: iiifTileSource.getTileGrid().getExtent(),
                             constrainOnlyCenter: true,

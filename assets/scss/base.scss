@@ -193,6 +193,10 @@ nav {
     transform: translateY(-100%);
 }
 
+.text-contrast-dark {
+    text-shadow: 0 0 15px black;
+}
+
 .iiif-preview .previewer {
     width: 100%;
     height: 300px;

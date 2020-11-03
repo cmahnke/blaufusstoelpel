@@ -24,8 +24,8 @@
         {{ if .params.rotate }}
             {{- $iiif.Set "rotate" .params.rotate -}}
         {{ end }}
-        {{ if .params.initialZoom }}
-            {{- $iiif.Set "initialZoom" .params.initialZoom -}}
+        {{ if .params.initialzoom }}
+            {{- $iiif.Set "initialZoom" .params.initialzoom -}}
         {{ end }}
         {{- $iiif.Set "id" (replace (replace (replace ($iiif.Get "baseURL") "/" "") "." "") "-" "_") -}}
 
@@ -53,7 +53,9 @@
     <script type="text/javascript">
         var animation = {{ $animation | safeJS }};
         {{ ($iiif.Get "id") | safeJS }}_Div = document.getElementById("{{ $iiif.Get "id" }}");
-        var {{ ($iiif.Get "id") | safeJS }} = animatedMap({{ ($iiif.Get "id") | safeJS }}_Div, "{{ $infoJson }}", {{ $rotation }}, {{ $iiif.Get "baseURL" }}, {{ $initialZoom }}, animation);
+        {{/* This line makes this not very portable, but passing this as a parameter would complicatze the whole patial... */}}
+        {{ ($iiif.Get "id") | safeJS }}_mo = document.getElementById("{{ $iiif.Get "id" }}").parentElement.parentElement.parentElement;
+        var {{ ($iiif.Get "id") | safeJS }} = animatedMap({{ ($iiif.Get "id") | safeJS }}_Div, "{{ $infoJson }}", {{ $rotation }}, {{ $iiif.Get "baseURL" }}, {{ $initialZoom }}, animation, {{ ($iiif.Get "id") | safeJS }}_mo);
 
 /*
         if (animation !== undefined && animation !== '') {

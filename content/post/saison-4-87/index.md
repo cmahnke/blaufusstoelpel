@@ -60,8 +60,9 @@ resources:
   params:
     iiif: page048/info.json
     featured: true
-    initialZoom: 2
-    animation: '{center:[1000,-3000], duration: 3000, zoom: 1}'
+    initialZoom: 4
+    initialCenter: '[1850,-3700]'
+    animation: '[{center:[1950,-1000], duration: 3500, zoom: 2}, {center:[3600,-900], duration: 5000, zoom: 2},{center:[3600,-4000], duration: 3000, zoom: 2},{center:[3000,-5050], duration: 6000, zoom: 2.2}, {center:[1850,-3700], duration: 6000, zoom: 4}]'
     label: 48
 - src: "page049.jpg"
   params:

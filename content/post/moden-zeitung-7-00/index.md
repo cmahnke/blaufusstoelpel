@@ -26,8 +26,9 @@ resources:
   params:
     iiif: page060/info.json
     featured: true
-    initialZoom: 2
-    animation: '{center:[1000,-3000], duration: 3000, zoom: 1}'
+    initialZoom: 0.5
+    initialCenter: '[900, -5500]'
+    animation: '[{center:[1500,-3700], duration: 5000, zoom: 1.5}, {center:[3000,-4500], duration: 5000, zoom: 1}, {center:[3100,-2700], duration: 3000, zoom: 2}, {center:[3200,-900], duration: 3000, zoom: 2}, {center: [900, -5500], zoom: 0.5}, {center: [900, -5500], duration: 5000}]'
     label: 60
 - src: "page061.jpg"
   params:

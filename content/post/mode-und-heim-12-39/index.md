@@ -21,7 +21,9 @@ resources:
     iiif: page003/info.json
     featured: true
     hint: non-paged
-    animation: '{center:[1000,-3000], duration: 3000, zoom: 1}'
+    initialZoom: 1.5
+    initialCenter: '[5000, -6200]'
+    animation: '[{center: [5000, -6200], rotation: -0.78539, duration: 5000, zoom: 2},{center:[1000,-5500], duration: 4000}, {rotation: 0.78539, center:[1000,-5500], duration: 3000, zoom: 1.2}, {center:[1000,-1500], duration: 4000}]'
     label: 3
 - src: "page012.jpg"
   params:

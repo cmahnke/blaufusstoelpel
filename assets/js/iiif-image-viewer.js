@@ -6,15 +6,16 @@ import Map from 'ol/Map';
 import TileLayer from 'ol/layer/Tile';
 import View from 'ol/View';
 import {Control, FullScreen, Rotate, Zoom} from 'ol/control';
-import { fromUserExtent } from 'ol/proj.js';
+import { fromUserCoordinate, fromUserExtent } from 'ol/proj.js';
 
 var AnimatedView = /*@__PURE__*/ (function(View) {
 
     function AnimatedView(opt_options) {
         View.call(this, opt_options);
         this.pauseableAnimations_ = [];
-        this.animationsPointer_ = 0;
+        this.animationsPointer_ = -1;
         this.lastAnimation_ = {};
+        this.initalCenter = this.getCenter();
     }
 
     if (View) AnimatedView.__proto__ = View;
@@ -23,10 +24,10 @@ var AnimatedView = /*@__PURE__*/ (function(View) {
 
     // Emulate a ring data structure
     AnimatedView.prototype.getPauseableAnimation_ = function () {
-        if (this.pauseableAnimations_.length < this.animationsPointer_ + 1) {
+        if (this.pauseableAnimations_.length - 1 > this.animationsPointer_ ) {
             this.animationsPointer_++;
             return this.pauseableAnimations_[this.animationsPointer_]
-        } else if (this.pauseableAnimations_.length == this.animationsPointer_ + 1) {
+        } else {
             this.animationsPointer_ = 0;
             return this.pauseableAnimations_[this.animationsPointer_];
         }
@@ -34,9 +35,10 @@ var AnimatedView = /*@__PURE__*/ (function(View) {
 
     // This is the callback, when one animation has finished
     AnimatedView.prototype.nextAnimation_ = function (completed) {
-        var context = this;
         if (completed === undefined || completed) {
-            this.animate(this.getPauseableAnimation_(), function (state) {context.nextAnimation_(state)});
+            var context = this;
+            var nextAnimation = this.getPauseableAnimation_();
+            this.animate(nextAnimation, function (state) {context.nextAnimation_(state)});
         }
     }
 
@@ -91,17 +93,27 @@ var AnimatedView = /*@__PURE__*/ (function(View) {
         for (let i = 0; i < args.length; ++i) {
           var options = arguments[i];
           /*
-          if (!'center' in options) {
-              options.center = this.getCenter();
+          if (!('center' in options)) {
+              options.center = this.initalCenter;
           }
           */
           args[i] = options;
         }
+        this.animationsPointer_ = -1
         this.pauseableAnimations_ = args;
     }
 
     AnimatedView.prototype.getPauseableAnimation = function () {
         return this.pauseableAnimations_;
+    }
+
+    AnimatedView.prototype.setCenter = function (center) {
+        this.initalCenter = center;
+        this.setCenterInternal(fromUserCoordinate(center, this.getProjection()));
+    }
+
+    AnimatedView.prototype.isNoopAnimation = function (animation) {
+        return false;
     }
 
     //Even though the OL API is quite good there are some beginners mistakes, like missing symetry
@@ -251,13 +263,11 @@ postsaison_4_87page048.getView().animate({center:[1000,-3000], duration: 3000 zo
 postsaison_4_87page048.getView().animate({center:[1000,-3000], duration: 3000, zoom: 1})
 */
 
-window.animatedMap = function(element, url, rotation, baseURL, initialZoom, animation, moElement) {
+window.animatedMap = function(element, url, rotation, baseURL, initialZoom, animation, moElement, initialCenter) {
     var initialRotation = 0;
     if (rotation !== undefined && rotation != 0) {
         initialRotation = rotation * Math.PI / 180;
     }
-
-    console.log('Setting up animated map');
 
     var layer = new TileLayer(),
         map = new Map({
@@ -302,6 +312,9 @@ window.animatedMap = function(element, url, rotation, baseURL, initialZoom, anim
                     if (initialZoom !== undefined && initialZoom !== '') {
                         map.getView().setZoom(initialZoom);
                     }
+                    if (initialCenter !== undefined && initialCenter !== '') {
+                        map.getView().setCenter(initialCenter);
+                    }
                 })
                 .catch(function(body) {
                     console.log('Could not read image info json. ' + body);
@@ -311,10 +324,12 @@ window.animatedMap = function(element, url, rotation, baseURL, initialZoom, anim
             console.log('Could not read data from URL.');
         });
 
-
-
         if (animation !== undefined && animation !== '' && moElement !== undefined) {
-            view.setPauseableAnimation(animation);
+            if (!Array.isArray(animation)) {
+                view.setPauseableAnimation(animation);
+            } else {
+                view.setPauseableAnimation(...animation);
+            }
             map.once('rendercomplete', function() {
                moElement.addEventListener('mouseenter', function () {
                     view.resumeAnimation();

@@ -57,9 +57,13 @@ jobs:
           cd ..
           cp blaufusstoelpel-redirect/index.html ftp/
           chmod 775 ftp/*
+      - name: Get connection information
+        run: |
+          echo "Server is '$DEPLOY_SERVER'"
+          nslookup $DEPLOY_SERVER
+          ping $DEPLOY_SERVER
+
       - name: Upload IIIF directories
-        env:
-          RSYNC_PASSWORD: $DEPLOY_PASS
         run: |
           cd ftp
           sshpass -p "$DEPLOY_PASS" rsync --delete -aP * $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH

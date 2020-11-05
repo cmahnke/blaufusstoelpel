@@ -47,27 +47,35 @@ jobs:
       - name: Setup deploy dependencies
         run: |
           sudo apt-get install rsync sshpass
-      - name: Extract IIIF directories
+      - name: Extract IIIF directories and upload
+        env:
+          DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PASS: ${{ secrets.DEPLOY_PASS }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
         run: |
           mkdir ftp
           cd content
           find post -name info.json -exec dirname {} \; > files.lst
-          rsync -av --relative $(cat files.lst) ../ftp/
+          echo "blaufusstoelpel-redirect/index.html" >> files.lst
+          cat files.lst | xargs chmod 775
+          sshpass -p "$DEPLOY_PASS"rsync -aP --delete --relative $(cat files.lst) $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH
           rm -f files.lst
           cd ..
-          cp blaufusstoelpel-redirect/index.html ftp/
-          chmod 775 ftp/*
+
       - name: Get connection information
+        env:
+          DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
         run: |
           echo "Server is '$DEPLOY_SERVER'"
           nslookup $DEPLOY_SERVER
           ping $DEPLOY_SERVER
 
-      - name: Upload IIIF directories
-        run: |
-          cd ftp
-          sshpass -p "$DEPLOY_PASS" rsync --delete -aP * $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH
-          cd ..
+#      - name: Upload IIIF directories
+#        run: |
+#          cd ftp
+#          sshpass -p "$DEPLOY_PASS" rsync --delete -aP * $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH
+#          cd ..
 
 # This needs the packages sshpass ssh-client
 #          tar cf - * | sshpass -p$DEPLOY_PASS ssh $DEPLOY_USER@$DEPLOY_SERVER "cd $DEPLOY_PATH && rm -rf blaufusstoelpel  && mkdir -p blaufusstoelpel && cd blaufusstoelpel  && tar xvf - && chmod -R 775 ../blaufusstoelpel"

@@ -44,9 +44,9 @@ jobs:
         run: |
           ./scripts/setup.sh
 
-      - name: Setup Lftp
+      - name: Setup deploy dependencies
         run: |
-          sudo apt-get install sshpass
+          sudo apt-get install sshpass ssh-client
       - name: Extract IIIF directories
         run: |
           mkdir ftp

@@ -57,16 +57,15 @@ jobs:
           cd ..
           cp blaufusstoelpel-redirect/index.html ftp/
           chmod go+rX ftp/*
-      - name: Upload IIIF directories
-        run: |
-          cd ftp
-          tar cf - * | sshpass -p$DEPLOY_PASS ssh $DEPLOY_USER@$DEPLOY_SERVER "cd $DEPLOY_PATH && rm -rf blaufusstoelpel  && mkdir -p blaufusstoelpel && cd blaufusstoelpel  && tar xvf - && chmod -R 775 ../blaufusstoelpel"
-          cd ..
 # set ftp:ssl-force true; set passive-mode true; set ftp:ssl-protect-data true
 #          lftp ftp://$DEPLOY_SERVER -u $DEPLOY_USER,$DEPLOY_PASS  -e 'set ftp:ssl-force true; set mirror:parallel-directories true; set passive-mode true; set ftp:ssl-protect-data true; mkdir -p blaufusstoelpel; mirror -P 8 -v -R --delete ftp/ blaufusstoelpel/; chmod -Rf 0777 blaufusstoelpel; exit'
 
+      - name: Upload IIIF directories
+        run: cd ftp && tar cf - * | sshpass -p$DEPLOY_PASS ssh $DEPLOY_USER@$DEPLOY_SERVER "cd $DEPLOY_PATH && rm -rf blaufusstoelpel  && mkdir -p blaufusstoelpel && cd blaufusstoelpel  && tar xvf - && chmod -R 775 ../blaufusstoelpel"
+
       - name: Delete IIIF directories
         run: |
+          cd ..
           find content/post/ -name info.json -exec dirname {} \; | xargs rm -r
 
       - name: Setup Hugo
@@ -77,8 +76,7 @@ jobs:
       - name: Build Hugo site
         run: hugo
       - name: Cleanup Build
-        run: |
-           find docs -type f -size +20M - exec rm {} \;
+        run: find docs -type f -size +20M - exec rm {} \;
 
 #      - name: Cleanup disk
 #        run: |

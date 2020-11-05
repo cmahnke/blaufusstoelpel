@@ -45,17 +45,18 @@ jobs:
           ./scripts/setup.sh
 
       - name: Setup deploy dependencies
+        env:
+          DEPLOY_SSH_IDENTITY: ${{ secrets.DEPLOY_SSH_IDENTITY }}
         run: |
           sudo apt-get install rsync sshpass
-      - name: Extract IIIF directories and upload
+          mkdir -p ~/.ssh && echo "$DEPLOY_SSH_IDENTITY" >>  ~/.ssh/known_hosts
+      - name: IIIF directory upload and cleanup
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
           DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
           SSHPASS: ${{ secrets.DEPLOY_PASS }}
           DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
-          DEPLOY_SSH_IDENTITY: ${{ secrets.DEPLOY_SSH_IDENTITY }}
         run: |
-          mkdir -p ~/.ssh && echo "$DEPLOY_SSH_IDENTITY" >>  ~/.ssh/known_hosts
           cd content
           find post -name info.json -exec dirname {} \; > files.lst
           cp ../blaufusstoelpel-redirect/index.html .
@@ -64,14 +65,7 @@ jobs:
           sshpass -e rsync -aP --delete --relative $(cat files.lst) $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH
           rm -f files.lst index.html
           cd ..
-
-      - name: Get connection information
-        env:
-          DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
-        run: |
-          echo "Server is '$DEPLOY_SERVER'"
-          nslookup $DEPLOY_SERVER
-          ping $DEPLOY_SERVER
+          find content/post/ -name info.json -exec dirname {} \; | xargs rm -r
 
 #      - name: Upload IIIF directories
 #        run: |
@@ -84,10 +78,6 @@ jobs:
 # This needs the package lftp
 # set ftp:ssl-force true; set passive-mode true; set ftp:ssl-protect-data true
 #          lftp ftp://$DEPLOY_SERVER -u $DEPLOY_USER,$DEPLOY_PASS  -e 'set ftp:ssl-force true; set mirror:parallel-directories true; set passive-mode true; set ftp:ssl-protect-data true; mkdir -p blaufusstoelpel; mirror -P 8 -v -R --delete ftp/ blaufusstoelpel/; chmod -Rf 0777 blaufusstoelpel; exit'
-
-      - name: Delete IIIF directories
-        run: |
-          find content/post/ -name info.json -exec dirname {} \; | xargs rm -r
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2

@@ -48,7 +48,7 @@ jobs:
         run: |
           sudo apt-get install sshpass
       - name: Extract IIIF directories
-        run: | 
+        run: |
           mkdir ftp
           cd content
           find post -name info.json -exec dirname {} \; > files.lst

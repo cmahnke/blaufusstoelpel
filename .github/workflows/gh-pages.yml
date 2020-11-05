@@ -59,11 +59,11 @@ jobs:
           chmod go+rX ftp/*
       - name: Upload IIIF directories
         run: |
-# set ftp:ssl-force true; set passive-mode true; set ftp:ssl-protect-data true
-#          lftp ftp://$DEPLOY_SERVER -u $DEPLOY_USER,$DEPLOY_PASS  -e 'set ftp:ssl-force true; set mirror:parallel-directories true; set passive-mode true; set ftp:ssl-protect-data true; mkdir -p blaufusstoelpel; mirror -P 8 -v -R --delete ftp/ blaufusstoelpel/; chmod -Rf 0777 blaufusstoelpel; exit'
           cd ftp
           tar cf - * | sshpass -p$DEPLOY_PASS ssh $DEPLOY_USER@$DEPLOY_SERVER "cd $DEPLOY_PATH && rm -rf blaufusstoelpel  && mkdir -p blaufusstoelpel && cd blaufusstoelpel  && tar xvf - && chmod -R 775 ../blaufusstoelpel"
           cd ..
+# set ftp:ssl-force true; set passive-mode true; set ftp:ssl-protect-data true
+#          lftp ftp://$DEPLOY_SERVER -u $DEPLOY_USER,$DEPLOY_PASS  -e 'set ftp:ssl-force true; set mirror:parallel-directories true; set passive-mode true; set ftp:ssl-protect-data true; mkdir -p blaufusstoelpel; mirror -P 8 -v -R --delete ftp/ blaufusstoelpel/; chmod -Rf 0777 blaufusstoelpel; exit'
 
       - name: Delete IIIF directories
         run: |

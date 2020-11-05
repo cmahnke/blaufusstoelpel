@@ -88,7 +88,7 @@ jobs:
         run: hugo
       - name: Cleanup Build
         run: |
-           find docs -type f -size +20M - exec rm {} \;
+           find docs -type f -size +20M -exec rm {} \;
 
 #      - name: Cleanup disk
 #        run: |

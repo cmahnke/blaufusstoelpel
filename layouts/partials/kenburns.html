@@ -35,8 +35,13 @@
     {{- end -}}
 {{- end -}}
 
+{{- $infoJson := "" -}}
+{{- if or .Site.IsServer (not (isset .Site.Params "productioniiifurlprefix")) -}}
+    {{- $infoJson = printf "/%s" (path.Join $contextPath ($iiif.Get "manifest")) -}}
+{{- else -}}
+    {{- $infoJson = printf "%s%s" .Site.Params.productionIIIFURLPrefix (path.Join $contextPath ($iiif.Get "manifest")) -}}
+{{- end -}}
 
-{{- $infoJson := printf "/%s" (path.Join $contextPath ($iiif.Get "manifest")) -}}
 {{- $animation := "''" -}}
 {{- $initialZoom := 0 -}}
 {{- $rotation := 0 -}}

@@ -51,7 +51,7 @@ jobs:
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
           DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
-          DEPLOY_PASS: ${{ secrets.DEPLOY_PASS }}
+          SSHPASS: ${{ secrets.DEPLOY_PASS }}
           DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
         run: |
           mkdir ftp
@@ -60,7 +60,7 @@ jobs:
           cp ../blaufusstoelpel-redirect/index.html .
           echo "index.html" >> files.lst
           cat files.lst | xargs chmod 775
-          sshpass -p "$DEPLOY_PASS"rsync -aP --delete --relative $(cat files.lst) $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH
+          sshpass -e rsync -aP --delete --relative $(cat files.lst) $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH
           rm -f files.lst index.html
           cd ..
 

@@ -57,10 +57,11 @@ jobs:
           mkdir ftp
           cd content
           find post -name info.json -exec dirname {} \; > files.lst
-          echo "blaufusstoelpel-redirect/index.html" >> files.lst
+          cp ../blaufusstoelpel-redirect/index.html .
+          echo "index.html" >> files.lst
           cat files.lst | xargs chmod 775
           sshpass -p "$DEPLOY_PASS"rsync -aP --delete --relative $(cat files.lst) $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH
-          rm -f files.lst
+          rm -f files.lst index.html
           cd ..
 
       - name: Get connection information

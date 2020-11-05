@@ -55,7 +55,7 @@ jobs:
           DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
           DEPLOY_SSH_IDENTITY: ${{ secrets.DEPLOY_SSH_IDENTITY }}
         run: |
-          echo "$DEPLOY_SSH_IDENTITY" >>  ~/.ssh/known_hosts
+          mkdir -p ~/.ssh && echo "$DEPLOY_SSH_IDENTITY" >>  ~/.ssh/known_hosts
           cd content
           find post -name info.json -exec dirname {} \; > files.lst
           cp ../blaufusstoelpel-redirect/index.html .

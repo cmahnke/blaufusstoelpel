@@ -53,8 +53,9 @@ jobs:
           DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
           SSHPASS: ${{ secrets.DEPLOY_PASS }}
           DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+          DEPLOY_SSH_IDENTITY: ${{ secrets.DEPLOY_SSH_IDENTITY }}
         run: |
-          mkdir ftp
+          echo "$DEPLOY_SSH_IDENTITY" >>  ~/.ssh/known_hosts
           cd content
           find post -name info.json -exec dirname {} \; > files.lst
           cp ../blaufusstoelpel-redirect/index.html .
@@ -77,7 +78,7 @@ jobs:
 #          cd ftp
 #          sshpass -p "$DEPLOY_PASS" rsync --delete -aP * $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH
 #          cd ..
-
+#          mkdir ftp
 # This needs the packages sshpass ssh-client
 #          tar cf - * | sshpass -p$DEPLOY_PASS ssh $DEPLOY_USER@$DEPLOY_SERVER "cd $DEPLOY_PATH && rm -rf blaufusstoelpel  && mkdir -p blaufusstoelpel && cd blaufusstoelpel  && tar xvf - && chmod -R 775 ../blaufusstoelpel"
 # This needs the package lftp

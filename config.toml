@@ -55,6 +55,11 @@ paginate = 6
   [[module.mounts]]
     source = "node_modules/slick-carousel/slick/fonts/"
     target = "static/fonts/slick"
+
+  [[module.mounts]]
+    source = "node_modules/slick-carousel/slick/ajax-loader.gif"
+    target = "static/images/ajax-loader.gif"
+
   [[module.mounts]]
     source = "static"
     target = "static"

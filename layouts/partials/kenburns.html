@@ -40,6 +40,9 @@
     {{- $infoJson = printf "/%s" (path.Join $contextPath ($iiif.Get "manifest")) -}}
 {{- else -}}
     {{- $infoJson = printf "%s%s" .Site.Params.productionIIIFURLPrefix (path.Join $contextPath ($iiif.Get "manifest")) -}}
+    {{- if hasPrefix ($iiif.Get "baseURL") "http" -}}
+        {{- $iiif.Set "baseURL" "" -}}
+    {{- end -}}
 {{- end -}}
 
 {{- $animation := "''" -}}

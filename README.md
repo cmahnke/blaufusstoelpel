@@ -15,10 +15,12 @@ See [https://womanonrails.com/adding-yarn-package-from-github](https://womanonra
 
 ## Provided patches
 
-Mirador 3 is not really feature complete, even though it's tagged as a Release Candidate. The following changes need to be applied to make Mirador usable.
+Mirador 3 is not really feature complete, even though it's tagged as a Release Candidate (read a good definition on [Wikipedia](https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidate) - I would like to add that the definition of "code complete" is not completely up to the developers to decide when implementing a specification, see [RFC 2119](https://tools.ietf.org/html/rfc2119)).
+
+The following changes need to be applied to make Mirador usable for this use case.
 
 * Thumbnails won't be displayed if they're static [#3330](https://github.com/ProjectMirador/mirador/issues/3330)
-* Mirador fails to load Minifests if bundled [#3311](https://github.com/ProjectMirador/mirador/issues/3311)
+* Check if using a method from a polyfill is the right approach [#3311](https://github.com/ProjectMirador/mirador/issues/3311)
 * Mirador can't display non-paged viewing hints [3029](https://github.com/ProjectMirador/mirador/pull/3029)
 
 These patches are combined in one file in `patches`.

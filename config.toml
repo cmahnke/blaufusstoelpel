@@ -51,3 +51,7 @@ paginate = 6
   [[module.mounts]]
     source = "assets/js"
     target = "assets/js"
+
+  [[module.mounts]]
+    source = "node_modules/slick-carousel/slick/fonts/"
+    target = "static/fonts/slick"

@@ -14,25 +14,26 @@
         {{- else -}}
             {{- $class = "meta" -}}
         {{- end -}}
-        <article class="content {{ $class }}">
+        <article class="content-clean {{ $class }}">
           {{.Content}}
 
-          <div class="iiif">
-              {{- $context := path.Dir .File.Path -}}
-              {{- $pageURL := .Permalink -}}
-              {{- if not (hasPrefix .Params.iiifContext "http://iiif.io/api/presentation/") -}}
-                  {{- range .Params.resources -}}
-                    {{- if or (and (ne $.Params.itemType "work") (ne $.Params.itemType "book")) (not (or (or (eq .name "front") (eq .name "title")) (eq .name "cover"))) -}}
-                      {{- if .params.iiif -}}
-                        {{ partial "iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink "pageContext" $page) }}
+          {{- if .Params.iiifContext -}}
+              <div class="iiif">
+                  {{- $context := path.Dir .File.Path -}}
+                  {{- $pageURL := .Permalink -}}
+                  {{- if not (hasPrefix .Params.iiifContext "http://iiif.io/api/presentation/") -}}
+                      {{- range .Params.resources -}}
+                        {{- if or (and (ne $.Params.itemType "work") (ne $.Params.itemType "book")) (not (or (or (eq .name "front") (eq .name "title")) (eq .name "cover"))) -}}
+                          {{- if .params.iiif -}}
+                            {{ partial "iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink "pageContext" $page) }}
+                          {{- end -}}
+                        {{- end -}}
                       {{- end -}}
-                    {{- end -}}
+                  {{- else -}}
+                    {{- partial "mirador.html" . -}}
                   {{- end -}}
-              {{- else -}}
-                {{- partial "mirador.html" . -}}
-              {{- end -}}
-          </div>
-
+              </div>
+          {{- end -}}
         </article>
       </div>
       {{partial "sidebar.html" . }}

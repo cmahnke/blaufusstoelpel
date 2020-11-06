@@ -158,14 +158,6 @@ nav {
     }
 }
 
-.content {
-    position: relative;
-
-    &.meta {
-        margin-top: 3rem;
-    }
-}
-
 .timeline {}
 
 .footer {
@@ -197,6 +189,35 @@ nav {
 
 .text-contrast-dark {
     text-shadow: 0 0 15px black;
+}
+
+// The .content rule from the theme is tainted with a wildcard, never use * in CSS it's just annoing
+// The root of this evil is certainly boostrap, since it doesn't force you to add semantic classes
+
+.content-clean {
+    position: relative;
+
+    img,
+    ul,
+    p,
+    h1, h2, h3, h4 {
+         margin-bottom: 20px;
+    }
+
+    img{
+      max-width: 100%;
+      height: auto;
+
+      &.error404 {
+          margin-top: 2em;
+          margin-bottom: 2em;
+      }
+    }
+
+    &.meta,
+    &.error404 {
+        margin-top: 3rem;
+    }
 }
 
 .slick-list {

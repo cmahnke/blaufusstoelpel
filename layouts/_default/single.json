@@ -1,5 +1,8 @@
 {{/* Only generate IIIF Manifest for primary page, make sure to use the right path to get the manifest */}}
+{{/*
 {{- $imageIdSuffix := "/full/full/0/default.jpg" -}}
+*/}}
+{{- $imageIdSuffix := "" -}}
 {{ if eq .Sites.First.Language.Lang .Page.Lang }}
 {{- if hasPrefix .Params.iiifContext "http://iiif.io/api/presentation/" -}}
 {

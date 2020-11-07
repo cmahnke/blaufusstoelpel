@@ -1,4 +1,5 @@
 {{/* Only generate IIIF Manifest for primary page, make sure to use the right path to get the manifest */}}
+{{- $imageIdSuffix := "/full/full/0/default.jpg" -}}
 {{ if eq .Sites.First.Language.Lang .Page.Lang }}
 {{- if hasPrefix .Params.iiifContext "http://iiif.io/api/presentation/" -}}
 {
@@ -98,7 +99,7 @@
 
                     },
                     "images":[
-                    {{- $imageId := printf "%s%s" $urlBase $manifestDir -}}
+                    {{- $imageId := printf "%s%s%s" $urlBase $manifestDir $imageIdSuffix -}}
                     {{- $annnotationId := printf "%sannotation/%s" $urlBase $manifestDir -}}
                     {
                          "@context":"http://iiif.io/api/presentation/2/context.json",

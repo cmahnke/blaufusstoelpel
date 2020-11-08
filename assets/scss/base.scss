@@ -172,6 +172,14 @@ nav {
         flex: 0 0 50%;
         text-align: center;
     }
+
+    a,
+    a:active,
+    a:focus,
+    a:hover,
+    a:visited {
+        color: darken(#007bff, 20%);
+    }
 }
 
 .headroom {
@@ -218,6 +226,22 @@ nav {
     &.error404 {
         margin-top: 3rem;
     }
+
+    a,
+    a:active,
+    a:focus,
+    a:hover,
+    a:visited {
+        color: darken(#007bff, 30%);
+    }
+}
+
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+    text-decoration: none;
 }
 
 .slick-list {
@@ -340,4 +364,14 @@ nav {
         order: 18;
         width: 100%;
     }
+}
+
+::-moz-selection {
+    background: #adb5bd;
+    color: #fff
+}
+
+::selection {
+    background: #adb5bd;
+    color: #fff
 }

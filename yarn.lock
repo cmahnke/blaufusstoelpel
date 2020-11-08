@@ -1249,10 +1249,9 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
-manifesto.js@^4.2.0:
+manifesto.js@IIIF-Commons/manifesto, manifesto.js@^4.2.0:
   version "4.2.0"
-  resolved "https://registry.yarnpkg.com/manifesto.js/-/manifesto.js-4.2.0.tgz#df2da920851ebbcc9355b46e26056d632db6072a"
-  integrity sha512-6aL+sU2aiji9RY6/oVi4n4MgaM2Bsuev8WM+BgCioReK/X+FGREXCUszd36S/Ridilx610xaqrXEa9yHr8u44g==
+  resolved "https://codeload.github.com/IIIF-Commons/manifesto/tar.gz/24e269842861de546800d7cc6d44c8cf4790782e"
   dependencies:
     "@edsilv/http-status-codes" "^1.0.3"
     "@iiif/vocabulary" "^1.0.11"

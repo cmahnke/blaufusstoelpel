@@ -9,11 +9,13 @@ Run the following script to generate assets
 ./scripts/setup.sh
 ```
 
-# Using a development version of Mirador from GitHub
+# Using a development version of Mirador and dependencies from GitHub
 
 See [https://womanonrails.com/adding-yarn-package-from-github](https://womanonrails.com/adding-yarn-package-from-github) on how to add a specific revision.
 
 ## Provided patches
+
+### Mirador
 
 Mirador 3 is not really feature complete, even though it's tagged as a Release Candidate (read a good definition on [Wikipedia](https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidate) - I would like to add that the definition of "code complete" is not completely up to the developers to decide when implementing a specification, see [RFC 2119](https://tools.ietf.org/html/rfc2119)).
 
@@ -21,12 +23,16 @@ The following changes need to be applied to make Mirador usable for this use cas
 
 * Thumbnails won't be displayed if they're static [#3330](https://github.com/ProjectMirador/mirador/issues/3330)
 * Check if using a method from a polyfill is the right approach [#3311](https://github.com/ProjectMirador/mirador/issues/3311)
-* Mirador can't display non-paged viewing hints [3029](https://github.com/ProjectMirador/mirador/pull/3029)
+* Mirador can't display non-paged viewing hints [#3029](https://github.com/ProjectMirador/mirador/pull/3029)
 
 These patches are combined in one file in `patches`.
 
 Currently yarn will will pull Mirador directly from GitHub, not NPM. It applies the patches and rebuilds the viewer with these patches applied.
 
+### Manifesto.js
+
+Mirador dependends on Manifesto.js to use a object model on top of the manifest's JSON. But here is at least one method missing to get the viewing hints. The patch `manifesto.js+4.2.0.patch` adds this missing method. It's required to get [#3029](https://github.com/ProjectMirador/mirador/pull/3029) to work.
+See [#77](https://github.com/IIIF-Commons/manifesto/pull/77).
 
 # Converting Tiff files to WebP
 

@@ -19,6 +19,7 @@ resources:
   params:
     iiif: page879/info.json
     label: 879
+    hint: non-paged
 - src: "page880.jpg"
   params:
     iiif: page880/info.json

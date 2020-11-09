@@ -77,6 +77,34 @@ $slick-loader-path: "/images/";
          url("/fonts/montserrat-v15-latin-700.woff") format('woff'), url("/fonts/montserrat-v15-latin-700.ttf") format('truetype');
 }
 
+// See https://codepen.io/GeorgePark/pen/jeBbGN
+@keyframes shake {
+    5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
+        filter: blur(0.018em);
+        transform: translateY(0.018em) rotate(0deg);
+    }
+
+    10%, 30%, 40%, 50%, 70%, 80%, 90% {
+        filter: blur(0.01em);
+        transform: translateY(-0.018em) rotate(0deg);
+    }
+
+    20%, 60% {
+        filter: blur(0.03em);
+        transform: translate(-0.018em, 0.018em) rotate(0deg);
+    }
+
+    45%, 85% {
+        filter: blur(0.03em);
+        transform: translate(0.018em, -0.018em) rotate(0deg);
+    }
+
+    100% {
+        filter: blur(0.007em);
+        transform: translate(0) rotate(-0.5deg);
+    }
+}
+
 h1,
 h2,
 h3,
@@ -102,12 +130,19 @@ nav {
     margin-top: auto;
 }
 
-.navbar .nav-item .nav-link {
-    padding: 0.5rem 1rem;
-}
+.navbar {
 
-.content img {
-    max-width: 20%;
+    @media(max-width: 992px) {
+        padding: unset
+    }
+    .nav-item .nav-link {
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-toggler {
+        padding: .25rem .25rem;
+    }
+
 }
 
 .section {
@@ -123,6 +158,10 @@ nav {
 
         img.header {
             max-width: 15%;
+
+            @media(max-width: 992px) {
+                max-width: 25%;
+            }
         }
 
         img.list {
@@ -139,14 +178,28 @@ nav {
     display: none;
 }
 
-.navbar {
-    flex-wrap: unset;
-}
-
 .navbar-brand {
+    @media(max-width: 992px) {
+        max-width: 85%;
+    }
+
+    @media(max-width: 576px) {
+        margin-right: unset;
+        font-size: unset;
+    }
+
+    /*display: inline-flex;*/
+
     .logo {
         max-width: 10%;
         vertical-align: bottom;
+
+        &:hover {
+            animation-name: shake;
+            animation-duration: 3s;
+            animation-delay: .3s;
+            animation-iteration-count: infinite
+        }
     }
 
     .title {
@@ -155,14 +208,31 @@ nav {
         width: 45vw;
         margin-left: 2rem;
         vertical-align: bottom;
+        @media(max-width: 576px) {
+            width: 65vw;
+            margin-left: 1rem;
+        }
     }
 }
 
 .timeline {}
 
 .footer {
-    .logo img {
-        max-width: 20%;
+    .logo {
+        @media(max-width: 576px) {
+            flex: unset;
+            max-width: unset;
+            text-align: center;
+        }
+
+        img {
+            max-width: 20%;
+
+            @media(max-width: 576px) {
+                max-width: 30%;
+                float: unset!important;
+            }
+        }
     }
 
     .design-credit {
@@ -171,6 +241,11 @@ nav {
         display: block;
         flex: 0 0 50%;
         text-align: center;
+
+        @media(max-width: 576px) {
+            flex: unset;
+            max-width: unset;
+        }
     }
 
     a,
@@ -234,6 +309,12 @@ nav {
     a:visited {
         color: darken(#007bff, 30%);
     }
+
+    /*
+    img {
+        max-width: 20%;
+    }
+    */
 }
 
 a,
@@ -375,4 +456,10 @@ a:visited {
 ::selection {
     background: #adb5bd;
     color: #fff
+}
+
+@media(max-width: 992px) {
+    .widget {
+        display: none;
+    }
 }

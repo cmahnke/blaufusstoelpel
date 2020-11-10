@@ -21,6 +21,7 @@ paginate = 6
     iiifCanvasWidth = 300
     productionIIIFURLPrefix="https://static.projektemacher.org/blaufusstoelpel/"
     errorimg = "images/blaufusstoelpel.svg"
+    copyright = "MMXX"
 
 # navigation
 [menu]

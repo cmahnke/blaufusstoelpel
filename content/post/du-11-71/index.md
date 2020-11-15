@@ -47,3 +47,5 @@ Mit einem Blick in diese Zeitschrift wurde die Idee für das Blog geboren - es w
 Bei dem Material, hier "Persianer" und "Breitschwanz" genannt handelt es sich um Felle des Karakulschafs, zumindest wenn es _jünger_ als einige Tage ist. Die Wikipedia bietet die [Details](https://de.wikipedia.org/wiki/Persianer).
 
 Und wem das noch nicht befremdlich genug ist sei noch darauf hingewiesen, dass in dem Herstellungsland Südafrika zu dieser Zeit noch die [Apartheid](https://de.wikipedia.org/wiki/Apartheid) herrschte.
+
+<div class="source">Gekauft im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°2</a>.</div>

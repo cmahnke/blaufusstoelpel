@@ -77,3 +77,5 @@ Dieser Beitrag sollte zuerst zur Einschulung erscheinen, da sich dieses Blog abe
 Ob nun die Kinder oder die Backfische gruseliger sind, sei den Lesern überlassen. aber besonders gruselig ist die Werbung für die Strümpfe, die der Dame ein Bein Zaubern, das mit dem eines Pferdes mithalten kann.
 
 Und wo wir gerade beim Thema Umstände der Zeit sind: Auch diese Ausgabe präsentiert praktische Lebenshilfe in Zeiten des Nachkriegsmangels: Teppiche aus alten Strümpfen.
+
+<div class="source">Gekauft im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°2</a>.</div>

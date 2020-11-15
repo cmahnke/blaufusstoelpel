@@ -38,3 +38,5 @@ resources:
 Das 20. Jahrhundert steht vor der Tür, nur was soll man zum Radfahren anziehen? <!--more--> Diese Ausgebe der "Moden Zeitung fürs Deutsche Haus" beantwortet diese dies Frage souverän und bietet dazu noch ein Layout mit einigen Jugendstilornamenten.
 
 Dies ist der bisher älteste Eintrag...
+
+<div class="source">Gekauft im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°1</a>.</div>

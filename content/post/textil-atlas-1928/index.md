@@ -3,6 +3,8 @@ title: Textil-Lexikon
 subTitle: Ein Lehrbuch und Nachschlagebuch für den Textileinzelhandel und die Gewebeverarbeitung
 issueYear: 1928
 draft: true
+# http://www.worldcat.org/oclc/249121078
+#Textil-Atlas : ein Lehrbuch und Nachschlagebuch für den Textileinzelhandel und die Gewebeverarbeitung : Textilwarenkunde und Gewebemuster von Wilhelm Spitschka, Franckh, Stuttgart 1928.
 date: 2020-11-29T17:20:49+02:00
 iiifManifest: ./index.json
 iiifContext: http://iiif.io/api/presentation/2/context.json
@@ -90,3 +92,6 @@ resources:
     hint: non-paged
     label: Tafel 32
 ---
+
+<!--more-->
+<div class="source">Gekauft im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°2</a>.</div>

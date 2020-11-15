@@ -48,3 +48,5 @@ resources:
 Wir wissen es nicht, aber es ist klar, dass diese Frage nicht erst seit ein paar Jahren relevant ist. Auch am Vorabend des Zweiten Weltkriegs schaute man auf diese Stadt.
 
 Und während für die Herren der Schöpfung [Feldgrau](https://de.wikipedia.org/wiki/Feldgrau) in der Herbstsaison '39 angeordnet wurde, kann hier ein unbeschwerter Ausblick für die Dame und das Kind genommen werden.
+
+<div class="source">Gekauft im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°2</a>.</div>

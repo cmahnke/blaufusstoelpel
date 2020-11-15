@@ -37,3 +37,4 @@ resources:
 ---
 Diesmal einige Stickereien, z.B. Art Deco Muster!
 <!--more-->
+<div class="source">Gekauft im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°2</a>.</div>

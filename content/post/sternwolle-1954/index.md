@@ -42,3 +42,5 @@ resources:
     hint: non-paged
 ---
 Wieder etwas aus den 50ern und auch diesmal werden die Leserinnen angesprochen, wenn es neben dem Handarbeiten selbst, um eine weitere Angelegenheit der Kleidung geht, ums waschen...
+<!--more-->
+<div class="source">Gekauft im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°2</a>.</div>

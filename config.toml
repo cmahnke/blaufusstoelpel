@@ -27,12 +27,12 @@ paginate = 6
 [menu]
     [[menu.main]]
         name = "Zeitstrahl"
-        URL = "timeline"
+        URL = "/timeline"
         weight = 1
 
     [[menu.main]]
         name = "Über"
-        URL = "about"
+        URL = "/about"
         weight = 2
 
 [markup.goldmark.renderer]

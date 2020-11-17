@@ -13,6 +13,7 @@
     "vis-timeline": "^7.4.0"
   },
   "devDependencies": {
+    "jsonlint": "^1.6.3",
     "manifesto.js": "IIIF-Commons/manifesto",
     "patch-package": "^6.2.2",
     "react": "^17.0.1",
@@ -30,6 +31,7 @@
     "patch": "yarn run patch-package",
     "postinstall-manifesto": "cd node_modules/manifesto.js && yarn install && yarn run build:esmodule",
     "postinstall-mirador": "cd node_modules/mirador && yarn install && rm -r node_modules/manifesto.js && ln -s ../manifesto.js node_modules/manifesto.js && yarn run build && yarn run build:es",
-    "postinstall": "yarn run patch && yarn run postinstall-manifesto && yarn run postinstall-mirador"
+    "postinstall": "yarn run patch && yarn run postinstall-manifesto && yarn run postinstall-mirador",
+    "validate": "yarn run jsonlint `ls docs/post/*/*.json`"
   }
 }

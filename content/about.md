@@ -39,6 +39,6 @@ Die Seite wird von [GitHub](https://github.com/), die IIIF Tiles von [Host Europ
 
 # Kontakt
 
-"Blaufußtölpel" ist ein Projekt von **Christian Mahnke**.
+"Blaufußtölpel" ist ein [Projekt](https://projektemacher.org) von **Christian Mahnke**.
 
 Kontakt ist via [E-Mail](mailto:blaufusstoelpel@projektemacher.org) möglich.

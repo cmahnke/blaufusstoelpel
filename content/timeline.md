@@ -5,4 +5,4 @@ displayinlist: false
 metaPage: true
 ---
 
-Auf diesem Zeitstrahl werden alle Ausgaben angezeigt
+Auf diesem Zeitstrahl werden alle Beiträge angezeigt

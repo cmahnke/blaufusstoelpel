@@ -24,7 +24,7 @@
               {{ range $paginator.Pages }}
                   {{- $context := path.Dir .File.Path -}}
                   {{- $images := newScratch -}}
-                   {{- $entry := . -}}
+                  {{- $entry := . -}}
 
                   {{- range .Params.resources -}}
                       {{- if eq .name "front" -}}
@@ -41,7 +41,7 @@
                   {{- $previewImg = $previewImg.Resize "370x"  -}}
                   <div class="col-sm-6 mb-5">
                     <article class="text-center">
-                      <img class="list img-fluid mb-4" src="{{ $previewImg.RelPermalink }}" alt="post-thumb">
+                      <img class="list img-fluid mb-4" src="{{ $previewImg.RelPermalink }}" alt="Cover">
                       <p class="text-uppercase mb-2">{{ .Params.Categories }}</p>
                       {{- $title := "" -}}
                       {{ if isset .Params "subtitle" -}}

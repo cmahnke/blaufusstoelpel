@@ -79,7 +79,7 @@ resources:
     iiif: page125/info.json
     label: 125
 ---
-Wien im Jahre 1963,<!--more--> alleine schon an der Aufmachung sieht man, dass hier eine andere Zielgruppe als die schneidernde Hausfrau angesprochen werden soll...
+Wien im Jahre 1963, alleine schon an der Aufmachung sieht man, dass hier eine andere Zielgruppe als die schneidernde Hausfrau angesprochen werden soll...<!--more-->
 Hier fährt das Fräulein Direktorentochter mit dem Sportwagen, während die Mutter ihre Zeit im Country Club verbring. Aber: Die Handtasche nicht vergessen.
 Für den Herrn Direktor gibt es fesche Socken - nicht nur zu Weihnachten...
 

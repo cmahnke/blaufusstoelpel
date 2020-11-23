@@ -4,11 +4,12 @@ node_modules/
 resources
 ftp
 static/images/blaufusstoelpel.svg
+static/images/blaufusstoelpel-white.svg
 static/images/blaufusstoelpel.png
+static/images/header.svg
 static/images/favicon*
 content/post/**/page*/
 content/post/**/front/
 content/post/*/title/
 content/post/*/end/
-static/images/header.svg
 yarn-error.log

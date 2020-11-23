@@ -32,6 +32,6 @@
     "postinstall-manifesto": "cd node_modules/manifesto.js && yarn install && yarn run build:esmodule",
     "postinstall-mirador": "cd node_modules/mirador && yarn install && rm -r node_modules/manifesto.js && ln -s ../manifesto.js node_modules/manifesto.js && yarn run build && yarn run build:es",
     "postinstall": "yarn run patch && yarn run postinstall-manifesto && yarn run postinstall-mirador",
-    "validate": "yarn run jsonlint `ls docs/post/*/*.json`"
+    "validate": "for file in `ls docs/post/*/*.json`; do yarn run jsonlint $file; if [ $? != 0 ]; then exit $?; fi ; done"
   }
 }

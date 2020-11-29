@@ -80,7 +80,7 @@ $slick-loader-path: "/images/";
 // See https://codepen.io/GeorgePark/pen/jeBbGN
 @keyframes shake {
     5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
-        filter: blur(0.018em);
+        filter: blur(0.028em);
         transform: translateY(0.018em) rotate(0deg);
     }
 
@@ -90,13 +90,13 @@ $slick-loader-path: "/images/";
     }
 
     20%, 60% {
-        filter: blur(0.03em);
-        transform: translate(-0.018em, 0.018em) rotate(0deg);
+        filter: blur(0.05em);
+        transform: translate(-0.018em, 0.018em) rotate(-.2deg);
     }
 
     45%, 85% {
         filter: blur(0.03em);
-        transform: translate(0.018em, -0.018em) rotate(0deg);
+        transform: translate(0.018em, -0.018em) rotate(.3deg);
     }
 
     100% {
@@ -188,18 +188,25 @@ nav {
         font-size: unset;
     }
 
-    /*display: inline-flex;*/
-
-    .logo {
+    .header-logo {
+        display: inline-block;
         max-width: 10%;
         vertical-align: bottom;
 
-        &:hover {
-            animation-name: shake;
-            animation-duration: 3s;
-            animation-delay: .3s;
-            animation-iteration-count: infinite
+        img {
+            max-height: 100%;
+            transition: opacity .5s ease-in-out;
         }
+        &:hover img {
+            opacity: 0;
+            animation-fill-mode: forwards;
+        }
+
+    }
+
+    .logo {
+        width: 100%;
+        vertical-align: bottom;
     }
 
     .title {
@@ -219,6 +226,7 @@ nav {
 
 .footer {
     .logo {
+        margin-bottom: 10px;
         @media(max-width: 576px) {
             flex: unset;
             max-width: unset;
@@ -232,6 +240,13 @@ nav {
                 max-width: 30%;
                 float: unset!important;
             }
+        }
+
+        &:hover {
+            animation-name: shake;
+            animation-duration: 3s;
+            animation-delay: .3s;
+            animation-iteration-count: infinite
         }
     }
 
@@ -381,8 +396,8 @@ nav {
                     &:after {
                         content: '';
                         height: .6em;
-                        border-right: 2px solid #007bff;
-                        border-top: 2px solid #007bff;
+                        border-right: 2px solid #4382a4;
+                        border-top: 2px solid #4a97b9;
                         padding-right: .5em;
                         position: absolute;
                         top: .35em;
@@ -414,8 +429,8 @@ nav {
                     &:before {
                          content: '';
                          height: .6em;
-                         border-left: 2px solid #007bff;
-                         border-top: 2px solid #007bff;
+                         border-left: 2px solid #4382a4;
+                         border-top: 2px solid #4a97b9;
                          padding-left: .5em;
                          position: absolute;
                          top: .35em;
@@ -439,7 +454,8 @@ nav {
 
                 img {
                     box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
-                    max-width: 300px;
+                    width: 300px;
+                    max-width: 85%;
                 }
             }
 
@@ -612,4 +628,139 @@ a:visited {
     .widget {
         display: none;
     }
+}
+
+/* See https://una.im/3d-effect/ */
+.threeD {
+    position: relative;
+    filter: saturate(0.75);
+    z-index: 1;
+    background: url('/images/blaufusstoelpel-white.svg'), cyan;
+    background-blend-mode: lighten;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+
+.threeD:hover {
+    animation-name: threeD-C;
+    animation-duration: 3s;
+    animation-delay: .3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.threeD:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: url('/images/blaufusstoelpel-white.svg'), red;
+    background-blend-mode: lighten;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    mix-blend-mode: darken;
+    top: 0px;
+    transition: .4s;
+}
+
+.threeD:hover:after {
+    animation-name: threeD-R;
+    animation-duration: 3s;
+    animation-delay: .3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes threeD-C {
+    0% {
+        opacity: 1;
+    }
+
+    3% {
+        left: 0px;
+        top: -2px;
+    }
+
+    6% {
+        left: 3px;
+        top: 1px;
+    }
+
+    9% {
+        left: -3px;
+        top: -2px;
+        filter: blur(1px);
+    }
+
+    16% {
+        top: 0px;
+        left: 2px;
+    }
+
+    20% {
+        left: 3px;
+        transform: rotateY(15deg);
+    }
+
+    24% {
+        top: 0;
+        left: 0px;
+        filter: blur(0);
+    }
+
+    100% {
+
+    }
+}
+
+@keyframes threeD-R {
+
+    4% {
+        left: 1px;
+        top: -2px;
+        transform: scale(1.1);
+    }
+
+    8% {
+        top: 3px;
+        left: -1px;
+    }
+
+    12% {
+        left: 3px;
+        filter: blur(2px);
+    }
+
+    14% {
+        transform: scale(1);
+    }
+
+    16% {
+        left: 0px;
+        top: 1px;
+        filter: blur(0);
+    }
+
+    20% {
+        top: -1px;
+        transform: rotateY(7.5deg);
+    }
+
+    24% {
+        left: -4px;
+        top: 0;
+    }
+
+    40% {
+        left: 5px;
+    }
+
+    100% {
+        left: 5px;
+    }
+
 }

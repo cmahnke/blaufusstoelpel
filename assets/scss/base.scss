@@ -309,11 +309,21 @@ nav {
     img{
       max-width: 100%;
       height: auto;
+      transition: opacity .5s ease-in-out;
 
       &.error404 {
-          margin-top: 2em;
-          margin-bottom: 2em;
+
       }
+    }
+
+    .errorImg {
+        margin-top: 2em;
+        margin-bottom: 2em;
+
+        &:hover img {
+            opacity: 0;
+            animation-fill-mode: forwards;
+        }
     }
 
     &.meta,

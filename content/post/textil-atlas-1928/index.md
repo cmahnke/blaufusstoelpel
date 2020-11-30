@@ -11,6 +11,7 @@ iiifContext: http://iiif.io/api/presentation/2/context.json
 tags:
 - 1928
 - 20er
+- Stoffe
 resources:
 - src: "cover.jpg"
   name: cover

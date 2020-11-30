@@ -17,6 +17,22 @@
         <article class="content-clean {{ $class }}">
           {{.Content}}
 
+          {{- if .Params.itemType -}}
+            <div class="{{ .Params.itemType }}-description">
+              {{- if eq .Params.itemType "book" -}}
+                  <h1>{{ i18n "aboutTheNeu" }} {{ i18n "book" }}</h1>
+              {{- else if eq .Params.itemType "work" -}}
+                  <h1>{{ i18n "aboutTheNeu" }} {{ i18n "work" }}</h1>
+              {{- else if eq .Params.itemType "wallpaper" -}}
+                  <h1>{{ i18n "aboutTheFem" }} {{ i18n "wallpaper" }}</h1>
+              {{- else if eq .Params.itemType "magazine" -}}
+                  <h1>{{ i18n "aboutTheFem" }} {{ i18n "magazine" }}</h1>
+              {{- end -}}
+
+              {{- .Params.itemDescription | markdownify -}}
+            </div>
+          {{- end -}}
+
           {{- if .Params.iiifContext -}}
               <div class="iiif">
                   {{- $context := path.Dir .File.Path -}}

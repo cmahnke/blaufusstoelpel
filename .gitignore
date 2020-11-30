@@ -11,5 +11,6 @@ static/images/favicon*
 content/post/**/page*/
 content/post/**/front/
 content/post/*/title/
+content/post/*/cover/
 content/post/*/end/
 yarn-error.log

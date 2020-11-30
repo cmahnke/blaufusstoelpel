@@ -46,3 +46,44 @@ other = "Vorige Seite"
 # Footer
 [projektemacher]
 other = "ist ein <a href=\"https://projektemacher.org/\">Projektemacher</a> Blog<img src=\"/images/cm.svg\" style=\"height: 16px; margin-left: .5rem; vertical-align: middle;\">"
+
+# Descriptions
+[aboutTheNeu]
+other = "Über das"
+
+[aboutTheFem]
+other = "Über die"
+
+#Tags
+[bookEndPaper]
+other = "Vorsatzpapier"
+
+[bookendpaper]
+other = "Vorsatzpapier"
+
+[Bookendpaper]
+other = "Vorsatzpapier"
+
+[Book]
+other = "Buch"
+
+[book]
+other = "Buch"
+
+[Wallpaper]
+other = "Tapete"
+
+[wallpaper]
+other = "Tapete"
+
+[Work]
+other = "Werk"
+
+[work]
+other = "Werk"
+
+[magazine]
+other = "Zeitschrift"
+
+[Magazine]
+other = "Zeitschrift"

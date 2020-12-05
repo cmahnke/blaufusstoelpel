@@ -1,6 +1,6 @@
 ---
 title: Phildar Mailles Nr. 48 1976
-subTitle: Großes 80er Spezial
+subTitle: Gestricktes aus Frankreich
 issueYear: 1976
 date: 2020-12-05T20:10:49+01:00
 iiifManifest: ./index.json
@@ -52,36 +52,36 @@ resources:
   params:
     iiif: img014/info.json
     hint: non-paged
-- src: "page015.jpg"
+- src: "img015.jpg"
   params:
-    iiif: page015/info.json
-- src: "page016.jpg"
+    iiif: img015/info.json
+- src: "img016.jpg"
   params:
-    iiif: page016/info.json
-- src: "page017.jpg"
+    iiif: img016/info.json
+- src: "img017.jpg"
   params:
-    iiif: page017/info.json
-- src: "page018.jpg"
+    iiif: img017/info.json
+- src: "img018.jpg"
   params:
-    iiif: page018/info.json
-- src: "page019.jpg"
+    iiif: img018/info.json
+- src: "img019.jpg"
   params:
-    iiif: page019/info.json
-- src: "page020.jpg"
+    iiif: img019/info.json
+- src: "img020.jpg"
   params:
-    iiif: page020/info.json
-- src: "page021.jpg"
+    iiif: img020/info.json
+- src: "img021.jpg"
   params:
-    iiif: page021/info.json
-- src: "page022.jpg"
+    iiif: img021/info.json
+- src: "img022.jpg"
   params:
-    iiif: page022/info.json
-- src: "page023.jpg"
+    iiif: img022/info.json
+- src: "img023.jpg"
   params:
-    iiif: page023/info.json
-- src: "page024.jpg"
+    iiif: img023/info.json
+- src: "img024.jpg"
   params:
-    iiif: page024/info.json
+    iiif: img024/info.json
 - src: "back.jpg"
   params:
     iiif: back/info.json

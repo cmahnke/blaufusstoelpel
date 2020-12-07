@@ -5,6 +5,7 @@ issueYear: 1976
 date: 2020-12-05T20:10:49+01:00
 iiifManifest: ./index.json
 iiifContext: http://iiif.io/api/presentation/2/context.json
+featured: true
 tags:
 - 1976
 - Frankreich
@@ -52,6 +53,10 @@ resources:
   params:
     iiif: img014/info.json
     hint: non-paged
+    featured: true
+    initialZoom: 1.5
+    initialCenter: '[1000, -1800]'
+    animation: '[{center:[2600,-1100], duration: 5000, zoom: .5}, {center:[2600,-1100], duration: 5000, zoom: .9}, {center:[1000,-1800], duration: 5000, zoom: 1.5}]'
 - src: "img015.jpg"
   params:
     iiif: img015/info.json
@@ -88,5 +93,6 @@ resources:
 ---
 Normalerweise tut man Strickmode nicht unrecht, wenn man sie mit Attributen wie "uninspiriert", "unkreativ" oder anderen Ausprägungen von konservativer Modeauffassungen zu belegen.<!--more-->
 Beispiele dafür findet man auch in diesem Blog. Dieses Heft versucht am Anfang dieser vermeintlich Zwangsläufigkeit gerecht zu werden um dann im zweiten Teil daran zu gemahnen, dass es wohl nicht am Material selber liegt. Das Highlight ist das Model "Chachapoyas", dass man sich auch in Zeiten von [MNS](https://de.wikipedia.org/wiki/Mund-Nasen-Schutz) wünscht. Und um dann die passende Strickmode bietet, mit der Frau sich auch in Begleitung von James Bond in die Discothèque wagen kann.
+Und die Feuerzeuge zum umhängen könnten auch langsam mal ein Comeback hinlegen...
 
 <div class="source">Gefunden in der <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung Levinstarße</a>.</div>

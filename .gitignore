@@ -9,6 +9,7 @@ static/images/blaufusstoelpel.png
 static/images/header.svg
 static/images/favicon*
 content/post/**/page*/
+content/post/**/img*/
 content/post/**/front/
 content/post/*/title/
 content/post/*/cover/

@@ -8,6 +8,7 @@ issueMonth: 4
 tags:
 - 1963
 - 60er
+- Österreich
 resources:
 - src: "front.jpg"
   name: front

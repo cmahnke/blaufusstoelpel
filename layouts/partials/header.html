@@ -17,23 +17,23 @@
           <a class="nav-link text-uppercase text-dark" href="{{.Site.BaseURL}}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
         </li>
         {{ range .Site.Menus.main }}
-        {{ if .HasChildren }}
-        <li class="nav-item dropdown">
-          <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-            {{ .Name }}
-          </a>
-          <div class="dropdown-menu" >
-            {{ range .Children }}
-            <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a>
+            {{ if .HasChildren }}
+            <li class="nav-item dropdown">
+              <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                {{ .Name }}
+              </a>
+              <div class="dropdown-menu" >
+                {{ range .Children }}
+                <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a>
+                {{ end }}
+              </div>
+            </li>
+            {{ else }}
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-dark" href="{{ .URL | absURL }}">{{ .Name }}</a>
+            </li>
             {{ end }}
-          </div>
-        </li>
-        {{ else }}
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-dark" href="{{ .URL | absURL }}">{{ .Name }}</a>
-        </li>
-        {{ end }}
         {{ end }}
       </ul>
       {{ if .Site.Params.search }}

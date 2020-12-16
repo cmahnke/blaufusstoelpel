@@ -7,7 +7,7 @@ metaPage: true
 
 Wer in den Alltag vergangener Zeiten eintauchen möchte kann das mit alten Zeitschriften tun. Wenig andere Zugänge bieten einen ähnlich guten Einblick in den herrschenden Zeitgeist für einen derart begrenzen Zeitabschnitt. Und selbst wenn man sich etwas vermeintlich unideologisches / -politisches wie Kleidung und Mode ansieht, wird man schnell merken, dass diese (und ihr Kontext - die Zeitschrift) nicht nur funktionalen oder ästhetischen Ansprüchen unterworfen sind.
 
-Geplant ist verschiedene Dinge rund um das Thema Stoff zu zeigen, vom Stoffmuster über Handarbeiten bis zur gehobener Mode und Werbung wird einiges dabei sein.
+Geplant ist verschiedene Dinge rund um das Thema Stoff zu zeigen, vom Stoffmuster über Handarbeiten bis zur gehobener Mode und Werbung wird einiges dabei sein. Dabei wird nicht nur Mode gezeigt sondern auch andere interessante oder schöne Abbildungen, die einen Einblick in damalige Alltagskutur erlauben.
 
 ## Schlagworte
 

@@ -46,4 +46,4 @@ resources:
 In den Fünfzigern war die Welt noch in Ordnung: Der seriöse Mann raucht Pfeife oder trägt zumindest einen Pullunder, <!--more-->
 die ältere Dame (bzw. Kriegermutter) darf sich noch wie eine Klischeeoma aus dem Märchen anziehen und die Puppen der Kinder wurden noch nicht gecanceld.
 
-<div class="source">Gekauft im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°1</a>.</div>
+<div class="source">Gekauft im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°2</a>.</div>

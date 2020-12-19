@@ -97,4 +97,6 @@ Diesmal keine "vollständige" Mode, sondern ihre Bestandteile, die einzelnen Sto
 <!--more-->
 Mit diesem Atlas von 1928 sollten angehende Stoffhändler und Schneider mit der Materie vertraut gemacht werden. Es sind einzelne Fäden und Stoffmuster eingeklebt...
 
+Leider lassen sich nicht alle Stoffe direkt digitalisieren, besonders besondere Strukturen, die durch den Lichteinfall "lebendig" werden, sind leider nur als schwarze Flächen abgebildet.
+
 <div class="source">Gekauft im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°2</a>.</div>

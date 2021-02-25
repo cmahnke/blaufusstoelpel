@@ -41,4 +41,4 @@ resources:
     hint: non-paged
 ---
 Wieder Strickmode aus Frankreich, diesmal mit Proben für die (Synthetik-) Fäden <!--more-->
-Leider lässt sich das Heftchen nicht genau datieren, der Mode und Aufmachung nach, ist es aus den späten Sechzigern oder vielleicht auch noch aus den frühen Siebzigern.
+Leider lässt sich das Heftchen nicht genau datieren, der Mode und Aufmachung nach, ist es aus den späten Sechzigern oder vielleicht auch noch aus den frühen Siebzigern. Wer Hinweise hat, kann sie gerne per [Mail](mailto:blaufusstoelpel@projektemacher.org) schicken

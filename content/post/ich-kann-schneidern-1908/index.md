@@ -233,3 +233,5 @@ resources:
 In diesem Buch von 1908 lernt man alles rund ums schneidern.
 <!--more-->
 Besonders bemerkenswert sind hier die Sport- (ab Seite 237), Reformmode (ab Seite 422) und Figurenkorrekturen (ab Seite 459). Und es dürfen natürlich auch die Hausangestellten und die Matrosenanzüge für die Kinder nicht fehlen. Diesmal sind auch einige Texte, wie die Trauerzeiten (Seite 354) und die jungen Mütter (Seite 335) lesenswert.
+
+<div class="source">Gekauft im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°2</a>.</div>

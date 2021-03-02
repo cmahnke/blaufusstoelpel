@@ -47,4 +47,4 @@ Im Dezember 1943 war wohl nicht nur der zu erwartende Winter ein Problem...
 <!--more-->
 Diese Ausgabe zeigt nicht nur was man den nun anziehen kann um im Trend zu liegen, sondern auch was die "bolschewistische Horden" so anrichten oder wie schön die Kinderlandverschickung ist.
 
-<div class="source">Gekauft im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°1</a>.</div>
+<div class="source">Gekauft im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°2</a>.</div>

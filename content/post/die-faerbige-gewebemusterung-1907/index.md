@@ -77,3 +77,5 @@ resources:
 Dieses Buch zeigt verschieden gemusterte Gewebe und hat auch eine Seite mit Beispielen eingebunden und keine QR Codes.
 <!--more-->
 Wer, wie ich, gerne Vichy und Pepita verwechselt, dem sei [diese Seite](https://www.galatea-ziss.de/journal/hahnntritt-pepita-vichy.html) empfohlen.
+
+<div class="source">Gekauft im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°2</a>.</div>

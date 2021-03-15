@@ -82,7 +82,7 @@ vips dzsave front.jpg front -t 512 --layout iiif --id '.'
 URL_PREFIX=http://localhost:1313/ ./scripts/iiif.sh
 ```
 
-# Remove generated IIIF directories
+## Remove generated IIIF directories
 
 ```
 find content/post/ -name info.json -exec dirname {} \; | xargs rm -r

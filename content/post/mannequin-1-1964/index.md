@@ -23,7 +23,7 @@ resources:
     label: 5
 - src: "page006.jpg"
   params:
-    iiif: page005/info.json
+    iiif: page006/info.json
     label: 6
 - src: "page007.jpg"
   params:

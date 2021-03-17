@@ -57,7 +57,7 @@ resources:
   params:
     iiif: page020/info.json
     label: 20
-    hint: non-paged
+#    hint: non-paged
 - src: "page021.jpg"
   params:
     iiif: page021/info.json

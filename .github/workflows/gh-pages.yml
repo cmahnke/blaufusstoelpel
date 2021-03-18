@@ -38,12 +38,6 @@ jobs:
           echo "Running as ${UID}"
           docker run -e CHOWN_UID=${UID} -e URL_PREFIX="https://static.projektemacher.org/blaufusstoelpel/" -v ${PWD}:${PWD} ghcr.io/cmahnke/iiif-action:latest sh -c "cd ${PWD} && ./scripts/iiif.sh"
 
-      - name: Generate Files
-        env:
-          SKIP_IIIF: yes
-        run: |
-          ./scripts/setup.sh
-
       - name: Setup deploy dependencies
         env:
           DEPLOY_SSH_IDENTITY: ${{ secrets.DEPLOY_SSH_IDENTITY }}
@@ -66,6 +60,12 @@ jobs:
           rm -f files.lst index.html
           cd ..
           find content/post/ -name info.json -exec dirname {} \; | xargs rm -r
+
+      - name: Generate Files
+        env:
+          SKIP_IIIF: yes
+        run: |
+          ./scripts/setup.sh
 
 #      - name: Upload IIIF directories
 #        run: |

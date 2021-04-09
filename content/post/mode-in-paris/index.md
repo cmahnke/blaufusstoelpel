@@ -81,11 +81,11 @@ resources:
     iiif: page109/info.json
     label: 109
     hint: non-paged
- - src: "page110.jpg"
-   params:
-     iiif: page110/info.json
-     label: 110
-     hint: non-paged
+- src: "page110.jpg"
+  params:
+    iiif: page110/info.json
+    label: 110
+    hint: non-paged
 - src: "page139.jpg"
   params:
     iiif: page139/info.json

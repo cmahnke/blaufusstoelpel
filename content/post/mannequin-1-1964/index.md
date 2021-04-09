@@ -8,6 +8,7 @@ issueMonth: 3
 tags:
 - 1964
 - 60er
+- Paris
 resources:
 - src: "front.jpg"
   name: front

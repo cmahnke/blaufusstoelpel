@@ -94,7 +94,6 @@ find content/post/ -name info.json -exec dirname {} \; | xargs rm -r
 find . -path '*/orig/*.tif' -print -exec convert "{}" -define webp:lossless=true "{}.webp" \;
 ```
 
-
 # Running hugo
 
 ## With writing files to disk and watching

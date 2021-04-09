@@ -8,7 +8,7 @@ itemDescription: 'Die färbige Gewebemusterung: ein Lehrgang, Gewebe durch 2-6 
 issueYear: 1907
 tags:
 - 1907
-- Stoff
+- Stoffe
 - 00er
 resources:
 - src: "front.jpg"

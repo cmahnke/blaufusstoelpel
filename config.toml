@@ -1,5 +1,5 @@
 baseURL = "https://xn--blaufusstlpel-qmb.de/"
-theme = "parsa"
+theme = ["projektemacher-base", "parsa"]
 title = "Blaufußtölpel"
 languageCode = "de"
 languagecode = "de"

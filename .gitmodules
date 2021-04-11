@@ -4,3 +4,6 @@
 [submodule "blaufusstoelpel-redirect"]
 	path = blaufusstoelpel-redirect
 	url = https://github.com/cmahnke/blaufusstoelpel-redirect.git
+[submodule "themes/projektemacher-base"]
+	path = themes/projektemacher-base
+	url = https://github.com/cmahnke/projektemacher-base.git

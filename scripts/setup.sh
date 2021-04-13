@@ -7,8 +7,12 @@ if [[ -z "$SKIP_IIIF" ]] ; then
     ./scripts/iiif.sh
 fi
 
-#NPM dependencies
-yarn install
+echo "Calling theme scripts"
+for SCRIPT in $PWD/themes/projektemacher-base/scripts/init/*.sh ; do
+    echo "Running $SCRIPT"
+    bash "$SCRIPT"
+done
+
 yarn run svgo
 
 sed -E 's/<svg ([^>]*)>/<svg \1 style="background-color:white">/g' static/images/blaufusstoelpel.svg > static/images/blaufusstoelpel-white.svg
@@ -16,8 +20,5 @@ sed -E 's/<svg ([^>]*)>/<svg \1 style="background-color:white">/g' static/images
 # Favicons
 # See https://gist.github.com/pfig/1808188
 convert static/images/blaufusstoelpel.svg static/images/blaufusstoelpel.png
-convert static/images/blaufusstoelpel.png -resize 128x128 -transparent white static/images/favicon-128.png
-convert static/images/favicon-128.png -resize 16x16 static/images/favicon-16.png
-convert static/images/favicon-128.png -resize 32x32 static/images/favicon-32.png
-convert static/images/favicon-128.png -resize 64x64 static/images/favicon-64.png
-convert static/images/favicon-16.png static/images/favicon-32.png static/images/favicon-64.png static/images/favicon-128.png -colors 256 static/images/favicon.ico
+
+SOURCE="static/images/blaufusstoelpel.png" OPTIONS="-resize 128x128 -transparent white" ./themes/projektemacher-base/scripts/favicon.sh

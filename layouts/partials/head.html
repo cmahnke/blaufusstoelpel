@@ -3,24 +3,17 @@
   <title>{{ .Site.Title }}</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-  {{ hugo.Generator }}
+  {{ partial "html/head/meta.html" . }}
 
   {{ range .Site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .link | absURL }} ">
   {{ end }}
-
-  {{ if hasPrefix .Page.Name "404" }}
-      <meta http-equiv="refresh" content="15; URL={{ .Site.BaseURL }}">
-  {{- end }}
 
   {{- $options := (dict "targetPath" "base.css" "outputStyle" "compressed" "includePaths" (slice "node_modules/ol" "node_modules/slick-carousel/slick" "node_modules/bootstrap/scss" )) -}}
   {{- $scssTemplate := resources.Get "scss/base.scss" -}}
   {{- $scssStyle := $scssTemplate | resources.ExecuteAsTemplate "scss/base.scss" . | toCSS $options -}}
   {{- $style := slice  $scssStyle | resources.Concat "css/concated.css" | minify  | fingerprint -}}
   <link href="{{ $style.RelPermalink }}" rel="stylesheet" integrity="{{ $style.Data.Integrity }}">
-
 
   {{/* JavaScript */}}
   {{- $defines := dict "process.env.NODE_ENV" `"production"` -}}

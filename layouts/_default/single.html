@@ -41,10 +41,6 @@
     </section>
     <!-- /page-title -->
 
-    {{- if hasPrefix .File.BaseFileName "timeline" -}}
-        {{- partial "timeline.html" . -}}
-    {{- else -}}
-        {{- partial "post.html" . -}}
-    {{- end -}}
+    {{- partial "post.html" . -}}
 
 {{ end }}

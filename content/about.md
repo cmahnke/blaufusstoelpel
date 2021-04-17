@@ -9,11 +9,13 @@ Wer in den Alltag vergangener Zeiten eintauchen möchte kann das mit alten Zeits
 
 Geplant ist verschiedene Dinge rund um das Thema Stoff zu zeigen, vom Stoffmuster über Handarbeiten bis zur gehobener Mode und Werbung wird einiges dabei sein. Dabei wird nicht nur Mode gezeigt sondern auch andere interessante oder schöne Abbildungen, die einen Einblick in damalige Alltagskutur erlauben.
 
+
+
 ## Schlagworte
 
 Tags mit weniger als drei Vorkommen werden hier nicht angezeigt.
 
-{{< tagcloud >}}
+{{< tags/cloud >}}
 
 # Kolophon
 

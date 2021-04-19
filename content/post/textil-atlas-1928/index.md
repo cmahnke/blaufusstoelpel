@@ -6,7 +6,10 @@ date: 2020-11-29T19:36:49+02:00
 itemType: book
 itemDescription: 'Textil-Atlas: ein Lehrbuch und Nachschlagebuch für den Textileinzelhandel und die Gewebeverarbeitung: Textilwarenkunde und Gewebemuster von Wilhelm Spitschka, Franckh, Stuttgart 1928. <a class="worldcat" href="http://www.worldcat.org/oclc/249121078">&nbsp;</a>'
 date: 2020-11-29T17:20:49+02:00
-iiifManifest: ./index.json
+iiifManifest: ./manifest.json
+outputs:
+- html
+- iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
 tags:
 - 1928

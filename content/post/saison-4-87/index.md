@@ -5,7 +5,10 @@ featured: true
 issueYear: 1987
 issueMonth: 12
 date: 2020-10-14T17:20:49+02:00
-iiifManifest: ./index.json
+iiifManifest: ./manifest.json
+outputs:
+- html
+- iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
 tags:
 - 1987

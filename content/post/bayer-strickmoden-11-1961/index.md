@@ -4,7 +4,10 @@ issueYear: 1961
 issueMonth: 11
 iiifContext: http://iiif.io/api/presentation/2/context.json
 date: 2020-12-14T17:56:49+02:00
-iiifManifest: ./index.json
+iiifManifest: ./manifest.json
+outputs:
+- html
+- iiif
 tags:
 - 1961
 - Handarbeit

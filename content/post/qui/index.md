@@ -1,7 +1,10 @@
 ---
 title: Qui!
 date: 2020-12-21T12:33:49+02:00
-iiifManifest: ./index.json
+iiifManifest: ./manifest.json
+outputs:
+- html
+- iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
 tags:
 - Frankreich

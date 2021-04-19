@@ -4,7 +4,10 @@ subTitle: Bilderbeilage der »Prager Presse«
 issueYear: 1935
 issueMonth: 10
 date: 2020-11-15T14:20:49+02:00
-iiifManifest: ./index.json
+iiifManifest: ./manifest.json
+outputs:
+- html
+- iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
 tags:
 - 1935

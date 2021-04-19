@@ -2,7 +2,10 @@
 title: du November 1971
 subTitle: Die Idee für dieses Blog
 date: 2020-07-28T16:51:27+02:00
-iiifManifest: ./index.json
+iiifManifest: ./manifest.json
+outputs:
+- html
+- iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
 issueYear: 1971
 issueMonth: 11

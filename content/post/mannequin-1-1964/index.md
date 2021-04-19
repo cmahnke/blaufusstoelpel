@@ -1,7 +1,10 @@
 ---
 title: Mannequin 1 1964
 date: 2021-03-15T19:20:49+02:00
-iiifManifest: ./index.json
+iiifManifest: ./manifest.json
+outputs:
+- html
+- iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
 issueYear: 1964
 issueMonth: 3

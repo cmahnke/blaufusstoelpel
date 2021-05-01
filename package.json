@@ -9,7 +9,7 @@
   "moment": "^2.29.1",
   "popper.js": "^1.16.1",
   "slick-carousel": "^1.8.1",
-  "vis-timeline": "^7.4.0"
+  "vis-timeline": "^7.4.8"
  },
  "scripts": {
   "header": "svgo --config Source\\ Files/svgo.config.js -i Source\\ Files/Logo/Header.svg -o static/images/header.svg",

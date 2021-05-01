@@ -78,6 +78,10 @@ paginate = 6
     source = "node_modules/slick-carousel/slick/ajax-loader.gif"
     target = "static/images/ajax-loader.gif"
 
+    [[module.mounts]]
+        source = "themes/parsa/assets/css"
+        target = "assets/css"
+
   [[module.mounts]]
     source = "static"
     target = "static"

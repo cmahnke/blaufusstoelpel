@@ -23,9 +23,11 @@ jobs:
           password: ${{ secrets.CR_PAT }}
           logout: false
 
-      - name: Setup Imagemagick
+      - name: Install required dependencies
+        env:
+          SKIP_IIIF: yes
         run: |
-          sudo apt-get install libtiff5 imagemagick parallel
+          ./themes/projektemacher-base/scripts/github/setup-dependendies.sh
 
       - name: Setup Node.js
         uses: actions/setup-node@v1
@@ -38,12 +40,12 @@ jobs:
           echo "Running as ${UID}"
           docker run -e CHOWN_UID=${UID} -e URL_PREFIX="https://static.projektemacher.org/blaufusstoelpel/" -v ${PWD}:${PWD} ghcr.io/cmahnke/iiif-action:latest sh -c "cd ${PWD} && ./scripts/iiif.sh"
 
-      - name: Setup deploy dependencies
+      - name: Setup deploy env
         env:
           DEPLOY_SSH_IDENTITY: ${{ secrets.DEPLOY_SSH_IDENTITY }}
         run: |
-          sudo apt-get install rsync sshpass
           mkdir -p ~/.ssh && echo "$DEPLOY_SSH_IDENTITY" >>  ~/.ssh/known_hosts
+
       - name: IIIF directory upload and cleanup
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}

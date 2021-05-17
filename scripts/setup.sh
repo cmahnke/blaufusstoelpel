@@ -19,6 +19,9 @@ yarn run svgo
 
 sed -E 's/<svg ([^>]*)>/<svg \1 style="background-color:white">/g' static/images/blaufusstoelpel.svg > static/images/blaufusstoelpel-white.svg
 
+# Generate Previews
+./themes/projektemacher-base/scripts/preview.sh
+
 # Favicons
 # See https://gist.github.com/pfig/1808188
 convert static/images/blaufusstoelpel.svg static/images/blaufusstoelpel.png

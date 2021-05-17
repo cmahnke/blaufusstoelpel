@@ -11,18 +11,6 @@ paginate = 6
 #disableKinds = ["taxonomy"]
 #ignoreErrors = ["error-disable-taxonomy"]
 
-[params]
-    layout = "1"
-    logo = "images/blaufusstoelpel.svg"
-    header = "images/header.svg"
-# font https://fonts.google.com/specimen/Prata body
-# https://fonts.google.com/specimen/Montserrat head
-    iiifCanvasHeight = 400
-    iiifCanvasWidth = 300
-    productionIIIFURLPrefix="https://static.projektemacher.org/blaufusstoelpel/"
-    errorimg = "images/blaufusstoelpel.svg"
-    copyright = "MMXXI"
-
 # navigation
 [menu]
     [[menu.main]]

@@ -17,3 +17,5 @@ content/post/*/title/
 content/post/*/cover/
 content/post/*/end/
 yarn-error.log
+content/**/ogPreview.*g
+content/**/ogPreview-overlay.*g

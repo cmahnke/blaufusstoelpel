@@ -9,4 +9,4 @@ window.Headroom = Headroom;
 jQueryBridget('masonry', require('masonry-layout'), window.jQuery );
 require('slick-carousel');
 
-require('./timeline.js');
+//require('./timeline.js');

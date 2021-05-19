@@ -14,7 +14,8 @@
     {{- if .IsHome  -}}
         {{- .Scratch.Set "iiifPrefix" "http://iiif.io/api/image/" -}}
     {{- end -}}
-    {{- partial "html/head/script.html" (dict "js" (partial "html/head/iiif-js.html" .)) -}}
+    {{- partial "html/head/script.html" (dict "context" . "js" (partial "html/head/iiif-js.html" .)) -}}
+    {{- partial "html/head/page-scripts.html" . -}}
 
     <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
     <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">

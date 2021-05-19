@@ -1,6 +1,5 @@
 ---
 title: Zeitstrahl
-slug: timeline
 displayinlist: false
 metaPage: true
 layout: timeline

@@ -1,12 +1,12 @@
 <head>
-  <meta charset="utf-8">
-  <title>{{ .Site.Title }}</title>
+    <meta charset="utf-8">
+    <title>{{ .Site.Title }}</title>
 
-  {{ partial "html/head/meta.html" . }}
+    {{ partial "html/head/meta.html" . }}
 
-  {{ range .Site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .link | absURL }} ">
-  {{ end }}
+    {{ range .Site.Params.plugins.css }}
+        <link rel="stylesheet" href="{{ .link | absURL }} ">
+    {{ end }}
 
     {{- partial "html/head/style.html" (dict "context" . "css" (slice "css/style.css") "includes" (slice "node_modules/slick-carousel/slick" "node_modules/bootstrap/scss" )) -}}
 
@@ -14,12 +14,12 @@
     {{- if .IsHome  -}}
         {{- .Scratch.Set "iiifPrefix" "http://iiif.io/api/image/" -}}
     {{- end -}}
-    {{- partial "html/head/script.html" (dict  "js" (partial "html/head/iiif-js.html" .)) -}}
+    {{- partial "html/head/script.html" (dict "js" (partial "html/head/iiif-js.html" .)) -}}
 
-  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
-  <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
-  {{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-  {{ end -}}
+    <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+    <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+    {{ range .AlternativeOutputFormats -}}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
 
 </head>

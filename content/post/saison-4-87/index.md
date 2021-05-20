@@ -2,8 +2,8 @@
 title: Saison Nr. 4 1987
 subTitle: Großes 80er Spezial
 featured: true
-issueYear: 1987
-issueMonth: 12
+year: 1987
+month: 12
 date: 2020-10-14T17:20:49+02:00
 iiifManifest: ./manifest.json
 outputs:

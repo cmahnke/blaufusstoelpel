@@ -1,7 +1,7 @@
 ---
 title: Textil-Lexikon
 subTitle: Ein Lehrbuch und Nachschlagebuch für den Textileinzelhandel und die Gewebeverarbeitung
-issueYear: 1928
+year: 1928
 date: 2020-11-29T19:36:49+02:00
 itemType: book
 itemDescription: 'Textil-Atlas: ein Lehrbuch und Nachschlagebuch für den Textileinzelhandel und die Gewebeverarbeitung: Textilwarenkunde und Gewebemuster von Wilhelm Spitschka, Franckh, Stuttgart 1928. <a class="worldcat" href="http://www.worldcat.org/oclc/249121078">&nbsp;</a>'

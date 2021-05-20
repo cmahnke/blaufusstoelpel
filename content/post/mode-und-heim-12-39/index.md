@@ -7,8 +7,8 @@ outputs:
 - html
 - iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
-issueYear: 1939
-issueMonth: 6
+year: 1939
+month: 6
 featured: true
 tags:
 - 1939

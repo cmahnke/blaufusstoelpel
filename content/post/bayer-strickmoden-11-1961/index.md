@@ -1,7 +1,7 @@
 ---
 title: Beyer Strickmoden 11 1961
-issueYear: 1961
-issueMonth: 11
+year: 1961
+month: 11
 iiifContext: http://iiif.io/api/presentation/2/context.json
 date: 2020-12-14T17:56:49+02:00
 iiifManifest: ./manifest.json

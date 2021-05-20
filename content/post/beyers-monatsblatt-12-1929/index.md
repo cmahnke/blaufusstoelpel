@@ -6,8 +6,8 @@ outputs:
 - html
 - iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
-issueYear: 1929
-issueMonth: 12
+year: 1929
+month: 12
 tags:
 - 1929
 - 20er

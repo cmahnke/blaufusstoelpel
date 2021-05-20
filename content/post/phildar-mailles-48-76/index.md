@@ -1,7 +1,7 @@
 ---
 title: Phildar Mailles Nr. 48 1976
 subTitle: Gestricktes aus Frankreich
-issueYear: 1976
+year: 1976
 date: 2020-12-05T20:10:49+01:00
 iiifManifest: ./manifest.json
 outputs:

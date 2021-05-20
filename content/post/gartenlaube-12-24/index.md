@@ -6,8 +6,8 @@ outputs:
 - html
 - iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
-issueYear: 1924
-issueMonth: 3
+year: 1924
+month: 3
 tags:
 - 1924
 - Handarbeit

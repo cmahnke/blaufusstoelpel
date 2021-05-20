@@ -1,7 +1,7 @@
 ---
 title: Sternwolle Modell-Auslese 1954
 subTitle: Wolle tragen - schafft Wohlbehagen
-issueYear: 1954
+year: 1954
 date: 2020-11-22T17:20:49+02:00
 iiifManifest: ./manifest.json
 outputs:

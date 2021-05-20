@@ -7,7 +7,7 @@ outputs:
 - html
 - iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
-issueYear: 1954
+year: 1954
 tags:
 - 1954
 - 50er

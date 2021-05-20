@@ -8,7 +8,7 @@ outputs:
 - html
 - iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
-issueYear: 1932
+year: 1932
 tags:
 - 1932
 - 30er

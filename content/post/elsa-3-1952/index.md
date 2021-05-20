@@ -8,8 +8,8 @@ outputs:
 - html
 - iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
-issueYear: 1952
-issueMonth: 3
+year: 1952
+month: 3
 tags:
 - 1952
 - Kindermode

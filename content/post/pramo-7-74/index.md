@@ -7,8 +7,8 @@ outputs:
 - html
 - iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
-issueYear: 1974
-issueMonth: 7
+year: 1974
+month: 7
 tags:
 - Praktische Mode
 - 1974

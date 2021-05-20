@@ -7,8 +7,8 @@ outputs:
 - html
 - iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
-issueYear: 1971
-issueMonth: 11
+year: 1971
+month: 11
 tags:
 - 1971
 - Werbung

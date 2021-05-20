@@ -7,8 +7,8 @@ outputs:
 - html
 - iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
-issueYear: 1964
-issueMonth: 1
+year: 1964
+month: 1
 tags:
 - 1969
 - 60er

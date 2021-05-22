@@ -1,5 +1,6 @@
 ---
 title: Die färbige Gewebemusterung
+subTitle: Ein Buch über Gewebemuster
 date: 2021-04-08T17:54:49+02:00
 iiifManifest: ./manifest.json
 outputs:

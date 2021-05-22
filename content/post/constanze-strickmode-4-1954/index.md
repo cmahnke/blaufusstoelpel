@@ -1,6 +1,7 @@
 ---
 title: Constanze Strickmode
-date: 2021-05-12T19:01:38+02:00
+subTitle: Nicht nur Pariser Strickmode
+date: 2021-05-20T19:01:38+02:00
 draft: true
 iiifManifest: ./manifest.json
 outputs:

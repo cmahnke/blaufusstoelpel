@@ -51,4 +51,4 @@ resources:
 Wer heute den Namen [Praline](https://de.wikipedia.org/wiki/Praline_(Zeitschrift)) hört, denkt sicher an ein Schmuddelblätchen. Aber das war nicht immer so, wie diese Ausgabe zeigt.
 
 <!--more-->
-Früher eine ganz normale Illustrierte bzw. "Frauenzeitschrift" mit allem was dazu gehört, wie Mode, Fortsetzungsromanen, Inneneinrichtung, Klatsch und einem Artikel von John F. Kennedy wurde die Zeitschrift dann erst in späteren Jahren dazu wofür sie heute bekannt ist.
+Früher eine ganz normale Illustrierte bzw. "Frauenzeitschrift" mit allem was dazu gehört, wie Mode, Reisen, Fortsetzungsromanen, Inneneinrichtung, Klatsch und einem Artikel von John F. Kennedy wurde die Zeitschrift dann erst in späteren Jahren dazu wofür sie heute bekannt ist.

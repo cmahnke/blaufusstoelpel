@@ -16,8 +16,8 @@
               </li>
             </ul>
 
-            {{- $issues := where .Site.Pages "Params.issueyear" "!=" nil -}}
-            {{- $issues = sort $issues ".Params.issueyear" -}}
+            {{- $issues := where .Site.Pages "Params.year" "!=" nil -}}
+            {{- $issues = sort $issues ".Params.year" -}}
             <div class="tab-content">
                 <div id="horizontal" class="tab-pane fade show active" role="tabpanel" aria-labelledby="horizontal-tab">
                     {{- partial "timeline/horizontal.html" (dict "context" . "entries" $issues) -}}

@@ -22,14 +22,17 @@ resources:
   params:
     iiif: page012/info.json
     label: 12
+    hint: non-paged
 - src: "page016.jpg"
   params:
     iiif: page016/info.json
     label: 16
+    hint: non-paged
 - src: "page020.jpg"
   params:
     iiif: page020/info.json
     label: 20
+    hint: non-paged    
 - src: "page054jpg"
   params:
     iiif: page054/info.json
@@ -46,6 +49,7 @@ resources:
   params:
     iiif: page061/info.json
     label: 61
+    hint: non-paged
 - src: "page090.jpg"
   params:
     iiif: page090/info.json

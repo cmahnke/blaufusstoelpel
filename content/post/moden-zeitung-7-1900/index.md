@@ -12,6 +12,8 @@ featured: true
 tags:
 - 1900
 - 00er
+aliases:
+  - /post/moden-zeitung-7-00
 resources:
 - src: "front.jpg"
   name: front

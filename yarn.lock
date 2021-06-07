@@ -78,7 +78,7 @@ slick-carousel@^1.8.1:
   resolved "https://registry.yarnpkg.com/slick-carousel/-/slick-carousel-1.8.1.tgz#a4bfb29014887bb66ce528b90bd0cda262cc8f8d"
   integrity sha512-XB9Ftrf2EEKfzoQXt3Nitrt/IPbT+f1fgqBdoxO3W/+JYvtEOW6EgxnWfr9GH6nmULv7Y2tPmEX3koxThVmebA==
 
-vis-timeline@^7.4.8:
-  version "7.4.8"
-  resolved "https://registry.yarnpkg.com/vis-timeline/-/vis-timeline-7.4.8.tgz#4d1c7dfb1c97ccf5a9c7b80aa8b2acae29d18748"
-  integrity sha512-pTsSc/K2gauX0ENWjpY0YynaZok8FafM6x3DzCy4KZ+INjO+EYCk97KMPfCE9HzRTWpBTP7snW1RAUj6kJUg4A==
+vis-timeline@^7.4.9:
+  version "7.4.9"
+  resolved "https://registry.yarnpkg.com/vis-timeline/-/vis-timeline-7.4.9.tgz#7ed225a04b521cb6c2d603e498953b1222650806"
+  integrity sha512-+Mb829u4Jq9qPhh6EHAa7DRBEwXW0AclaXndxAC7e772oI5pMSAbhbKsQXsPYRPkf9vtac3/US+WPHJQYjGsRA==

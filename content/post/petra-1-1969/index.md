@@ -2,7 +2,7 @@
 title: Petra 1 1969
 subTitle: Wir verkleiden uns als Hippies
 draft: true
-date: 2021-03-285T19:20:49+02:00
+date: 2021-03-28T19:20:49+02:00
 iiifManifest: ./manifest.json
 outputs:
 - html

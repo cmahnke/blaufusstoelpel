@@ -34,10 +34,10 @@ headroom.js@^0.12.0:
   resolved "https://registry.yarnpkg.com/headroom.js/-/headroom.js-0.12.0.tgz#e09b466b18d22457f2023fb946ff620e47a5c205"
   integrity sha512-iXnAafUm3FdzfJ91uixLws2hkKI1jC8bAKK/pt7XYr8Ie1jO7xbK48Ycpl9tUPyBgkzuj1p/PhJS0fy4E/5anA==
 
-jquery-bridget@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/jquery-bridget/-/jquery-bridget-2.0.1.tgz#784d17a85e641780c5d89ac3f8a7eb47b0bce1fc"
-  integrity sha1-eE0XqF5kF4DF2JrD+KfrR7C84fw=
+jquery-bridget@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/jquery-bridget/-/jquery-bridget-3.0.1.tgz#02e208cf8772b4dd8044797b68242b74dbd64aa4"
+  integrity sha512-mjpdeObQTYlDOQWU8/JyHE3mZqwIFXY2ayaj/jYb3WoJWTIkP5MdN3SMPQC1jo6U31KD7LPJWuhVI+L+4Vqc2A==
   dependencies:
     jquery ">=1.4.2 <4"
 

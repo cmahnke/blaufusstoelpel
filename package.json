@@ -6,7 +6,7 @@
   "jquery": "^3.5.1",
   "jquery-bridget": "^3.0.1",
   "masonry-layout": "^4.2.2",
-  "moment": "^2.29.3",
+  "moment": "^2.29.4",
   "popper.js": "^1.16.1",
   "slick-carousel": "^1.8.1",
   "vis-timeline": "^7.5.1"

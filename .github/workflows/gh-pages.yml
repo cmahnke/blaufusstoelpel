@@ -9,7 +9,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Try to free disk space
         run: |
@@ -31,7 +31,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.9
+          python-version: '3.10'
 
       - name: Install required dependencies
         run: |
@@ -41,9 +41,9 @@ jobs:
           ./themes/projektemacher-base/scripts/github/docker-images.sh
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3.4.1
+        uses: actions/setup-node@v3.5.0
         with:
-          node-version: 10.22.0
+          node-version-file: '.nvmrc'
 
       - name: Create IIIF derivates
 # UID is als available via $(id -u)
@@ -95,10 +95,11 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.5.0
         with:
-          hugo-version: '0.82.0'
+          hugo-version: '0.104.3'
           extended: true
+
       - name: Build Hugo site
-        run: hugo --i18n-warnings
+        run: hugo --printI18nWarnings
 
       - name: Validate JSON
         env:

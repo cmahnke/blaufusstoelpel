@@ -5,6 +5,8 @@ docs
 node_modules/
 resources
 ftp
+.hugo_build.lock
+hugo_stats.json
 static/images/blaufusstoelpel.svg
 static/images/blaufusstoelpel-white.svg
 static/images/blaufusstoelpel.png

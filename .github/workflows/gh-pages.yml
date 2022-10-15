@@ -117,6 +117,9 @@ jobs:
 #          rm -rf node_modules content ftp
 #          df -h
 
+      - name: Puppeteer
+        run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh 
+
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3.8.0
         with:

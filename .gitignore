@@ -21,3 +21,4 @@ content/post/*/end/
 yarn-error.log
 content/**/ogPreview.*g
 content/**/ogPreview-overlay.*g
+**/.DS_Store

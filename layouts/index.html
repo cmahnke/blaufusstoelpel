@@ -106,6 +106,7 @@
     {{ if eq .Site.Params.layout "1" }}
         <div class="row masonry-container">
           {{ range $paginator.Pages }}
+          {{/*
             {{- $context := path.Dir .File.Path -}}
             {{- $images := newScratch -}}
             {{- $entry := . -}}
@@ -121,9 +122,8 @@
 
             {{- $imgLocation := $images.Get "previewLoc" -}}
             {{- $previewImg := $images.Get "preview" -}}
-            {{- if eq $previewImg nil -}}
-                {{- warnf "Can't find image %s for post %s" $imgLocation $context -}}
-            {{- end -}}
+          */}}
+            {{- $previewImg := partial "preview-image.html" . -}}
             {{- $previewImg = $previewImg.Resize "400x"  -}}
 
               <div class="col-lg-4 col-sm-6 mb-5">

@@ -8,6 +8,8 @@
         <div class="row">
           <div class="col-lg-12">
               {{- $context := path.Dir .File.Path -}}
+            {{/*
+
               {{- $images := newScratch -}}
                {{- $entry := . -}}
 
@@ -22,8 +24,10 @@
 
               {{- $imgLocation := $images.Get "previewLoc" -}}
               {{- $previewImg := $images.Get "preview" -}}
+            */}}
+              {{- $previewImg := partial "preview-image.html" . -}}
               {{- if eq $previewImg nil -}}
-                  {{- warnf "Can't find image %s for post %s" $imgLocation $context -}}
+                  {{- warnf "Can't find image for post %s at '_default/single.html'" $context -}}
               {{- else -}}
                   {{- $previewImg = $previewImg.Resize "370x"  -}}
                   <img src="{{ $previewImg.RelPermalink }}" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-1 header">

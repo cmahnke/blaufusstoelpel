@@ -41,6 +41,10 @@ paginate = 6
   [mediaTypes."application/ld+json"]
     suffixes = ["json"]
 
+# See https://www.loc.gov/preservation/digital/formats/fdd/fdd000538.shtml
+  [mediaTypes."image/jxl"]
+    suffixes = ["jxl"]
+
   [outputFormats.iiif]
     mediaType = "application/ld+json"
     isPlainText = true

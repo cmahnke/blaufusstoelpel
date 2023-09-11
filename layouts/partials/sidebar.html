@@ -4,23 +4,8 @@
     {{ range first 3 ( where .Site.RegularPages "Type" "post") }}
     <div class="media mb-4">
       <div class="post-thumb-sm mr-3">
-          {{- $context := path.Dir .File.Path -}}
-          {{- $images := newScratch -}}
-          {{- $entry := . -}}
-
-          {{- range .Params.resources -}}
-              {{- if eq .name "front" -}}
-                  {{- $images.Set "previewLoc" (path.Join $context .src) -}}
-                  {{- $images.Set "preview" (($entry.Resources.ByType "image").GetMatch .name) -}}
-              {{ end }}
-          {{ end }}
-
-          {{- $imgLocation := $images.Get "previewLoc" -}}
-          {{- $previewImg := $images.Get "preview" -}}
-          {{- if eq $previewImg nil -}}
-              {{- warnf "Can't find image %s for post %s" $imgLocation $context -}}
-          {{- end -}}
-          {{- $previewImg = $previewImg.Resize "90x"  -}}
+          {{- $previewImg := partial "preview-image.html" . -}}
+          {{- $previewImg = $previewImg.Resize "90x" -}}
 
         <a href="{{ .Permalink }}"><img class="mr-3 post-thumb-sm" src="{{ $previewImg.RelPermalink }}"></a>
       </div>

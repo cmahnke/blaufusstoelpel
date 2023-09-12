@@ -33,7 +33,7 @@
                   <img src="{{ $previewImg.RelPermalink }}" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-1 header">
               {{- end -}}
               {{- $title := "" -}}
-              {{ if isset .Params "subtitle" -}}
+              {{ if and (isset .Params "subtitle") .Params.subTitle -}}
                 {{- $title = printf "%s: %s" .Title .Params.subTitle -}}
               {{- else -}}
                 {{- $title = .Title -}}

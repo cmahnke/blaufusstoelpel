@@ -60,6 +60,12 @@ find . -name '*.tif.jpg' -print -exec bash -c 'mv "{}"  $(dirname "{}")/$(basena
 
 Use `depth` to exclude original images.
 
+# Converting Images to JXL
+
+```
+vips copy in.tif out.jxl
+```
+
 # Generating Tiles
 
 We start to use [LibVIPS]https://github.com/libvips/libvips(), since it's very fast:

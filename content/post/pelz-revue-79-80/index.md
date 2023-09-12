@@ -1,6 +1,6 @@
 ---
 title: Pelz Revue 79/80
-subTitle:
+subTitle: Grausam flauschig
 date: 2022-12-31T16:51:27+02:00
 iiifManifest: ./manifest.json
 outputs:

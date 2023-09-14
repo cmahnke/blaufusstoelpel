@@ -10,6 +10,7 @@ disablePathToLower = true
 paginate = 6
 #disableKinds = ["taxonomy"]
 #ignoreErrors = ["error-disable-taxonomy"]
+timeout = 60
 
 # navigation
 [menu]

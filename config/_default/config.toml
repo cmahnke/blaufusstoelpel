@@ -9,6 +9,7 @@
     productionIIIFURLPrefix="https://static.projektemacher.org/blaufusstoelpel/"
     errorimg = "images/blaufusstoelpel.svg"
     copyright = "MMXXI - MMXXIII"
+    disableScale = true
 
     [params.preview]
         outputPrefix = "ogPreview-overlay"

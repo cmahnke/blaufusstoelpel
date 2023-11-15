@@ -126,7 +126,7 @@
             {{- $previewImg := partial "preview-image.html" . -}}
             {{- $previewImg = $previewImg.Resize "400x"  -}}
 
-              <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="col-lg-4 col-sm-6 mb-5 masonry-tile">
                 <article class="text-center">
                   <a href="{{.Permalink}}">
                     <img class="img-fluid mb-4" src="{{ $previewImg.RelPermalink }}" alt="post-thumb">

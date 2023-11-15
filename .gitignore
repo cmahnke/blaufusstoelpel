@@ -27,3 +27,4 @@ content/**/ogPreview-overlay/
 static/fonts/**
 assets/css/**
 static/pdfjs/**
+**/vips-properties.xml

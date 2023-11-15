@@ -606,6 +606,12 @@ p,
     font-family: open sans,sans-serif;
 }
 
+/* Needed after migration to MiniMasonary */
+.masonry-container {
+  display: block !important;
+  position: relative;
+}
+
 /*
 h4 .text-dark {
     font-weight: 400;

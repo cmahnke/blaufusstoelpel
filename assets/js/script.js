@@ -12,12 +12,17 @@
     });
   });
 
-  // Masonry
+
   setTimeout(function(){
-    $('.masonry-container').masonry({
-      itemSelector: '.masonry-container > div',
-      columnWidth: 1
+    var iso = new Isotope(document.querySelector('.masonry-container'), {
+      itemSelector: '.masonry-tile',
+      //layoutMode: 'fitColumns',
+      masonry: {
+        columnWidth: 400,
+        horizontalOrder: true
+      }
     });
+
   }, 500);
 
   $('.featured-post-slider').slick({

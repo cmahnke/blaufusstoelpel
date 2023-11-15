@@ -27,7 +27,7 @@
             */}}
               {{- $previewImg := partial "preview-image.html" . -}}
               {{- if eq $previewImg nil -}}
-                  {{- warnf "Can't find image for post %s at '_default/single.html'" $context -}}
+                  {{- warnf "[_default/single.html] Can't find image for post %s" $context -}}
               {{- else -}}
                   {{- $previewImg = $previewImg.Resize "370x"  -}}
                   <img src="{{ $previewImg.RelPermalink }}" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-1 header">

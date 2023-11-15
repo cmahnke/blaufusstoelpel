@@ -1,17 +1,17 @@
 ---
-title: Das Magazin 120 1934
-subTitle: Endlich professionell rauchen!
-date: 2021-06-30T19:01:38+02:00
+title: Das Herrenjournal Juli 1939
+subTitle:
+date: 2023-12-07T19:01:38+02:00
 draft: true
 iiifManifest: ./manifest.json
 outputs:
 - html
 - iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
-year: 1934
-month: 8
+year: 1939
+month: 7
 tags:
-- 1934
+- 1939
 - 30er
 resources:
 - src: "front.jpg"
@@ -77,4 +77,4 @@ Die erste [Filterzigarette](https://de.wikipedia.org/wiki/Zigarette) der Welt wu
 
 <!--more-->
 
-Ein Highlight ist natürlich das Röntgenbild der Raucherhände. Abe darum geht es hier ja eigentlich gar nicht.
+Ein Highlight ist natürlich das Röntgenbild der Raucherhände. Aber darum geht es hier ja eigentlich gar nicht.

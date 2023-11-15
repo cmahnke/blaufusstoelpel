@@ -1,12 +1,15 @@
-{{- $page := . -}}
-{{- $context := path.Dir .File.Path -}}
+{{- $context := . -}}
+{{- $contextPath := path.Dir .File.Path -}}
 {{- $images := newScratch -}}
 {{- $entry := . -}}
 {{- $name := "front" -}}
 
+{{- $previewImg := partial "preview/preview-internal.html" (dict "context" $context) -}}
+
+{{/*
 {{- range .Params.resources -}}
     {{- if eq .name $name -}}
-        {{- $images.Set "previewLoc" (path.Join $context .src) -}}
+        {{- $images.Set "previewLoc" (path.Join $contextPath .src) -}}
         {{- $images.Set "preview" (($entry.Resources.ByType "image").GetMatch .name) -}}
     {{ end }}
 {{ end }}
@@ -15,14 +18,15 @@
 {{- $previewImg := $images.Get "preview" -}}
 
 {{- if eq (string $previewImg.MediaType) "image/jxl" -}}
-  {{/* {{- warnf "[partials/preview-image.html] Page %s contains JXL image in 'iiif/iiif-image.html'" $page.File.Path -}} */}}
   {{- if not $name -}}
-    {{- warnf "[partials/preview-image.html] JXL Reference in %s, but no 'name' set, using default" $page.File.Path -}}
+    {{- warnf "[partials/preview-image.html] JXL Reference in %s, but no 'name' set, using default" $context.File.Path -}}
   {{- end -}}
-  {{- $previewImg = partial "iiif/preview.html" (dict "context" $page "name" $name) -}}
+  {{- $previewImg = partial "iiif/preview.html" (dict "context" $context "name" $name) -}}
 {{- end -}}
 
 {{- if eq $previewImg nil -}}
-    {{- warnf "[partials/preview-image.html] Can't find image %s for post %s" $imgLocation $context -}}
+    {{- warnf "[partials/preview-image.html] Can't find image %s for post %s" $imgLocation $contextPath -}}
 {{- end -}}
+*/}}
+
 {{- return $previewImg -}}

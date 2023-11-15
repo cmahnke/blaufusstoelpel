@@ -23,7 +23,7 @@
               {{- $imgLocation := $images.Get "previewLoc" -}}
               {{- $previewImg := $images.Get "preview" -}}
               {{- if eq $previewImg nil -}}
-                  {{- warnf "Can't find image %s for post %s" $imgLocation $context -}}
+                  {{- warnf "[_default/timeline.html] Can't find image %s for post %s" $imgLocation $context -}}
               {{- else -}}
                   {{- $previewImg = $previewImg.Resize "370x"  -}}
                   <img src="{{ $previewImg.RelPermalink }}" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-1 header">

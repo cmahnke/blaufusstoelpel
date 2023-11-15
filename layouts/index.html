@@ -24,7 +24,7 @@
             {{- $imgLocation := $images.Get "previewLoc" -}}
             {{- $previewImg := $images.Get "preview" -}}
             {{- if eq $previewImg nil -}}
-                {{- warnf "Can't find image %s for post %s" $imgLocation $context -}}
+                {{- warnf "[index.html] Can't find image %s for post %s" $imgLocation $context -}}
             {{- end -}}
             {{- $previewImg = $previewImg.Resize "500x"  -}}
 */}}
@@ -164,7 +164,7 @@
               {{- $imgLocation := $images.Get "previewLoc" -}}
               {{- $previewImg := $images.Get "preview" -}}
               {{- if eq $previewImg nil -}}
-                  {{- warnf "Can't find image %s for post %s" $imgLocation $context -}}
+                  {{- warnf "[index.html] Can't find image %s for post %s" $imgLocation $context -}}
               {{- end -}}
               {{- $previewImg = $previewImg.Resize "400x"  -}}
               <div class="col-12 mb-100">

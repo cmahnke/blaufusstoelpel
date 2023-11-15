@@ -608,8 +608,13 @@ p,
 
 /* Needed after migration to MiniMasonary */
 .masonry-container {
-  display: block !important;
+  /*display: block !important;*/
+  max-width: 1320px;
   position: relative;
+
+  .masonry-tile {
+    width: 400px;
+  }
 }
 
 /*

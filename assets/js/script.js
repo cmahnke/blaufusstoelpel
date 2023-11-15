@@ -14,15 +14,16 @@
 
 
   setTimeout(function(){
-    var iso = new Isotope(document.querySelector('.masonry-container'), {
-      itemSelector: '.masonry-tile',
-      //layoutMode: 'fitColumns',
-      masonry: {
-        columnWidth: 400,
-        horizontalOrder: true
-      }
-    });
-
+    if (document.querySelector('body.home')) {
+      var iso = new Isotope(document.querySelector('.masonry-container'), {
+        itemSelector: '.masonry-tile',
+        //layoutMode: 'fitColumns',
+        masonry: {
+          columnWidth: 400,
+          horizontalOrder: true
+        }
+      });
+    }
   }, 500);
 
   $('.featured-post-slider').slick({

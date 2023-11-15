@@ -8,6 +8,9 @@
     {{- if .Params.metaPage -}}
         {{- $class = printf "%s %s" $class "meta" -}}
     {{ end }}
+    {{- if .IsHome -}}
+        {{- $class = printf "%s %s" $class "home" -}}
+    {{ end }}
     <body class="{{ $class }}">
         {{/*
         {{- partial "preloader.html" . -}}

@@ -19,6 +19,20 @@ for SCRIPT in $PWD/themes/projektemacher-base/scripts/init/*.sh ; do
     fi
 done
 
+SED=sed
+OS="`uname`"
+case "$OS" in
+  'Darwin')
+    SED=gsed
+    ;;
+  'Linux')
+    SED=sed
+    ;;
+esac
+echo "OS is '$OS', sed is '$SED'"
+
+$SED -i -E 's/@import url\("https:\/\/fonts\.googleapis\.com.*//g' themes/parsa/assets/css/style.css
+
 yarn run svgo
 
 sed -E 's/<svg ([^>]*)>/<svg \1 style="background-color:white">/g' static/images/blaufusstoelpel.svg > static/images/blaufusstoelpel-white.svg

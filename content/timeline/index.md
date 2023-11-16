@@ -7,4 +7,4 @@ js:
   - js/timeline.js
 ---
 
-Auf diesem Zeitstrahl werden alle Beiträge angezeigt
+Auf diesem Zeitstrahl werden alle Beiträge mit Datumsangabe angezeigt

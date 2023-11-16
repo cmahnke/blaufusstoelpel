@@ -1,15 +1,14 @@
 ---
-title: Das Magazin 120 1934
-subTitle: Endlich professionell rauchen!
-date: 2021-06-30T19:01:38+02:00
-draft: true
+title: Das Herrenjournal Juli 1934
+subTitle: Für den betuchten Freizeitmatrosen
+date: 2023-12-24T19:01:38+02:00
 iiifManifest: ./manifest.json
 outputs:
 - html
 - iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
 year: 1934
-month: 8
+month: 7
 tags:
 - 1934
 - 30er
@@ -44,8 +43,8 @@ resources:
     label: 33
 ---
 
-Die erste [Filterzigarette](https://de.wikipedia.org/wiki/Zigarette) der Welt wurde 1934 in Dresden hergestellt. Ob das ein Grund war über das geistvolle halten der Rauchware zu informieren wissen wir nicht.
+Das ganze Heft dreht sich um verschiedene maritime Aspekte, von den passenden Schuhen an Deck, über Hafenkneipen
 
 <!--more-->
 
-Ein Highlight ist natürlich das Röntgenbild der Raucherhände. Abe darum geht es hier ja eigentlich gar nicht.
+Die gezeigten Stoffmuster sind heute wieder ab und zu im Straßenbild zu sehen und das nicht nur weil wie sie Dauerbrenner sind.

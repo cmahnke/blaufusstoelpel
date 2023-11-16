@@ -28,5 +28,5 @@ resources:
   params:
     iiif: page004/info.json
 ---
-Verschiedene Knopfkarten aus den 50ern 60ern<!--more-->
+Verschiedene Knopfkarten aus den 50ern und 60ern.<!--more-->
 Das Blog zeigt zwar hautsächlich Mode- und Handarbeitszeitschriften, aber auch Prozessen und Materialen sollen gezeigt werden.

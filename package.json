@@ -7,7 +7,7 @@
   "jquery": "^3.6.1",
   "moment": "^2.29.4",
   "slick-carousel": "^1.8.1",
-  "vis-timeline": "^7.7.0"
+  "vis-timeline": "7.7.0"
  },
  "scripts": {
   "header": "svgo --config Source\\ Files/svgo.config.js -i Source\\ Files/Logo/Header.svg -o static/images/header.svg",

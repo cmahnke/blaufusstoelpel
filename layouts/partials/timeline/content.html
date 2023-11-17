@@ -29,4 +29,34 @@
       </div>
     </div>
   </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      /* This isn't implemented even in modern Browsers
+      if (!URL.canParse(window.location)) {
+        return;
+      }
+      */
+      var url = new URL(window.location);
+      if (url.hash !== "") {
+        var name = url.hash.replace(/^#/,"");
+        var activeTab = document.querySelector('.container.timeline a.nav-link[aria-selected="true"]');
+        if (activeTab !== null) {
+          Array.from(document.querySelectorAll('.container.timeline a.nav-link')).forEach(el => el.setAttribute('aria-selected', 'false'));
+          activeTab.setAttribute('aria-selected', 'true');
+        }
+      } else {
+        var checked = document.querySelector('.container.timeline a.nav-link[aria-selected="true"]');
+        if (checked !== null && checked.hasAttribute('href')) {
+          window.location.href = checked.href
+        }
+      }
+    });
+    document.querySelectorAll('.container.timeline a.nav-link').forEach(tabLabel => {
+      tabLabel.addEventListener('click', (e) => {
+        var tabName = new URL(e.target.href).hash;
+        window.location.href = `${window.location.href.replace(/#.*/, "")}${tabName}`;
+      });
+    });
+
+  </script>
 </section>

@@ -10,6 +10,7 @@
     errorimg = "images/blaufusstoelpel.svg"
     copyright = "MMXXI - MMXXIII"
     disableScale = true
+    description = "Alte Modezeitschriften"
 
     [params.preview]
         outputPrefix = "ogPreview-overlay"

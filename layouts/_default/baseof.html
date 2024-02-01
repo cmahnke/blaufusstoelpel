@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     {{- partial "head.html" . -}}
-    {{- $class := "" -}}
-    {{- if or (hasPrefix .Page.File.Path "about") (hasPrefix .Page.File.Path "/about") -}}
-        {{- $class = "about" -}}
+    {{- $class := "" }}
+    {{- with .Page.File -}}
+      {{- if or (hasPrefix .Path "about") (hasPrefix .Path "/about") -}}
+          {{- $class = "about" -}}
+      {{- end -}}
     {{- end -}}
     {{- if .Params.metaPage -}}
         {{- $class = printf "%s %s" $class "meta" -}}

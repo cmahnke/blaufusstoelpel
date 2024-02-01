@@ -11,6 +11,7 @@
     copyright = "MMXXI - MMXXIII"
     disableScale = true
     description = "Alte Modezeitschriften"
+    debug = false
 
     [params.preview]
         outputPrefix = "ogPreview-overlay"

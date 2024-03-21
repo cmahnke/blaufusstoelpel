@@ -8,7 +8,7 @@
     iiifCanvasWidth = 300
     productionIIIFURLPrefix="https://static.projektemacher.org/blaufusstoelpel/"
     errorimg = "images/blaufusstoelpel.svg"
-    copyright = "MMXXI - MMXXIII"
+    copyright = "MMXXI - MMXXIV"
     disableScale = true
     description = "Alte Modezeitschriften"
     debug = false

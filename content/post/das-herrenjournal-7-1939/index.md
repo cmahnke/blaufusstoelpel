@@ -21,6 +21,7 @@ resources:
   params:
     iiif: page015/info.json
     label: 15
+    hint: non-paged
 - src: "page024.jxl"
   params:
     iiif: page024/info.json
@@ -41,6 +42,7 @@ resources:
   params:
     iiif: page033/info.json
     label: 33
+    hint: non-paged
 ---
 
 Das ganze Heft dreht sich um verschiedene maritime Aspekte, von den passenden Schuhen an Deck, über Hafenkneipen

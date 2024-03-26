@@ -1,0 +1,497 @@
+{"@context":"http://iiif.io/api/presentation/2.1/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Madame April 1963","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/front_hua2cdd5909c2491bf344fc1154ce818aa_43656643_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7531,
+                            "width": 5745
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page012",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"12","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page012_hu02b50ce75c1f410317b4dd25fe6decd0_20158548_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page012",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page012",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page012",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7544,
+                            "width": 5727
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page012"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page014",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"14","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page014_hu9b7b681c94039e72c8938ab3527c5cd1_14650351_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page014",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page014",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page014",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7540,
+                            "width": 5724
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page014"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page020",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"20","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page020_hucf422a3206042bef650bd9a3c0a20720_19641094_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page020",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page020",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page020",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7553,
+                            "width": 5721
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page020"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page033",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"33","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page033_hu70e7000cf3fd8f9b59811d1ecdcc327c_37048091_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page033",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page033",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page033",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7557,
+                            "width": 5681
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page033"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page082",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"82","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page082_huddc8195efffc612d11e85125f398ce67_20962117_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page082",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page082",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page082",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7535,
+                            "width": 5717
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page082"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page112",
+                   "@type":"sc:Canvas","label":"112","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page112_hue419f8e66f6486ea9850f635afe1b5ee_25048142_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page112",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page112",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page112",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7524,
+                            "width": 5657
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page112"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page113",
+                   "@type":"sc:Canvas","label":"113","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page113_huf78265854e530a7fca6517eca8c76cf8_30771980_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page113",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page113",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page113",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7530,
+                            "width": 5710
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page113"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page114",
+                   "@type":"sc:Canvas","label":"114","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page114_hu3e2ef6101ae805b1e7cb0fcc9e2502c9_21535647_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page114",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page114",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page114",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7543,
+                            "width": 5697
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page114"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page115",
+                   "@type":"sc:Canvas","label":"115","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page115_hu756695eb75162a43fef79f7bad768e40_23681224_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page115",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page115",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page115",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7546,
+                            "width": 5707
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page115"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page118",
+                   "@type":"sc:Canvas","label":"118","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page118_hu7400bb8c11d58a201daf788fd74e229e_27984583_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page118",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page118",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page118",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7551,
+                            "width": 5678
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page118"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page119",
+                   "@type":"sc:Canvas","label":"119","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page119_hu9d1eff240cdf9c1e65fe65f9f9cc5662_28069865_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page119",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page119",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page119",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7550,
+                            "width": 5713
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page119"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page120",
+                   "@type":"sc:Canvas","label":"120","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page120_hu0fafdaef1ede3e98499b8708ae07e110_29337203_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page120",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page120",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page120",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7548,
+                            "width": 5683
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page120"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page121",
+                   "@type":"sc:Canvas","label":"120","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page121_hu6a3f78f2a74f3ed6fab9f9014a2ae104_29268586_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page121",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page121",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page121",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7547,
+                            "width": 5695
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page121"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page124",
+                   "@type":"sc:Canvas","label":"124","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page124_hu636c1bd52daa73fadd2d086b2d4fa325_33431744_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page124",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page124",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page124",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7532,
+                            "width": 5652
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page124"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page125",
+                   "@type":"sc:Canvas","label":"125","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/page125_hu177282c3576ea436be6761736646ed3c_34375546_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/annotation/page125",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page125",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/page125",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7523,
+                            "width": 5660
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/canvas/page125"
+                    }]
+               }]
+     }
+  ]}

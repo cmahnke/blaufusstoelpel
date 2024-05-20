@@ -103,3 +103,6 @@ defaultMarkdownHandler = 'goldmark'
   [[module.mounts]]
     source = "static"
     target = "static"
+
+[build]
+  writeStats = true

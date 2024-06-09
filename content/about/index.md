@@ -39,6 +39,10 @@ Für die Darstellung der Digitalisate von Einzelbildern wird [OpenLayers](https:
 
 Die Seite wird von [GitHub](https://github.com/), die IIIF Tiles von [Host Europe](https://www.hosteurope.de/) gehosted.
 
+# Datenschutzerklärung
+
+Die Datenschutzerklärung ist [hier](/privacy) verfügbar.
+
 # Kontakt
 
 "Blaufußtölpel" ist ein [Projekt](https://projektemacher.org) von **[Christian Mahnke](https://christianmahnke.de/)**.

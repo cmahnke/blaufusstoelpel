@@ -11,9 +11,6 @@
       </div>
       <div class="media-body">
         <ul class="list-inline d-flex justify-content-between mb-2">
-          {{/*
-              <li class="list-inline-item">{{ i18n "postedBy" }} {{.Site.Params.author}}</li>
-          */}}
           <li class="list-inline-item">{{ i18n "postedOn" }} {{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}</li>
         </ul>
         <h6><a class="text-dark" href="{{ .Permalink }}">{{.Title}}</a></h6>

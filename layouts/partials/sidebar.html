@@ -12,7 +12,8 @@
       <div class="media-body">
         <ul class="list-inline d-flex justify-content-between mb-2">
           {{/*
-          <li class="list-inline-item">{{ i18n "postedOn" }} {{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}</li>
+          <li class="list-inline-item">{{ i18n "postedOn" }} {{- .Date | time.Format ":date_full" -}}
+            {{/* {{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}} */}}</li>
           */}}
           <li class="list-inline-item">{{ i18n "postedOn" }} {{ .Date | time.Format ":date_full" -}}</li>
         </ul>

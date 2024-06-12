@@ -8,7 +8,10 @@
         {{- if not .Params.metaPage -}}
             <ul class="list-inline d-flex justify-content-between py-3">
               <li class="list-inline-item"><i class="ti-calendar mr-2"></i>
-                {{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}
+                {{- .Date | time.Format ":date_full" -}}
+                {{/*
+                  {{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}
+                */}}
               </li>
             </ul>
         {{- else -}}

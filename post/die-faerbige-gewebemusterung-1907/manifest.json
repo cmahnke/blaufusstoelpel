@@ -1,0 +1,437 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Die färbige Gewebemusterung","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/front",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/front_hu4740a386bd4ee75da39fc0a33a257d85_11725450_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5337,
+                            "width": 3760
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/title",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/title_hu8f05c66a1a35168920c1357cc4337908_5808042_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/annotation/title",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/title",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/title",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5252,
+                            "width": 3575
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/title"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page001",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"I","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/page001_huc8df7bb1cd1acfe853839c8e207913b9_7360384_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/annotation/page001",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page001",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page001",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5252,
+                            "width": 3570
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page001"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page002",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"II","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/page002_hua7625e5c597d00ef241e789982116772_8072519_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/annotation/page002",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page002",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page002",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5251,
+                            "width": 3407
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page002"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page003",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"III","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/page003_hufdfd5b6dc6ebd0642d2ce1843c123380_7533571_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/annotation/page003",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page003",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page003",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5214,
+                            "width": 3539
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page003"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page020",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"XX","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/page020_hu4a237c3f1dd6579f068647c2b3672eaa_7788958_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/annotation/page020",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page020",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page020",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5232,
+                            "width": 3454
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page020"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page050",
+                   "@type":"sc:Canvas","label":"L","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/page050_hu492923bb7806a29364f51434139c60b3_7869117_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/annotation/page050",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page050",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page050",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5239,
+                            "width": 3459
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page050"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page059",
+                   "@type":"sc:Canvas","label":"LIX","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/page059_hu5fe761bb8fd9b44229608a7da84f68ff_7546505_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/annotation/page059",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page059",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page059",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5244,
+                            "width": 3504
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page059"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page062",
+                   "@type":"sc:Canvas","label":"LXII","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/page062_huc86858121559be7ac8622be0c4afb997_7903097_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/annotation/page062",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page062",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page062",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5256,
+                            "width": 3466
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page062"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page068",
+                   "@type":"sc:Canvas","label":"LXVIII","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/page068_hu1db1d73a9594a0941fb61f5843b9702d_7740846_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/annotation/page068",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page068",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page068",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5238,
+                            "width": 3475
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page068"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page069",
+                   "@type":"sc:Canvas","label":"LXIX","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/page069_hu33c864659d27843647b814ea661424a2_7761962_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/annotation/page069",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page069",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page069",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5262,
+                            "width": 3565
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page069"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page072",
+                   "@type":"sc:Canvas","label":"LXXII","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/page072_hu962b9c45f917e54ce563f2e73bab9d6e_7726923_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/annotation/page072",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page072",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page072",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5227,
+                            "width": 3461
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page072"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page074",
+                   "@type":"sc:Canvas","label":"LXXIV","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/page074_hu9c8276e8366d171ad6a0dc3ad0e5597c_9855254_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/annotation/page074",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page074",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page074",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5250,
+                            "width": 3481
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page074"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page076",
+                   "@type":"sc:Canvas","label":"LXXVI","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/page076_huc7f7ea238241b234bcc223532ae93312_9580475_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/annotation/page076",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page076",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/page076",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5226,
+                            "width": 3462
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/canvas/page076"
+                    }]
+               }]
+     }
+  ]}

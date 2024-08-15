@@ -1,5 +1,5 @@
 ---
-title: Neu Mode April 1966
+title: Neue Mode April 1966
 subTitle: Geometrische Mode der 60er und mehr
 date: 2024-08-28T16:51:27+02:00
 iiifManifest: ./manifest.json
@@ -12,7 +12,6 @@ month: 4
 tags:
 - 1966
 - 60er
-draft: true
 resources:
 - src: "front.jxl"
   name: front
@@ -55,4 +54,4 @@ resources:
 ---
 Nicht nur ikonische 60er Jahre Mode wird geboten, sondern auch eher bodenständiges, "Mode für Vollschlanke" und etwas, das aussieht wie ein Schlafanzug.
 <!--more-->
-Mehr Ausgaben der Zeitschrift "Neue Mode" bietet die Seite von [Detlef Heinson](https://www.detlef-heinsohn.de/zeitschrift-neue-mode.htm), auch zum Kauf.
+Das Bech enthält Beispiel, wie die hier abgebildeten, die Schnittmuster und eine Anleitung wie man die doch recht kleinen Schnittmuster auf die benötigte Größe vergrößert.

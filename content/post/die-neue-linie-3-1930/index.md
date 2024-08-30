@@ -61,4 +61,4 @@ resources:
 
 Lifestyle-Magazine sind keine neue Erfindung: ["die neue linie"](https://de.wikipedia.org/wiki/Die_neue_linie) ist dafür ein herausragendes Beispiel.
 <!--more-->
-Nicht nur die Typographie und Gestaltung der Titelseite, oder auch nur die konsequente Kleinschreibung des Titels verraten, dass diese Zeitschrift aus dem Bauhaus Umfeld stand, so hat z.B. auch Walter Gropius für as Blatt geschrieben.
+Nicht nur die Typographie und Gestaltung der Titelseite, oder auch nur die konsequente Kleinschreibung des Titels verraten, dass diese Zeitschrift aus dem Bauhaus Umfeld stand, so hat z.B. auch Walter Gropius für das Blatt geschrieben.

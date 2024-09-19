@@ -1,5 +1,6 @@
 ---
 title: Pour Madame Hiver 1967
+subTitle: Nicht nur dunkelgrün.
 dragt: true
 date: 2024-02-21T17:21:11+02:00
 iiifManifest: ./manifest.json
@@ -45,8 +46,8 @@ resources:
     label: 21R
     hint: non-paged
 ---
-Im Dezember 1943 war wohl nicht nur der zu erwartende Winter ein Problem...
+Dies ist ein Katalog für Schnittmuster...
 <!--more-->
-Diese Ausgabe zeigt nicht nur was man den nun anziehen kann um im Trend zu liegen, sondern auch was die "bolschewistische Horden" so anrichten oder wie schön die Kinderlandverschickung ist.
+... der trotz des französisch klingenden Titels aus Nürnberg stammt. 
 
 <div class="source">Gekauft bei <a href="https://www.moebelino.de/">Möbelino</a>.</div>

@@ -15,7 +15,7 @@ tags:
 - 1890er
 resources:
 - src: "page087.jxl"
-  name: page087
+  name: preview
   params:
     iiif: page087/info.json
     hint: non-paged

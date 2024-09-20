@@ -15,12 +15,11 @@ tags:
 - 1890er
 resources:
 - src: "page339.jxl"
-  name: page339
+  name: preview
   params:
     iiif: page339/info.json
     hint: non-paged
 - src: "page340.jxl"
-  name: page340
   params:
     iiif: page340/info.json
     hint: non-paged

@@ -7,11 +7,11 @@ outputs:
 - html
 - iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
-itemDescription: 'Ich kann schneidern: illustriertes Hausbuch der praktischen Schneiderei von Antonie Steimann, Ullstein, Berlin 1908. <a class="worldcat" href="http://www.worldcat.org/oclc/312332207">&nbsp;</a>'
-year: 1895
-month: 3
+itemDescription: 'Illustrirte Frauen-Zeitung - Ausgabe der Modenwelt mit Unterhaltungsblatt, Franz Lipperheide, Berlin'
+year: 1897
+month: 12
 tags:
-- 1895
+- 1897
 - 1890er
 resources:
 - src: "page339.jxl"

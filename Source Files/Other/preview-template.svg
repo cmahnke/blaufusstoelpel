@@ -22,10 +22,10 @@
             @font-face {
                 font-family: 'Montserrat';
                 font-style: normal;
-                font-weight: 400;
+                font-weight: 300;
                 src: local('Montserrat'),
-                     url("../../themes/projektemacher-base/static/fonts/montserrat-v15-latin-regular.woff") format('woff'),
-                     url("../../themes/projektemacher-base/static/fonts/montserrat-v15-latin-regular.ttf") format('truetype');
+                     url("../../themes/projektemacher-base/static/fonts/montserrat-v15-latin-300.woff") format('woff'),
+                     url("../../themes/projektemacher-base/static/fonts/montserrat-v15-latin-300.ttf") format('truetype');
             }
 
         </style>
@@ -39,5 +39,5 @@
     <image id="site-header" xlink:href="../Logo/Header.svg" preserveAspectRatio="xMidYMid meet" width="863.094" height="166.969" x="211.234" y="67.109"/>
     <image id="logo" xlink:href="../../themes/projektemacher-base/static/images/cm.svg" preserveAspectRatio="xMidYMid meet" width="97.24" height="100" x="1100" y="530"/>
     <image id="preview-image" xlink:href="../../content/post/kurische-nehrung/front.jpg" y="290" x="100" style="image-rendering:optimizeQuality" preserveAspectRatio="xMidYMin slice" height="400" width="500"/>
-    <text id="text-container" xml:space="preserve" style="filter:url(#filter4459);shape-inside:url(#textbox);font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:'Montserrat';text-align:center;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;text-align:center;" >Blaufußtölpel</text>
+    <text id="text-container" xml:space="preserve" style="filter:url(#filter4459);shape-inside:url(#textbox);font-style:normal;font-weight:300;font-size:80px;line-height:1.25;font-family:'Montserrat';text-align:center;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;text-align:center;" >Blaufußtölpel</text>
 </svg>

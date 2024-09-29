@@ -18,10 +18,11 @@
         outputSuffix = ".png"
         format =  "svg"
         image = "front.jpg"
-        source = "file"
+        source = "post"
         [params.preview.size]
             height = 630
             width = 1200
         [params.preview.svg]
             template = "./Source Files/Other/preview-template.svg"
+            scale = "width"
             removeMissing = true

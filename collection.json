@@ -1,0 +1,907 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-3-1895/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-3-1895/page087/full/full/0/default_hu13175245943588907257.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 214,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-3-1895/page087/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6603,
+        "width": 9253,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/illustrirte-frauen-zeitung-3-1895/page087",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Illustrirte Frauen-Zeitung"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/front/full/full/0/default_hu493651977747160116.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 419,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 4888,
+        "width": 3503,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Das Weltmass - Zuschneide-Lehrwerk"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/neue-mode-4-1966/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/neue-mode-4-1966/front/full/full/0/default_hu3803776236897482148.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 393,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/neue-mode-4-1966/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7646,
+        "width": 5843,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-mode-4-1966/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Neue Mode April 1966"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/front/full/full/0/default_hu4534233529751382936.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 416,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8537,
+        "width": 6156,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "die neue linie März 1930"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/front/full/full/0/default_hu8301492691385869957.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 409,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7528,
+        "width": 5520,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Neue Frauenkleidung und Frauenkultur Nr. 9 1928"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/front/full/full/0/default_hu14451806813186389526.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 429,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7543,
+        "width": 5279,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pour Madame Hiver 1967"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-1-90/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-1-90/front/full/full/0/default_hu4029116306399802284.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 386,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-1-90/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7096,
+        "width": 5509,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-1-90/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pramo Nr. 1 1990"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/front/full/full/0/default_hu12445927386104019316.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 391,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7693,
+        "width": 5909,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Das Herrenjournal Juli 1934"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/wurstgarn/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/wurstgarn/front/full/full/0/default_hu13882865658958286381.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 649,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/wurstgarn/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8483,
+        "width": 3923,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/wurstgarn/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Wurstgarn"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/buttons/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/buttons/front/full/full/0/default_hu11800876167244903411.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 458,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/buttons/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 4490,
+        "width": 2942,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/buttons/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Knopfkarten"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/knittax/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/knittax/front/full/full/0/default_hu5812545716273734767.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 208,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/knittax/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3463,
+        "width": 5003,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/knittax/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Knittax"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/front/full/full/0/default_hu1853295789992294876.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 419,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6876,
+        "width": 4923,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pelz Revue 79/80"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-12-1897/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-12-1897/page339/full/full/0/default_hu2934594180982111581.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 218,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-12-1897/page339/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6679,
+        "width": 9174,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/illustrirte-frauen-zeitung-12-1897/page339",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Illustrirte Frauen-Zeitung"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/front_hu14967628416099139331.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 407,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7174,
+        "width": 5291,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Moden Zeitung fürs Deutsche Haus Nr. 9 1900"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/front_hu3581010039241259098.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 414,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8465,
+        "width": 6130,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Film und Frau 24 1959"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/front_hu9091437472672989373.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 399,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7634,
+        "width": 5733,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Praline 19 1961"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/er-juni-1968/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/er-juni-1968/front_hu2345343348993204985.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 396,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/er-juni-1968/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6580,
+        "width": 4991,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/er-juni-1968/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Er Juni 1968"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/cover_hu14528848439714870547.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 378,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/cover.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5835,
+        "width": 4635,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/cover",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Mode in Paris"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/front_hu10784455511855887462.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 426,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5337,
+        "width": 3760,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Die färbige Gewebemusterung"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mannequin-1-1964/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/mannequin-1-1964/front_hu11945957544885764764.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 389,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mannequin-1-1964/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8039,
+        "width": 6197,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/mannequin-1-1964/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Mannequin 1 1964"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/front_hu6277635377251111376.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 430,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5464,
+        "width": 3811,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Ich kann schneidern"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/qui/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/qui/front_hu15976937528898378740.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 373,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/qui/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5888,
+        "width": 4739,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/qui/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Qui!"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/bayer-strickmoden-11-1961/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/bayer-strickmoden-11-1961/front_hu15606621905575913121.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 403,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/bayer-strickmoden-11-1961/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7521,
+        "width": 5592,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/bayer-strickmoden-11-1961/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Beyer Strickmoden 11 1961"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/front_hu17218661580581781157.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 431,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7076,
+        "width": 4930,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Phildar Mailles Nr. 48 1976"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/cover_hu4103645370449816788.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 382,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/cover.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6250,
+        "width": 4912,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/cover",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Textil-Lexikon"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/front_hu15830626745531411367.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 405,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7587,
+        "width": 5624,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Sternwolle Modell-Auslese 1954"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/front_hu10811070238389078970.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 458,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 10165,
+        "width": 6655,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Die Welt am Sonntag Nr. 42 1935"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-7-74/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-7-74/front_hu4726878814794388681.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 406,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-7-74/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7485,
+        "width": 5529,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-7-74/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pramo Nr. 7 1974"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/elsa-3-1952/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/elsa-3-1952/front_hu108528172305804673.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 414,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/elsa-3-1952/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7116,
+        "width": 5159,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/elsa-3-1952/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Elsa Heft 3 1952"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/front_hu748500242450165514.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 390,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7063,
+        "width": 5439,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Saison Nr. 4 1987"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/front_hu2787196275603394953.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 408,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7426,
+        "width": 5464,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Praktische Mode Heft 6 1943"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-7-1900/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-7-1900/front_hu18057827459208563588.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 405,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-7-1900/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7193,
+        "width": 5322,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-7-1900/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Moden Zeitung fürs Deutsche Haus Nr. 7 1900"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/front_hu2153428141774083823.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 393,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8134,
+        "width": 6216,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Mode und Heim Nr. 12 1939"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/front_hu3397188552263307321.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 425,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7022,
+        "width": 4958,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Beyer's Handarbeit und Wäsche 9 1951"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/front_hu7975882669488112319.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 420,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7077,
+        "width": 5053,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Gartenlaube Nr. 12 1924"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/front_hu7517389292516610360.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 393,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7531,
+        "width": 5745,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Madame April 1963"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/front_hu14434362314071282128.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 389,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7531,
+        "width": 5811,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Beyers Monatsblatt für Handarbeit und Wäsche 12 1929"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/front_hu4140660413300555739.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 411,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7499,
+        "width": 5477,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pramo Nr. 11 1973"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/du-11-71/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/du-11-71/front_hu9033913413448411120.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 358,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/du-11-71/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7152,
+        "width": 5986,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "du November 1971"
+          ]}
+      }]
+}

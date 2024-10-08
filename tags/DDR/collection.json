@@ -1,0 +1,102 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-1-90/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-1-90/front/full/full/0/default_hu4029116306399802284.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 386,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-1-90/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7096,
+        "width": 5509,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-1-90/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pramo Nr. 1 1990"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-7-74/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-7-74/front_hu4726878814794388681.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 406,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-7-74/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7485,
+        "width": 5529,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-7-74/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pramo Nr. 7 1974"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/front_hu748500242450165514.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 390,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7063,
+        "width": 5439,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Saison Nr. 4 1987"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/front_hu4140660413300555739.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 411,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7499,
+        "width": 5477,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pramo Nr. 11 1973"
+          ]}
+      }]
+}

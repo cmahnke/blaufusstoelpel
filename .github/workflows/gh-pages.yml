@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  HUGO_VERSION: 0.135.0
+  HUGO_VERSION: 0.136.0
 
 jobs:
   deploy:
@@ -95,6 +95,10 @@ jobs:
         run: |
           ./scripts/setup.sh
 
+#      - name: IIIF Cleanup
+#        run: |
+#          find content/post/ -name info.json -exec dirname {} \; | xargs -I {} find {} -mindepth 1 -type d -not -path '*/full*' | xargs rm -rf
+#
 #      - name: Upload IIIF directories
 #        run: |
 #          cd ftp

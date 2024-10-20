@@ -12,6 +12,7 @@ paginate = 6
 #ignoreErrors = ["error-disable-taxonomy"]
 timeout = 60
 enableGitInfo = true
+enableRobotsTXT = true
 
 # navigation
 [menu]

@@ -1,0 +1,33 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/front_hu3397188552263307321.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 425,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7022,
+        "width": 4958,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Beyer's Handarbeit und Wäsche 9 1951"
+          ]}
+      }]
+}

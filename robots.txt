@@ -1,0 +1,4 @@
+User-agent: *
+
+
+Sitemap: https://xn--blaufusstlpel-qmb.de/sitemap.xml

@@ -1,0 +1,33 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/front/full/full/0/default_hu1853295789992294876.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 419,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6876,
+        "width": 4923,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pelz Revue 79/80"
+          ]}
+      }]
+}

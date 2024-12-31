@@ -1,0 +1,263 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-6-64/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-6-64/front/full/full/0/default_hu16946839810260452453.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 408,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-6-64/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7495,
+        "width": 5515,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-6-64/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pramo Nr. 6 1964"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/neue-mode-4-1966/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/neue-mode-4-1966/front/full/full/0/default_hu3803776236897482148.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 393,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/neue-mode-4-1966/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7646,
+        "width": 5843,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-mode-4-1966/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Neue Mode April 1966"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/front/full/full/0/default_hu14451806813186389526.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 429,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7543,
+        "width": 5279,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pour Madame Hiver 1967"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/wurstgarn/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/wurstgarn/front/full/full/0/default_hu13882865658958286381.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 649,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/wurstgarn/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8483,
+        "width": 3923,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/wurstgarn/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Wurstgarn"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/buttons/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/buttons/front/full/full/0/default_hu11800876167244903411.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 458,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/buttons/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 4490,
+        "width": 2942,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/buttons/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Knopfkarten"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/front_hu9091437472672989373.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 399,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7634,
+        "width": 5733,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Praline 19 1961"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/er-juni-1968/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/er-juni-1968/front_hu2345343348993204985.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 396,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/er-juni-1968/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6580,
+        "width": 4991,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/er-juni-1968/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Er Juni 1968"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mannequin-1-1964/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/mannequin-1-1964/front_hu11945957544885764764.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 389,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mannequin-1-1964/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8039,
+        "width": 6197,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/mannequin-1-1964/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Mannequin 1 1964"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/qui/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/qui/front_hu15976937528898378740.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 373,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/qui/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5888,
+        "width": 4739,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/qui/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Qui!"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/bayer-strickmoden-11-1961/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/bayer-strickmoden-11-1961/front_hu15606621905575913121.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 403,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/bayer-strickmoden-11-1961/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7521,
+        "width": 5592,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/bayer-strickmoden-11-1961/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Beyer Strickmoden 11 1961"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/front_hu7517389292516610360.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 393,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/madame-4-1963/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7531,
+        "width": 5745,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/madame-4-1963/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Madame April 1963"
+          ]}
+      }]
+}

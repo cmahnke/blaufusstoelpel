@@ -1,0 +1,56 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/front/full/full/0/default_hu_f85681797777676e.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 409,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7528,
+        "width": 5520,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Neue Frauenkleidung und Frauenkultur Nr. 9 1928"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/cover_hu_4f3317d4ad56512b.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 382,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/cover.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6250,
+        "width": 4912,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/cover",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Textil-Lexikon"
+          ]}
+      }]
+}

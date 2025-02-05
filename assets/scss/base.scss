@@ -623,7 +623,8 @@ p,
   position: relative;
 
   .masonry-tile {
-    width: 400px;
+    /* width: 400px; */
+    width: 33%;
   }
 }
 

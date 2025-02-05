@@ -19,8 +19,9 @@
         itemSelector: '.masonry-tile',
         //layoutMode: 'fitColumns',
         masonry: {
-          columnWidth: 400,
-          horizontalOrder: true
+          columnWidth: '.masonry-tile',
+          horizontalOrder: true,
+          percentPosition: true
         }
       });
     }

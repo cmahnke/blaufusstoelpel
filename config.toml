@@ -7,12 +7,15 @@ defaultcontentlanguage = "de"
 publishDir = "docs"
 canonifyurls = true
 disablePathToLower = true
-paginate = 6
+#paginate = 6
 #disableKinds = ["taxonomy"]
 #ignoreErrors = ["error-disable-taxonomy"]
 timeout = 60
 enableGitInfo = true
 enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 6
 
 # navigation
 [menu]

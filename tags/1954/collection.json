@@ -1,0 +1,33 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/front_hu_a28520a72ed94128.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 405,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7587,
+        "width": 5624,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Sternwolle Modell-Auslese 1954"
+          ]}
+      }]
+}

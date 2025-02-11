@@ -1,0 +1,79 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/front_hu_2bbd05c39bdd4e42.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 426,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5337,
+        "width": 3760,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Die färbige Gewebemusterung"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/qui/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/qui/front_hu_3dc1e9458e3de6a4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 373,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/qui/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5888,
+        "width": 4739,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/qui/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Qui!"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/cover_hu_4f3317d4ad56512b.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 382,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/cover.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6250,
+        "width": 4912,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/cover",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Textil-Lexikon"
+          ]}
+      }]
+}

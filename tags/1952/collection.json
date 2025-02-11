@@ -1,0 +1,33 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/elsa-3-1952/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/elsa-3-1952/front_hu_ed3b0396bc727b4c.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 414,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/elsa-3-1952/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7116,
+        "width": 5159,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/elsa-3-1952/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Elsa Heft 3 1952"
+          ]}
+      }]
+}

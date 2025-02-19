@@ -48,3 +48,8 @@ Die Datenschutzerklärung ist [hier](/privacy) verfügbar.
 "Blaufußtölpel" ist ein [Projekt](https://projektemacher.org) von **[Christian Mahnke](https://christianmahnke.de/)**.
 
 Kontakt ist via [E-Mail](mailto:blaufusstoelpel@projektemacher.org) möglich.
+
+
+# Sonstiges
+**F:** Und warum "Blaufußtölpel"?<br>
+**A:** Wegen des adretten Schuhwerks.

@@ -657,4 +657,12 @@ p.small {
 
 .meta .tagcloud {
     margin-bottom: 1.8em;
+
+    .btn {
+        border: unset;
+    }
+
+    .badge {
+        color: unset;
+    }
 }

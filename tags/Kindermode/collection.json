@@ -1,0 +1,102 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/front_hu_44fecef8f93af82a.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 430,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5464,
+        "width": 3811,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Ich kann schneidern"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/elsa-3-1952/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/elsa-3-1952/front_hu_ed3b0396bc727b4c.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 414,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/elsa-3-1952/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7116,
+        "width": 5159,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/elsa-3-1952/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Elsa Heft 3 1952"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/front_hu_18b0938e736ea38f.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 393,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8134,
+        "width": 6216,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Mode und Heim Nr. 12 1939"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/front_hu_fe7b68041b61bc62.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 425,
+    "width": 300
+  },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7022,
+        "width": 4958,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Beyer's Handarbeit und Wäsche 9 1951"
+          ]}
+      }]
+}

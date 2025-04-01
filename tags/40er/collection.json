@@ -1,0 +1,33 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/front_hu_33ffe3bc148ff0af.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 408,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7426,
+        "width": 5464,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Praktische Mode Heft 6 1943"
+          ]}
+      }]
+}

@@ -1,0 +1,240 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/front/full/full/0/default_hu_b8c008c38a994e39.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 416,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8537,
+        "width": 6156,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "die neue linie März 1930"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/front/full/full/0/default_hu_b8c008c38a994e39.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 416,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8537,
+        "width": 6156,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "die neue linie März 1930"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/front/full/full/0/default_hu_6a7ba5c88f11e3a6.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 391,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7693,
+        "width": 5909,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Das Herrenjournal Juli 1934"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/front/full/full/0/default_hu_6a7ba5c88f11e3a6.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 391,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7693,
+        "width": 5909,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Das Herrenjournal Juli 1934"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/cover_hu_92194926b4a001f4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 378,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/cover/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5835,
+        "width": 4635,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/cover",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Mode in Paris"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/cover_hu_92194926b4a001f4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 378,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/cover/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5835,
+        "width": 4635,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/cover",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Mode in Paris"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/front_hu_850fc9272f00ede2.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 458,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 10165,
+        "width": 6655,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Die Welt am Sonntag Nr. 42 1935"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/front_hu_850fc9272f00ede2.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 458,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 10165,
+        "width": 6655,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Die Welt am Sonntag Nr. 42 1935"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/front_hu_18b0938e736ea38f.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 393,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8134,
+        "width": 6216,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Mode und Heim Nr. 12 1939"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/front_hu_18b0938e736ea38f.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 393,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8134,
+        "width": 6216,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Mode und Heim Nr. 12 1939"
+          ]}
+      }]
+}

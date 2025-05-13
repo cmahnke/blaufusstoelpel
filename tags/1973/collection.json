@@ -1,0 +1,56 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/front_hu_792dc256bae4e73.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 411,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7499,
+        "width": 5477,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pramo Nr. 11 1973"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/front_hu_792dc256bae4e73.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 411,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7499,
+        "width": 5477,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pramo Nr. 11 1973"
+          ]}
+      }]
+}

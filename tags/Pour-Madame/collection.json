@@ -1,0 +1,56 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/front/full/full/0/default_hu_8de4c7ef5b047236.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 429,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7543,
+        "width": 5279,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pour Madame Hiver 1967"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/front/full/full/0/default_hu_8de4c7ef5b047236.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 429,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7543,
+        "width": 5279,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Pour Madame Hiver 1967"
+          ]}
+      }]
+}

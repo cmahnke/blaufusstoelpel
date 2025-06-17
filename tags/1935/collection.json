@@ -1,0 +1,33 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/front_hu_850fc9272f00ede2.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 458,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 10165,
+        "width": 6655,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Die Welt am Sonntag Nr. 42 1935"
+          ]}
+      }]
+}

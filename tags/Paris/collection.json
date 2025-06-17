@@ -1,0 +1,56 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Blaufußtölpel"
+      ]},
+  "items": [{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/cover_hu_92194926b4a001f4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 378,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/cover/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5835,
+        "width": 4635,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/cover",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Mode in Paris"
+          ]}
+      },{
+        "id": "https://xn--blaufusstlpel-qmb.de/post/mannequin-1-1964/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/mannequin-1-1964/front_hu_aa00423836e0f9ee.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 389,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/mannequin-1-1964/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8039,
+        "width": 6197,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/mannequin-1-1964/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Mannequin 1 1964"
+          ]}
+      }]
+}

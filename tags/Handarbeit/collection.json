@@ -1,0 +1,79 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Blaufußtölpel"
+        ]},
+    "items": [{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/front_hu_44fecef8f93af82a.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 430,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5464,
+        "width": 3811,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Ich kann schneidern"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/bayer-strickmoden-11-1961/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/bayer-strickmoden-11-1961/front_hu_f27c56e006cdea34.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 403,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/bayer-strickmoden-11-1961/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7521,
+        "width": 5592,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/bayer-strickmoden-11-1961/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Beyer Strickmoden 11 1961"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/front_hu_abc9e31df6ec9bc4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 420,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7077,
+        "width": 5053,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Gartenlaube Nr. 12 1924"
+            ]}
+        }]
+  }

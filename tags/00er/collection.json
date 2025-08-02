@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Blaufußtölpel"
+        ]},
+    "items": [{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/front_hu_fdae02f285d0811c.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 407,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7174,
+        "width": 5291,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Moden Zeitung fürs Deutsche Haus Nr. 9 1900"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/die-faerbige-gewebemusterung-1907/front_hu_2bbd05c39bdd4e42.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 426,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5337,
+        "width": 3760,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/die-faerbige-gewebemusterung-1907/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Die färbige Gewebemusterung"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/front_hu_44fecef8f93af82a.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 430,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5464,
+        "width": 3811,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Ich kann schneidern"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-7-1900/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-7-1900/front_hu_4a2c3e7782e228fb.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 405,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-7-1900/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7193,
+        "width": 5322,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-7-1900/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Moden Zeitung fürs Deutsche Haus Nr. 7 1900"
+            ]}
+        }]
+  }

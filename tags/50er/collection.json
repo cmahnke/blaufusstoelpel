@@ -1,0 +1,171 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Blaufußtölpel"
+        ]},
+    "items": [{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/front/full/full/0/default_hu_37e744768b3f0285.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 419,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 4888,
+        "width": 3503,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Das Weltmass - Zuschneide-Lehrwerk"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/wurstgarn/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/wurstgarn/front/full/full/0/default_hu_6819b4a3fbf1ab1a.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 649,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/wurstgarn/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8483,
+        "width": 3923,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/wurstgarn/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Wurstgarn"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/buttons/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/buttons/front/full/full/0/default_hu_770b91bfcdead540.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 458,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/buttons/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 4490,
+        "width": 2942,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/buttons/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Knopfkarten"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/front_hu_a703f2c56095eba3.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 414,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8465,
+        "width": 6130,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Film und Frau 24 1959"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/front_hu_a28520a72ed94128.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 405,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7587,
+        "width": 5624,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Sternwolle Modell-Auslese 1954"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/elsa-3-1952/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/elsa-3-1952/front_hu_ed3b0396bc727b4c.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 414,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/elsa-3-1952/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7116,
+        "width": 5159,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/elsa-3-1952/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Elsa Heft 3 1952"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/front_hu_fe7b68041b61bc62.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 425,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7022,
+        "width": 4958,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Beyer's Handarbeit und Wäsche 9 1951"
+            ]}
+        }]
+  }

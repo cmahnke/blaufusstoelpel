@@ -1,28 +1,31 @@
 [params]
-    layout = "1"
-    logo = "images/blaufusstoelpel.svg"
-    header = "images/header.svg"
+  layout = "1"
+  logo = "images/blaufusstoelpel.svg"
+  header = "images/header.svg"
 # font https://fonts.google.com/specimen/Prata body
 # https://fonts.google.com/specimen/Montserrat head
-    iiifCanvasHeight = 400
-    iiifCanvasWidth = 300
-    productionIIIFURLPrefix="https://static.projektemacher.org/blaufusstoelpel/"
-    errorimg = "images/blaufusstoelpel.svg"
-    copyright = "MMXXI - MMXXV"
-    disableScale = true
-    description = "Alte Modezeitschriften"
-    debug = false
+  iiifCanvasHeight = 400
+  iiifCanvasWidth = 300
+  productionIIIFURLPrefix="https://static.projektemacher.org/blaufusstoelpel/"
+  errorimg = "images/blaufusstoelpel.svg"
+  copyright = "MMXXI - MMXXV"
+  disableScale = true
+  description = "Alte Modezeitschriften"
+  wikidata = true
+  debug = false
 
-    [params.preview]
-        outputPrefix = "ogPreview-overlay"
-        outputSuffix = ".png"
-        format =  "svg"
-        image = "front.jpg"
-        source = "post"
-        [params.preview.size]
-            height = 630
-            width = 1200
-        [params.preview.svg]
-            template = "./Source Files/Other/preview-template.svg"
-            scale = "width"
-            removeMissing = true
+  [params.preview]
+    outputPrefix = "ogPreview-overlay"
+    outputSuffix = ".png"
+    format =  "svg"
+    image = "front.jpg"
+    source = "post"
+
+    [params.preview.size]
+      height = 630
+      width = 1200
+
+    [params.preview.svg]
+      template = "./Source Files/Other/preview-template.svg"
+      scale = "width"
+      removeMissing = true

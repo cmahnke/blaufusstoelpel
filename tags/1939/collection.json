@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Blaufußtölpel"
+        ]},
+    "items": [{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/front_hu_18b0938e736ea38f.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 393,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 8134,
+        "width": 6216,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Mode und Heim Nr. 12 1939"
+            ]}
+        }]
+  }

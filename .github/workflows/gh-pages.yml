@@ -35,12 +35,12 @@ jobs:
         run: |
           sudo rm -rf /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL /usr/local/graalvm/ /usr/local/share/powershell /usr/local/lib/android /usr/local/lib/node_modules /usr/local/.ghcup/ /usr/share/dotnet/
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
 
       - name: Login to GitHub Packages Docker Registry
-        uses: docker/login-action@v3.4.0
+        uses: docker/login-action@v3.5.0
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
@@ -48,7 +48,7 @@ jobs:
           logout: false
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
@@ -57,7 +57,7 @@ jobs:
           ./scripts/github-setup.sh
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4.2.0
+        uses: actions/setup-node@v5.0.0
         with:
           node-version-file: '.nvmrc'
 

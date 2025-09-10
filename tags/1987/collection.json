@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Blaufußtölpel"
+        ]},
+    "items": [{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/front_hu_f9a031d072f50421.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 390,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7063,
+        "width": 5439,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Saison Nr. 4 1987"
+            ]}
+        }]
+  }

@@ -133,6 +133,10 @@ defaultMarkdownHandler = 'goldmark'
     source = "static"
     target = "static"
 
+  [[module.mounts]]
+    source = "node_modules/tify/dist/"
+    target = "static/tify"
+
 [build]
   writeStats = true
 

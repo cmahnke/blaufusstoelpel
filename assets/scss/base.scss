@@ -13,6 +13,9 @@ $slick-loader-path: "/images/";
 @import "fonts/open-sans";
 @import "fonts/archivo";
 
+@import "tify";
+@import "iiif/tify";
+
 // See https://codepen.io/GeorgePark/pen/jeBbGN
 @keyframes shake {
     5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
@@ -364,8 +367,28 @@ a:visited {
         display: block;
         height: 90vw;
 
+        &.presentation-api {
+          .tify {
+            width: 100%;
+
+            .tify-header {
+              background: unset !important;
+            }
+
+            .tify-header-button {
+              backdrop-filter: blur(8px);
+              background: oklch(from var(--tify-bg-color, light-dark(#fff, oklch(from var(--tify-base-color-dark, oklch(from var(--tify-base-color, #06b) calc(l * 1.5) c h)) calc(l / 4) calc(c / 20) h))) l c h / 38.2%);
+            }
+
+            .tify-icon {
+              fill: unset;
+            }
+          }
+        }
+
         &.portrait {
-            width: 60vw;
+            /* width: 60vw; */
+            width: 100%;
             height: calc(60vw * 1.6);
             @media (max-width: 37.5em) {
                 width: 90vw;

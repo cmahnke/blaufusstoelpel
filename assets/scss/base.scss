@@ -397,7 +397,8 @@ a:visited {
         }
 
         &.landscape {
-            width: 60vw;
+            /*width: 60vw;*/
+            width: 100%;
             height: calc(60vw / 1.5);
             @media (max-width: 37.5em) {
                 width: 90vw;

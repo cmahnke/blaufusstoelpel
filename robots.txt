@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /privacy/
+
+Disallow: /meta/
+
+Disallow: /meta/wikidata/index.json
+
+Sitemap: https://xn--blaufusstlpel-qmb.de/sitemap.xml
+
+

@@ -52,6 +52,7 @@ sed -E 's/<svg ([^>]*)>/<svg \1 style="background-color:white">/g' static/images
 
 # Favicons
 # See https://gist.github.com/pfig/1808188
-convert static/images/blaufusstoelpel.svg static/images/blaufusstoelpel.png
+#convert static/images/blaufusstoelpel.svg static/images/blaufusstoelpel.png
+convert "Source Files/Logo/Blaufußtölpel.svg" static/images/blaufusstoelpel.png
 
-SOURCE="static/images/blaufusstoelpel.png" OPTIONS="-resize 128x128 -transparent white" ./themes/projektemacher-base/scripts/favicon.sh
+SOURCE="static/images/blaufusstoelpel.png" OPTIONS="-transparent white" ./themes/projektemacher-base/scripts/favicon.sh

@@ -134,7 +134,7 @@ jobs:
         env:
           OSTYPE: linux
         run: |
-          yarn run validate
+          npm run validate
 
       - name: Cleanup Build
         run: |

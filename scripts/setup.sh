@@ -45,7 +45,7 @@ $SED -i -E 's/@import url\("https:\/\/fonts\.googleapis\.com.*//g' themes/parsa/
 #find node_modules/vis-timeline/standalone/ -type f -name '*.js' -exec $SED -i -E 's/_classCallCheck/classCallCheck/g' '{}' \;
 #find node_modules/vis-timeline/standalone/ -type f -name '*.js' -exec $SED -i -E 's/_classCallCheck.*//g' \;
 
-yarn run svgo
+npm run svgo
 
 sed -E 's/<svg ([^>]*)>/<svg \1 style="background-color:white">/g' static/images/blaufusstoelpel.svg > static/images/blaufusstoelpel-white.svg
 

@@ -28,6 +28,7 @@
   }, 500);
 
   $('.featured-post-slider').slick({
+    accessibility: false,
     dots: false,
     speed: 300,
     autoplay: true,

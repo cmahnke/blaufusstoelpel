@@ -229,6 +229,8 @@ nav {
 
 .headroom--pinned {
     transform: translateY(0%);
+    background-color: white;
+    z-index: 10 !important;
 }
 
 .headroom--unpinned {

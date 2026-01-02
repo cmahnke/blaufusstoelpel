@@ -5,13 +5,13 @@ outputs:
   - html
   - rss
 cascade:
-  - _target:
+  - target:
       kind: 'page'
       path: '/privacy'
     params:
       sitemap:
         disable: true
-  - _target:
+  - target:
       kind: '*'
       lang: '*'
       path: '**'

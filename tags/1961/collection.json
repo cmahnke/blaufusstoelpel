@@ -1,0 +1,56 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Blaufußtölpel"
+        ]},
+    "items": [{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/front_hu_dc4e7efd38c3246.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 399,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7634,
+        "width": 5733,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Praline 19 1961"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/bayer-strickmoden-11-1961/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/bayer-strickmoden-11-1961/front_hu_7aea5a7f35b9dce0.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 403,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/bayer-strickmoden-11-1961/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7521,
+        "width": 5592,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/bayer-strickmoden-11-1961/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Beyer Strickmoden 11 1961"
+            ]}
+        }]
+  }

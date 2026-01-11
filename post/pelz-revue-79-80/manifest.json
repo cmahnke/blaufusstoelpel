@@ -1,0 +1,167 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Pelz Revue 79/80","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/front/full/full/0/default_hu_1ec47ea0e39ea2d.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6876,
+                            "width": 4923
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/canvas/page004",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"4","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/page004/full/full/0/default_hu_6dd9f1bbd2fe6992.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/annotation/page004",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/page004",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/page004",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6839,
+                            "width": 4949
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/canvas/page004"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/canvas/page005",
+                   "@type":"sc:Canvas","label":"5","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/page005/full/full/0/default_hu_4431500582017543.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/annotation/page005",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/page005",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/page005",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6842,
+                            "width": 4912
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/canvas/page005"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/canvas/page006",
+                   "@type":"sc:Canvas","label":"6","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/page006/full/full/0/default_hu_6c7b5b01d363a5ee.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/annotation/page006",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/page006",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/page006",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6836,
+                            "width": 4926
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/canvas/page006"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/canvas/page007",
+                   "@type":"sc:Canvas","label":"7","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/page007/full/full/0/default_hu_8686bd1397cf35dc.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/annotation/page007",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/page007",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/page007",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6844,
+                            "width": 4935
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/canvas/page007"
+                    }]
+               }]
+     }
+  ]}

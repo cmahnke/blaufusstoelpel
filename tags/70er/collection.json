@@ -1,0 +1,125 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Blaufußtölpel"
+        ]},
+    "items": [{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pelz-revue-79-80/front/full/full/0/default_hu_7c3e05ee4b771258.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 419,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6876,
+        "width": 4923,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pelz-revue-79-80/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Pelz Revue 79/80"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/front_hu_a1120a6fabde81b1.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 431,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7076,
+        "width": 4930,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Phildar Mailles Nr. 48 1976"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-7-74/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-7-74/front_hu_17f26ef9d1f3756.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 406,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/pramo-7-74/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7485,
+        "width": 5529,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-7-74/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Pramo Nr. 7 1974"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/front_hu_ad2f81cde42932d4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 411,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7499,
+        "width": 5477,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Pramo Nr. 11 1973"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/du-11-71/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/du-11-71/front_hu_9c2d86582647a77.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 358,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7152,
+        "width": 5986,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "du November 1971"
+            ]}
+        }]
+  }

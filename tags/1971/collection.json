@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Blaufußtölpel"
+        ]},
+    "items": [{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/du-11-71/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/du-11-71/front_hu_9c2d86582647a77.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 358,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7152,
+        "width": 5986,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "du November 1971"
+            ]}
+        }]
+  }

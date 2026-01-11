@@ -1,0 +1,56 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Blaufußtölpel"
+        ]},
+    "items": [{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/front_hu_b2a784f0ab6d44b6.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 407,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7174,
+        "width": 5291,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Moden Zeitung fürs Deutsche Haus Nr. 9 1900"
+            ]}
+        },{
+          "id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-7-1900/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-7-1900/front_hu_e363961216d4d07.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 405,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-7-1900/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7193,
+        "width": 5322,
+        "service": [{
+          "id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-7-1900/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Moden Zeitung fürs Deutsche Haus Nr. 7 1900"
+            ]}
+        }]
+  }

@@ -1,0 +1,137 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Gartenlaube Nr. 12 1924","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/front_hu_3384a2657cb09cc.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7077,
+                            "width": 5053
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/canvas/page235",
+                   "@type":"sc:Canvas","label":"235","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/page235_hu_a1a793225d67c8b3.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/annotation/page235",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/page235",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/page235",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7018,
+                            "width": 5125
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/canvas/page235"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/canvas/page236",
+                   "@type":"sc:Canvas","label":"236","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/page236_hu_4cbb44cb219ae9cd.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/annotation/page236",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/page236",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/page236",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7056,
+                            "width": 5093
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/canvas/page236"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/canvas/page237",
+                   "@type":"sc:Canvas","label":"237","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/page237_hu_d4e73b9f4f2c9d70.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/annotation/page237",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/page237",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/gartenlaube-12-24/page237",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7041,
+                            "width": 5087
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/gartenlaube-12-24/canvas/page237"
+                    }]
+               }]
+     }
+  ]}

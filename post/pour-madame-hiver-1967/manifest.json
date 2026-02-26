@@ -1,0 +1,197 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Pour Madame Hiver 1967","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/front/full/full/0/default_hu_d203fb1bcceed472.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7543,
+                            "width": 5279
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/canvas/page003r",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"3R","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/page003r/full/full/0/default_hu_1113d6c3d7e8ac5.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/annotation/page003r",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/page003r",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/page003r",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7555,
+                            "width": 5239
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/canvas/page003r"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/canvas/page011r",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"11R","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/page011r/full/full/0/default_hu_c7913820d95bad7f.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/annotation/page011r",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/page011r",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/page011r",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7541,
+                            "width": 5260
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/canvas/page011r"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/canvas/page012r",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"12R","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/page012r/full/full/0/default_hu_eb0cb61fa26d41ac.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/annotation/page012r",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/page012r",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/page012r",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7533,
+                            "width": 5240
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/canvas/page012r"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/canvas/page015r",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"15R","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/page015r/full/full/0/default_hu_fd0ec0e8247abb0.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/annotation/page015r",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/page015r",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/page015r",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7532,
+                            "width": 5251
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/canvas/page015r"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/canvas/page021r",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"21R","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/page021r/full/full/0/default_hu_5d7faa2bede781c4.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/annotation/page021r",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/page021r",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pour-madame-hiver-1967/page021r",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7533,
+                            "width": 5257
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pour-madame-hiver-1967/canvas/page021r"
+                    }]
+               }]
+     }
+  ]}

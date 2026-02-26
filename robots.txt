@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /privacy/
+
+Sitemap: https://xn--blaufusstlpel-qmb.de/sitemap.xml
+
+

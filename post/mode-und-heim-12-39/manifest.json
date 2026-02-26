@@ -1,0 +1,197 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Mode und Heim Nr. 12 1939","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/front_hu_12a2a6fbcac70e0d.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8134,
+                            "width": 6216
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/canvas/page003",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"3","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/page003_hu_a70ed0608df676b1.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/annotation/page003",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/page003",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/page003",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8135,
+                            "width": 6286
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/canvas/page003"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/canvas/page012",
+                   "@type":"sc:Canvas","label":"12","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/page012_hu_2f50edbba5f655e8.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/annotation/page012",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/page012",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/page012",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8158,
+                            "width": 6264
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/canvas/page012"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/canvas/page013",
+                   "@type":"sc:Canvas","label":"13","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/page013_hu_70efd7aba72e7fe8.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/annotation/page013",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/page013",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/page013",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8112,
+                            "width": 6303
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/canvas/page013"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/canvas/page018",
+                   "@type":"sc:Canvas","label":"18","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/page018_hu_9e73a77fdf43fcde.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/annotation/page018",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/page018",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/page018",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8141,
+                            "width": 6248
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/canvas/page018"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/canvas/page019",
+                   "@type":"sc:Canvas","label":"19","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/page019_hu_fdd8a3a7eecee525.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/annotation/page019",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/page019",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-und-heim-12-39/page019",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8167,
+                            "width": 6301
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-und-heim-12-39/canvas/page019"
+                    }]
+               }]
+     }
+  ]}

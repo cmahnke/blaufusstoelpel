@@ -1,0 +1,227 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"du November 1971","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/du-11-71/front_hu_640c8dcbd1ad2b1b.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7152,
+                            "width": 5986
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/page879",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"879","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/du-11-71/page879_hu_936f155d5eda867c.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/annotation/page879",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/page879",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/page879",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7181,
+                            "width": 6048
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/page879"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/page880",
+                   "@type":"sc:Canvas","label":"880","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/du-11-71/page880_hu_7be31fa8dcf9b6b0.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/annotation/page880",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/page880",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/page880",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7175,
+                            "width": 6033
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/page880"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/page881",
+                   "@type":"sc:Canvas","label":"881","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/du-11-71/page881_hu_b496e11e985c75c4.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/annotation/page881",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/page881",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/page881",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7167,
+                            "width": 6020
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/page881"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/page884",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"884","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/du-11-71/page884_hu_b2a2755a35d87cc5.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/annotation/page884",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/page884",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/page884",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7173,
+                            "width": 6034
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/page884"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/page888",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"888","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/du-11-71/page888_hu_fa178eafd6978768.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/annotation/page888",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/page888",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/page888",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7191,
+                            "width": 6066
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/page888"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/end",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/du-11-71/end_hu_1fc6a1bdb95bddba.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/annotation/end",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/end",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/du-11-71/end",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7170,
+                            "width": 6097
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/du-11-71/canvas/end"
+                    }]
+               }]
+     }
+  ]}

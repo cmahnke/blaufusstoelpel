@@ -1,0 +1,737 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Phildar Mailles Nr. 48 1976","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/front_hu_7515ffbca1d27f8.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7076,
+                            "width": 4930
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img003",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img003_hu_e79c7f462156852e.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img003",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img003",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img003",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7072,
+                            "width": 4901
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img003"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img004",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img004_hu_225890436bf867f6.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img004",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img004",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img004",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7073,
+                            "width": 4939
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img004"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img005",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img005_hu_d7c428a289904a5b.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img005",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img005",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img005",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7073,
+                            "width": 4903
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img005"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img006",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img006_hu_2e73ad9d98918930.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img006",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img006",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img006",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7076,
+                            "width": 4890
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img006"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img007",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img007_hu_debd035cc7c0592e.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img007",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img007",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img007",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7076,
+                            "width": 4917
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img007"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img008",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img008_hu_745684398c3012cc.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img008",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img008",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img008",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7078,
+                            "width": 4928
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img008"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img009",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img009_hu_bdafa67f1c379373.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img009",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img009",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img009",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7077,
+                            "width": 4909
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img009"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img010",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img010_hu_a43194de0fd806b2.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img010",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img010",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img010",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7076,
+                            "width": 4931
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img010"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img011",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img011_hu_3ca52d7d3a4fe35a.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img011",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img011",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img011",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7073,
+                            "width": 4892
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img011"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img012",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img012_hu_2b5b5f3f03b86e4a.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img012",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img012",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img012",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7073,
+                            "width": 4891
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img012"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img013",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img013_hu_8ade7286b7ca9922.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img013",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img013",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img013",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7071,
+                            "width": 4889
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img013"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img014",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img014_hu_40ba8cb21110e5f3.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img014",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img014",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img014",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7071,
+                            "width": 4857
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img014"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img015",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img015_hu_d617f72615d23279.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img015",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img015",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img015",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7073,
+                            "width": 4840
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img015"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img016",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img016_hu_3203d7f9b2b2fa14.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img016",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img016",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img016",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7073,
+                            "width": 4874
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img016"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img017",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img017_hu_32c9d2d0f281d98a.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img017",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img017",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img017",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7063,
+                            "width": 4829
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img017"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img018",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img018_hu_608ffb68310a2ff4.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img018",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img018",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img018",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7073,
+                            "width": 4875
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img018"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img019",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img019_hu_a5a2cc9588487265.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img019",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img019",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img019",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7073,
+                            "width": 4852
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img019"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img020",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img020_hu_3343f4e3cd8a2983.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img020",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img020",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img020",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7071,
+                            "width": 4884
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img020"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img021",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img021_hu_873683eba5056f50.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img021",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img021",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img021",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7071,
+                            "width": 4834
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img021"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img022",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img022_hu_7c3c8f45f3c7543a.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img022",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img022",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img022",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7068,
+                            "width": 4876
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img022"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img023",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img023_hu_b531ab08674c3c7e.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img023",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img023",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img023",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7069,
+                            "width": 4821
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img023"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img024",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/img024_hu_d2186bcf7a4d07c4.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/img024",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img024",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/img024",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7048,
+                            "width": 4864
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/img024"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/back",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/back_hu_2c6ef829ca45f3e2.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/annotation/back",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/back",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/phildar-mailles-48-76/back",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7052,
+                            "width": 4810
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/phildar-mailles-48-76/canvas/back"
+                    }]
+               }]
+     }
+  ]}

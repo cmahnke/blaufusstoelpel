@@ -16,7 +16,6 @@
     {{- end -}}
     {{- partial "html/head/script.html" (dict "context" . "js" (partial "html/head/iiif-js.html" .)) -}}
     {{/* assets/js/script.js is included in footer */}}
-    {{- partial "html/head/page-scripts.html" . -}}
 
     <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
     <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">

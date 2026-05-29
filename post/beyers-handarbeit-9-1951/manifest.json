@@ -1,0 +1,317 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Beyer's Handarbeit und Wäsche 9 1951","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/front_hu_450871666b7d67e5.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7022,
+                            "width": 4958
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page308",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/page308_hu_868e12420b13b362.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/annotation/page308",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page308",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page308",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7016,
+                            "width": 4930
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page308"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page309",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/page309_hu_2af19bedeaef88ea.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/annotation/page309",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page309",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page309",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7018,
+                            "width": 4963
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page309"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page314",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/page314_hu_52753e01769e42a3.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/annotation/page314",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page314",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page314",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7026,
+                            "width": 4934
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page314"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page315",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/page315_hu_1559b159cd8a5e92.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/annotation/page315",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page315",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page315",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7014,
+                            "width": 4937
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page315"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page318",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/page318_hu_5b6750c304eac678.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/annotation/page318",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page318",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page318",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7019,
+                            "width": 4922
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page318"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page319",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/page319_hu_9a2dbe7c67dc1a0f.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/annotation/page319",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page319",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page319",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7012,
+                            "width": 4916
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page319"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page320",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/page320_hu_12fd9eb5a51e9e7a.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/annotation/page320",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page320",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page320",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7012,
+                            "width": 4856
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page320"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page321",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/page321_hu_586049797f72288f.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/annotation/page321",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page321",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page321",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6998,
+                            "width": 4913
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page321"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page321",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/page321_hu_586049797f72288f.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/annotation/page321",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page321",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-handarbeit-9-1951/page321",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6998,
+                            "width": 4913
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-handarbeit-9-1951/canvas/page321"
+                    }]
+               }]
+     }
+  ]}

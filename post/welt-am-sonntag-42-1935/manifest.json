@@ -1,0 +1,107 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Die Welt am Sonntag Nr. 42 1935","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/front_hu_b32b4a34c0050578.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 10165,
+                            "width": 6655
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/canvas/page006",
+                   "@type":"sc:Canvas","label":"6","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/page006_hu_66368c250cf13238.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/annotation/page006",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/page006",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/page006",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 10170,
+                            "width": 6864
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/canvas/page006"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/canvas/page007",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"7","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/page007_hu_a6aea81f030726ad.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/annotation/page007",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/page007",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/welt-am-sonntag-42-1935/page007",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 10146,
+                            "width": 6764
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/welt-am-sonntag-42-1935/canvas/page007"
+                    }]
+               }]
+     }
+  ]}

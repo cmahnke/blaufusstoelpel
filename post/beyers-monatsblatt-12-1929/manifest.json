@@ -1,0 +1,197 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Beyers Monatsblatt für Handarbeit und Wäsche 12 1929","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/front_hu_1ca5b4485e031b6a.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7531,
+                            "width": 5811
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/canvas/page230",
+                   "@type":"sc:Canvas","label":"230","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/page230_hu_e6cf1eb0ccd64511.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/annotation/page230",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/page230",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/page230",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7520,
+                            "width": 5775
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/canvas/page230"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/canvas/page231",
+                   "@type":"sc:Canvas","label":"231","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/page231_hu_b3c53899423b2784.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/annotation/page231",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/page231",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/page231",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7526,
+                            "width": 5788
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/canvas/page231"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/canvas/page232",
+                   "@type":"sc:Canvas","label":"232","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/page232_hu_a3877996e63acfb3.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/annotation/page232",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/page232",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/page232",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7523,
+                            "width": 5797
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/canvas/page232"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/canvas/page233",
+                   "@type":"sc:Canvas","label":"233","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/page233_hu_869bc34c6700fcda.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/annotation/page233",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/page233",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/page233",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7514,
+                            "width": 5770
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/canvas/page233"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/canvas/page234",
+                   "@type":"sc:Canvas","label":"234","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/page234_hu_9e5f811a3d4b575a.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/annotation/page234",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/page234",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/beyers-monatsblatt-12-1929/page234",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7533,
+                            "width": 5788
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/beyers-monatsblatt-12-1929/canvas/page234"
+                    }]
+               }]
+     }
+  ]}

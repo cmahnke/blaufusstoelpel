@@ -1,0 +1,47 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-3-1895/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Illustrirte Frauen-Zeitung","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-3-1895/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-3-1895/canvas/preview",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-3-1895/canvas/preview",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-3-1895/page087/full/full/0/default_hu_940aebb6e80ae6dd.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/illustrirte-frauen-zeitung-3-1895/annotation/page087",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/illustrirte-frauen-zeitung-3-1895/page087",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/illustrirte-frauen-zeitung-3-1895/page087",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6603,
+                            "width": 9253
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-3-1895/canvas/preview"
+                    }]
+               }]
+     }
+  ]}

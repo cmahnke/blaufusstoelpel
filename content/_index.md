@@ -13,7 +13,6 @@ cascade:
         disable: true
   - target:
       kind: '*'
-      lang: '*'
       path: '**'
     params:
       sitemap:

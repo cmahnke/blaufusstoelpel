@@ -6,7 +6,6 @@ sitemap:
 cascade:
   - target:
       kind: 'page'
-      lang: '*'
       path: '**'
     params:
       sitemap:

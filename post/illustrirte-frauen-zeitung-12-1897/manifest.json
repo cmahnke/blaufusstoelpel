@@ -1,0 +1,77 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-12-1897/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Illustrirte Frauen-Zeitung","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-12-1897/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-12-1897/canvas/preview",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-12-1897/canvas/preview",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-12-1897/page339/full/full/0/default_hu_47bb41f0f606ddeb.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/illustrirte-frauen-zeitung-12-1897/annotation/page339",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/illustrirte-frauen-zeitung-12-1897/page339",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/illustrirte-frauen-zeitung-12-1897/page339",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6679,
+                            "width": 9174
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-12-1897/canvas/preview"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-12-1897/canvas/page340",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-12-1897/page340/full/full/0/default_hu_11ef1932fa7a198b.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/illustrirte-frauen-zeitung-12-1897/annotation/page340",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/illustrirte-frauen-zeitung-12-1897/page340",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/illustrirte-frauen-zeitung-12-1897/page340",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 9179,
+                            "width": 6677
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/illustrirte-frauen-zeitung-12-1897/canvas/page340"
+                    }]
+               }]
+     }
+  ]}

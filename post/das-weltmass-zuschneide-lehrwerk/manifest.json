@@ -1,0 +1,317 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Das Weltmass - Zuschneide-Lehrwerk","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/front/full/full/0/default_hu_5ce489d704510bce.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 4888,
+                            "width": 3503
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/title",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/title/full/full/0/default_hu_c92b57f2ba085881.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/annotation/title",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/title",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/title",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 4749,
+                            "width": 3203
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/title"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page023",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/page023/full/full/0/default_hu_a9865fb99ff27aa3.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/annotation/page023",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page023",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page023",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 4771,
+                            "width": 3402
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page023"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page024",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/page024/full/full/0/default_hu_eb955a0d5bd77323.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/annotation/page024",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page024",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page024",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 4774,
+                            "width": 3418
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page024"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page029",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/page029/full/full/0/default_hu_6f830d502884a1bd.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/annotation/page029",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page029",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page029",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 4768,
+                            "width": 3430
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page029"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page030",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/page030/full/full/0/default_hu_e161524c2b472577.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/annotation/page030",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page030",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page030",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 4778,
+                            "width": 3399
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page030"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page043",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/page043/full/full/0/default_hu_d03ee8c07ef33aa4.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/annotation/page043",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page043",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page043",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 4773,
+                            "width": 3402
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page043"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page044",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/page044/full/full/0/default_hu_3cdd486dab4f5f86.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/annotation/page044",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page044",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page044",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 4769,
+                            "width": 3393
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page044"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page047",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/page047/full/full/0/default_hu_f3cca94e913c0ab6.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/annotation/page047",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page047",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page047",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 4772,
+                            "width": 3426
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page047"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page048",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/page048/full/full/0/default_hu_c17cd5ecdc25cd1f.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/annotation/page048",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page048",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-weltmass-zuschneide-lehrwerk/page048",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 4774,
+                            "width": 3402
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-weltmass-zuschneide-lehrwerk/canvas/page048"
+                    }]
+               }]
+     }
+  ]}

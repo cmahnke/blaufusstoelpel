@@ -1,0 +1,347 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Film und Frau 24 1959","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/front_hu_939d0dad74860b28.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8465,
+                            "width": 6130
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page006",
+                   "@type":"sc:Canvas","label":"6","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/page006_hu_ddfa6a400e6b57a6.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/annotation/page006",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page006",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page006",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8452,
+                            "width": 6080
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page006"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page007",
+                   "@type":"sc:Canvas","label":"7","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/page007_hu_3eb30c6aa9419156.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/annotation/page007",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page007",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page007",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8444,
+                            "width": 6073
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page007"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page010",
+                   "@type":"sc:Canvas","label":"10","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/page010_hu_979cf36b6bf2258.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/annotation/page010",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page010",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page010",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8434,
+                            "width": 6037
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page010"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page011",
+                   "@type":"sc:Canvas","label":"11","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/page011_hu_8ac8dc9fcc88c92.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/annotation/page011",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page011",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page011",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8470,
+                            "width": 6070
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page011"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page124",
+                   "@type":"sc:Canvas","label":"124","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/page124_hu_8761a359bc683ed3.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/annotation/page124",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page124",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page124",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8480,
+                            "width": 6015
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page124"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page125",
+                   "@type":"sc:Canvas","label":"125","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/page125_hu_b472e0dc98c9d2e3.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/annotation/page125",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page125",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page125",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8468,
+                            "width": 6085
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page125"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page126",
+                   "@type":"sc:Canvas","label":"126","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/page126_hu_841462eb421929f8.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/annotation/page126",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page126",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page126",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8472,
+                            "width": 6067
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page126"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page127",
+                   "@type":"sc:Canvas","label":"127","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/page127_hu_6767302200089162.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/annotation/page127",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page127",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page127",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8473,
+                            "width": 6090
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page127"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page128",
+                   "@type":"sc:Canvas","label":"128","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/page128_hu_f68e0ec0bfea6340.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/annotation/page128",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page128",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page128",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8472,
+                            "width": 6040
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page128"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page129",
+                   "@type":"sc:Canvas","label":"129","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/page129_hu_ce3c38cca7db7c14.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/annotation/page129",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page129",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/film-und-frau-24-1959/page129",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8452,
+                            "width": 6072
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/film-und-frau-24-1959/canvas/page129"
+                    }]
+               }]
+     }
+  ]}

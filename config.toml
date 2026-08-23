@@ -1,8 +1,7 @@
 baseURL = "https://xn--blaufusstlpel-qmb.de/"
 theme = ["projektemacher-base", "parsa"]
 title = "Blaufußtölpel"
-languageCode = "de"
-languagecode = "de"
+locale = "de"
 defaultcontentlanguage = "de"
 publishDir = "docs"
 canonifyurls = true

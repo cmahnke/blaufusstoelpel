@@ -1,0 +1,167 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Neue Frauenkleidung und Frauenkultur Nr. 9 1928","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/front/full/full/0/default_hu_fee35da2155b8e15.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7528,
+                            "width": 5520
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/canvas/page264",
+                   "@type":"sc:Canvas","label":"264","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/page264/full/full/0/default_hu_18614127238d9f87.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/annotation/page264",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/page264",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/page264",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7514,
+                            "width": 5482
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/canvas/page264"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/canvas/page265",
+                   "@type":"sc:Canvas","label":"265","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/page265/full/full/0/default_hu_63e65fb44e24acde.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/annotation/page265",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/page265",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/page265",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7519,
+                            "width": 5500
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/canvas/page265"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/canvas/page266",
+                   "@type":"sc:Canvas","label":"266","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/page266/full/full/0/default_hu_9c789f2625eebefa.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/annotation/page266",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/page266",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/page266",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7509,
+                            "width": 5486
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/canvas/page266"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/canvas/page270",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"270","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/page270/full/full/0/default_hu_b5235a59e298c4ca.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/annotation/page270",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/page270",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/neue-frauenkleidung-und-frauenkultur-9-1928/page270",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7518,
+                            "width": 5470
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/neue-frauenkleidung-und-frauenkultur-9-1928/canvas/page270"
+                    }]
+               }]
+     }
+  ]}

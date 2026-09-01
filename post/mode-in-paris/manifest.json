@@ -1,0 +1,497 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Mode in Paris","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/cover",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/cover",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/cover_hu_4c5b1fa661257d1.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/cover",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/cover",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/cover",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5835,
+                            "width": 4635
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/cover"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/front_hu_17bc0403578f8d61.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5798,
+                            "width": 4561
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page000",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/page000_hu_a9cf2f9562a55fa9.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/page000",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page000",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page000",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5697,
+                            "width": 4325
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page000"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/title",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/title_hu_cf53301dd0276cfc.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/title",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/title",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/title",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5675,
+                            "width": 4474
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/title"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page039",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"39","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/page039_hu_5e9a15f014b8039e.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/page039",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page039",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page039",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5720,
+                            "width": 4449
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page039"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page040",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"40","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/page040_hu_3a1b5c4e10c08fb.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/page040",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page040",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page040",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5719,
+                            "width": 4422
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page040"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page049",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"49","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/page049_hu_2af1b5e81c9833a9.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/page049",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page049",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page049",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5698,
+                            "width": 4456
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page049"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page050",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"50","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/page050_hu_f2f0b65284a9d227.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/page050",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page050",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page050",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5711,
+                            "width": 4354
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page050"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page069",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"69","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/page069_hu_2e12a2e8c3a1cef9.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/page069",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page069",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page069",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5689,
+                            "width": 4471
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page069"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page070",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"70","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/page070_hu_b7e04cb8567baf57.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/page070",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page070",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page070",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5718,
+                            "width": 4310
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page070"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page089",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"89","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/page089_hu_c773a29ddef346a1.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/page089",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page089",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page089",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5702,
+                            "width": 4464
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page089"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page090",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"90","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/page090_hu_7b8a58987f4d5cde.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/page090",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page090",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page090",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5693,
+                            "width": 4376
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page090"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page100",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"100","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/page100_hu_75370a9e7e0c18b4.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/page100",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page100",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page100",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5719,
+                            "width": 4415
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page100"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page109",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"109","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/page109_hu_172820b4f0beef56.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/page109",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page109",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page109",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5688,
+                            "width": 4407
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page109"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page110",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"110","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/page110_hu_7ecf3dba2f85e4b0.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/page110",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page110",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page110",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5703,
+                            "width": 4299
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page110"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page139",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"139","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/page139_hu_d4471c294af342cf.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/annotation/page139",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page139",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/mode-in-paris/page139",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5706,
+                            "width": 4425
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/mode-in-paris/canvas/page139"
+                    }]
+               }]
+     }
+  ]}

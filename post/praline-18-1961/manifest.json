@@ -1,0 +1,257 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Praline 19 1961","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/front_hu_80be0fe0a4169d84.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7634,
+                            "width": 5733
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/page004",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"4","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/page004_hu_957eb886dda24593.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/annotation/page004",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/page004",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/page004",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7641,
+                            "width": 5671
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/page004"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/page050",
+                   "@type":"sc:Canvas","label":"50","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/page050_hu_8e7cdc9c98b42f57.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/annotation/page050",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/page050",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/page050",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7639,
+                            "width": 5696
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/page050"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/page051",
+                   "@type":"sc:Canvas","label":"51","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/page051_hu_e1c8ebfa3c269cc3.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/annotation/page051",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/page051",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/page051",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7635,
+                            "width": 5666
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/page051"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/page052",
+                   "@type":"sc:Canvas","label":"52","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/page052_hu_d4e0a15f0fcfb785.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/annotation/page052",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/page052",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/page052",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7634,
+                            "width": 5663
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/page052"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/page053",
+                   "@type":"sc:Canvas","label":"53","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/page053_hu_36b15e9f89c057b.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/annotation/page053",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/page053",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/page053",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7642,
+                            "width": 5635
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/page053"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/page054",
+                   "@type":"sc:Canvas","label":"54","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/page054_hu_38b45fa121733b81.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/annotation/page054",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/page054",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/page054",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7634,
+                            "width": 5632
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/page054"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/page056",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"56","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/page056_hu_39ff3143729887c3.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/annotation/page056",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/page056",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praline-18-1961/page056",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7626,
+                            "width": 5625
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praline-18-1961/canvas/page056"
+                    }]
+               }]
+     }
+  ]}

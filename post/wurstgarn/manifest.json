@@ -1,0 +1,77 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/wurstgarn/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Wurstgarn","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/wurstgarn/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/wurstgarn/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/wurstgarn/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/wurstgarn/front/full/full/0/default_hu_89a692ac2b4720d6.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/wurstgarn/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/wurstgarn/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/wurstgarn/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8483,
+                            "width": 3923
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/wurstgarn/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/wurstgarn/canvas/back",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/wurstgarn/back/full/full/0/default_hu_a7e88378912cf8df.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/wurstgarn/annotation/back",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/wurstgarn/back",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/wurstgarn/back",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8551,
+                            "width": 3922
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/wurstgarn/canvas/back"
+                    }]
+               }]
+     }
+  ]}

@@ -1,0 +1,437 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Saison Nr. 4 1987","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/front_hu_c9bbab10b55ac883.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7063,
+                            "width": 5439
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page010",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"10","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/page010_hu_9ea1ef6d797401a9.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/annotation/page010",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page010",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page010",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7102,
+                            "width": 5468
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page010"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page015",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"15","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/page015_hu_b28fcae654c33686.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/annotation/page015",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page015",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page015",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7092,
+                            "width": 5450
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page015"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page018",
+                   "@type":"sc:Canvas","label":"18","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/page018_hu_395665a015458343.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/annotation/page018",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page018",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page018",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7094,
+                            "width": 5442
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page018"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page019",
+                   "@type":"sc:Canvas","label":"19","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/page019_hu_a036981aa8d85393.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/annotation/page019",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page019",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page019",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7096,
+                            "width": 5427
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page019"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page022",
+                   "@type":"sc:Canvas","label":"22","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/page022_hu_b4a3b94a8de8c1cc.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/annotation/page022",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page022",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page022",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7091,
+                            "width": 5440
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page022"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page023",
+                   "@type":"sc:Canvas","label":"23","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/page023_hu_35cc5e41bdb86b2e.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/annotation/page023",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page023",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page023",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7089,
+                            "width": 5423
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page023"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page037",
+                   "@type":"sc:Canvas","label":"37","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/page037_hu_bc96f4f1bf572207.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/annotation/page037",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page037",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page037",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7095,
+                            "width": 5461
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page037"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page038",
+                   "@type":"sc:Canvas","label":"38","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/page038_hu_356e99e80d9b5e17.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/annotation/page038",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page038",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page038",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7093,
+                            "width": 5458
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page038"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page039",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"39","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/page039_hu_c5da4636d224a526.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/annotation/page039",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page039",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page039",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7080,
+                            "width": 5459
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page039"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page048",
+                   "@type":"sc:Canvas","label":"48","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/page048_hu_1b6e6f3e6324a3be.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/annotation/page048",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page048",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page048",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7074,
+                            "width": 5427
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page048"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page049",
+                   "@type":"sc:Canvas","label":"49","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/page049_hu_e673f66e08da1f8e.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/annotation/page049",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page049",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page049",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7095,
+                            "width": 5454
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page049"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page050",
+                   "@type":"sc:Canvas","label":"50","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/page050_hu_4b6f7a88f023a792.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/annotation/page050",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page050",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page050",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7096,
+                            "width": 5441
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page050"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page051",
+                   "@type":"sc:Canvas","label":"51","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/saison-4-87/page051_hu_17eb672a85a643ea.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/annotation/page051",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page051",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/saison-4-87/page051",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7090,
+                            "width": 5477
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/saison-4-87/canvas/page051"
+                    }]
+               }]
+     }
+  ]}

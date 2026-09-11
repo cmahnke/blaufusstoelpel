@@ -1,0 +1,257 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Praktische Mode Heft 6 1943","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/front_hu_4d8e687ec04988ee.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7426,
+                            "width": 5464
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/page001",
+                   "@type":"sc:Canvas","label":"1","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/page001_hu_82ec212af474da3e.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/annotation/page001",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/page001",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/page001",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7433,
+                            "width": 5379
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/page001"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/page002",
+                   "@type":"sc:Canvas","label":"2","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/page002_hu_7689ba2d6e1259ba.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/annotation/page002",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/page002",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/page002",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7400,
+                            "width": 5422
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/page002"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/page003",
+                   "@type":"sc:Canvas","label":"3","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/page003_hu_bfa89cc7206d89e.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/annotation/page003",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/page003",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/page003",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7416,
+                            "width": 5393
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/page003"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/page004",
+                   "@type":"sc:Canvas","label":"4","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/page004_hu_db983ef8fb48cfd3.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/annotation/page004",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/page004",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/page004",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7405,
+                            "width": 5419
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/page004"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/page007",
+                   "@type":"sc:Canvas","label":"7","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/page007_hu_69c11f6ba4277986.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/annotation/page007",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/page007",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/page007",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7407,
+                            "width": 5444
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/page007"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/page008",
+                   "@type":"sc:Canvas","label":"8","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/page008_hu_d739ba7209a19826.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/annotation/page008",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/page008",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/page008",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7435,
+                            "width": 5401
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/page008"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/page009",
+                   "@type":"sc:Canvas","label":"9","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/page009_hu_88dc976c29c4c582.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/annotation/page009",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/page009",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/praktische-mode-6-1943/page009",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7381,
+                            "width": 5410
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/praktische-mode-6-1943/canvas/page009"
+                    }]
+               }]
+     }
+  ]}

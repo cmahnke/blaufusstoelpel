@@ -1,0 +1,497 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Textil-Lexikon","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/cover",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/cover",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/cover_hu_878a1ba2c161f56d.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/cover",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/cover",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/cover",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6250,
+                            "width": 4912
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/cover"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/front",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/front_hu_960f135188c4559.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6263,
+                            "width": 4915
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page010",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"Tafel 10","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/page010_hu_afb26083b22c63e4.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/page010",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page010",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page010",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6119,
+                            "width": 3919
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page010"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page012",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"Tafel 12","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/page012_hu_24ab47f1e47ee01.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/page012",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page012",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page012",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6092,
+                            "width": 3823
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page012"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page013",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"Tafel 13","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/page013_hu_eb6283dff376067a.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/page013",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page013",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page013",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6087,
+                            "width": 3851
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page013"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page015",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"Tafel 15","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/page015_hu_36ea06a94cf62a68.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/page015",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page015",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page015",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6040,
+                            "width": 3820
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page015"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page017",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"Tafel 17","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/page017_hu_c8c3adf9ab8cbe97.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/page017",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page017",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page017",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6037,
+                            "width": 3826
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page017"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page018",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"Tafel 18","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/page018_hu_e598cf9d6c6a41b5.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/page018",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page018",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page018",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6023,
+                            "width": 3839
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page018"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page020",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"Tafel 20","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/page020_hu_c631946cf50716c7.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/page020",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page020",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page020",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6106,
+                            "width": 4111
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page020"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page021",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"Tafel 21","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/page021_hu_af2119aff1485066.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/page021",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page021",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page021",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6125,
+                            "width": 4112
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page021"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page022",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"Tafel 22","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/page022_hu_2289f73573cfc880.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/page022",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page022",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page022",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6121,
+                            "width": 4109
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page022"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page026",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"Tafel 26","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/page026_hu_422f7346bf7abcd5.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/page026",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page026",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page026",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6115,
+                            "width": 4096
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page026"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page028",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"Tafel 28","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/page028_hu_24d6b8944e450173.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/page028",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page028",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page028",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6111,
+                            "width": 4098
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page028"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page029",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"Tafel 29","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/page029_hu_e68126582b68b71e.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/page029",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page029",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page029",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6095,
+                            "width": 4058
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page029"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page031",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"Tafel 31","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/page031_hu_cd3ccc2d0ddb6cd2.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/page031",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page031",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page031",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6138,
+                            "width": 4013
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page031"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page032",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"Tafel 32","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/page032_hu_18e7068897846f05.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/annotation/page032",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page032",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/textil-atlas-1928/page032",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6133,
+                            "width": 4008
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/textil-atlas-1928/canvas/page032"
+                    }]
+               }]
+     }
+  ]}

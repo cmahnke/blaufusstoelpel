@@ -1,0 +1,197 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Pramo Nr. 11 1973","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/front_hu_6b9c9d62ae36c684.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7499,
+                            "width": 5477
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/canvas/page002",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"2","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/page002_hu_4983f25339ff34d6.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/annotation/page002",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/page002",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/page002",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7498,
+                            "width": 5467
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/canvas/page002"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/canvas/page004",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"4","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/page004_hu_74b5564eb93eb9f0.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/annotation/page004",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/page004",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/page004",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7515,
+                            "width": 5466
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/canvas/page004"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/canvas/page008",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"8","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/page008_hu_5f38bc85897f1ad.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/annotation/page008",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/page008",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/page008",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7513,
+                            "width": 5465
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/canvas/page008"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/canvas/page010",
+                   "@type":"sc:Canvas","label":"10","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/page010_hu_19eb63e6f5cfea97.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/annotation/page010",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/page010",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/page010",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7497,
+                            "width": 5481
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/canvas/page010"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/canvas/page011",
+                   "@type":"sc:Canvas","label":"11","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/page011_hu_7a209eb09c2f04ea.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/annotation/page011",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/page011",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/pramo-11-73/page011",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7506,
+                            "width": 5458
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/pramo-11-73/canvas/page011"
+                    }]
+               }]
+     }
+  ]}

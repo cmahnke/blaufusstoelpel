@@ -1,0 +1,347 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"die neue linie März 1930","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/front/full/full/0/default_hu_16211e421069156a.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8537,
+                            "width": 6156
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page026",
+                   "@type":"sc:Canvas","label":"26","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/page026/full/full/0/default_hu_a86d099672f6d4f8.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/annotation/page026",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page026",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page026",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8539,
+                            "width": 6142
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page026"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page027",
+                   "@type":"sc:Canvas","label":"27","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/page027/full/full/0/default_hu_1503a6b2b6538bfb.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/annotation/page027",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page027",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page027",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8539,
+                            "width": 6143
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page027"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page028",
+                   "@type":"sc:Canvas","label":"28","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/page028/full/full/0/default_hu_fb1393875903759a.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/annotation/page028",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page028",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page028",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8538,
+                            "width": 6113
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page028"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page029",
+                   "@type":"sc:Canvas","label":"29","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/page029/full/full/0/default_hu_71080e7dd0bc5693.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/annotation/page029",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page029",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page029",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8534,
+                            "width": 6154
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page029"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page030",
+                   "@type":"sc:Canvas","label":"30","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/page030/full/full/0/default_hu_cea5c3bbec540676.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/annotation/page030",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page030",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page030",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8535,
+                            "width": 6159
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page030"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page031",
+                   "@type":"sc:Canvas","label":"31","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/page031/full/full/0/default_hu_496f4be0da97f94c.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/annotation/page031",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page031",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page031",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8524,
+                            "width": 6155
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page031"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page032",
+                   "@type":"sc:Canvas","label":"32","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/page032/full/full/0/default_hu_565163b25559e5c5.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/annotation/page032",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page032",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page032",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8537,
+                            "width": 6153
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page032"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page033",
+                   "@type":"sc:Canvas","label":"33","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/page033/full/full/0/default_hu_8d1613038037b0c9.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/annotation/page033",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page033",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page033",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8538,
+                            "width": 6163
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page033"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page034",
+                   "@type":"sc:Canvas","label":"34","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/page034/full/full/0/default_hu_c47942b00f0bd8f4.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/annotation/page034",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page034",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page034",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8535,
+                            "width": 6152
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page034"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page035",
+                   "@type":"sc:Canvas","label":"35","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/page035/full/full/0/default_hu_6ef7874edd85c489.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/annotation/page035",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page035",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/die-neue-linie-3-1930/page035",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8528,
+                            "width": 6185
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/die-neue-linie-3-1930/canvas/page035"
+                    }]
+               }]
+     }
+  ]}

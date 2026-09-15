@@ -1,0 +1,227 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Sternwolle Modell-Auslese 1954","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/front_hu_25a2a06a0572ed31.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7587,
+                            "width": 5624
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/page009",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"9","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/page009_hu_8e5566889fae86a9.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/annotation/page009",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/page009",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/page009",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7615,
+                            "width": 5421
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/page009"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/page042",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"42","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/page042_hu_59ecdb8fb1f7dc38.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/annotation/page042",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/page042",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/page042",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7620,
+                            "width": 5439
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/page042"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/page046",
+                   "@type":"sc:Canvas","label":"46","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/page046_hu_42b3ed051f6123f9.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/annotation/page046",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/page046",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/page046",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7612,
+                            "width": 5451
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/page046"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/page047",
+                   "@type":"sc:Canvas","label":"47","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/page047_hu_9cb86f1fcdad8d58.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/annotation/page047",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/page047",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/page047",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7620,
+                            "width": 5413
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/page047"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/page049",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"49","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/page049_hu_520515661d5c9fc7.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/annotation/page049",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/page049",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/page049",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7605,
+                            "width": 5416
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/page049"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/end",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/end_hu_d27e0489f6201cea.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/annotation/end",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/end",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/sternwolle-1954/end",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7602,
+                            "width": 5646
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/sternwolle-1954/canvas/end"
+                    }]
+               }]
+     }
+  ]}

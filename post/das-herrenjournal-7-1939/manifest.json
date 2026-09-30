@@ -1,0 +1,227 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Das Herrenjournal Juli 1934","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/front/full/full/0/default_hu_88f81c8fa598de1.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7693,
+                            "width": 5909
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/page015",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"15","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/page015/full/full/0/default_hu_aebe460c4e96e2db.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/annotation/page015",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/page015",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/page015",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7683,
+                            "width": 5751
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/page015"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/page024",
+                   "@type":"sc:Canvas","label":"24","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/page024/full/full/0/default_hu_c0911c9ac3ee0dde.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/annotation/page024",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/page024",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/page024",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7682,
+                            "width": 5774
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/page024"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/page025",
+                   "@type":"sc:Canvas","label":"25","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/page025/full/full/0/default_hu_2f75562e67676974.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/annotation/page025",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/page025",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/page025",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7691,
+                            "width": 5769
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/page025"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/page026",
+                   "@type":"sc:Canvas","label":"26","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/page026/full/full/0/default_hu_f57ca7c96e7a27f8.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/annotation/page026",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/page026",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/page026",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7685,
+                            "width": 5792
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/page026"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/page027",
+                   "@type":"sc:Canvas","label":"27","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/page027/full/full/0/default_hu_6665b9c80db765.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/annotation/page027",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/page027",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/page027",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7685,
+                            "width": 5795
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/page027"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/page033",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"33","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/page033/full/full/0/default_hu_5b79aa209e29cea3.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/annotation/page033",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/page033",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/das-herrenjournal-7-1939/page033",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7690,
+                            "width": 5602
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/das-herrenjournal-7-1939/canvas/page033"
+                    }]
+               }]
+     }
+  ]}

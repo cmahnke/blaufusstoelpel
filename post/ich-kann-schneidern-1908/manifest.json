@@ -1,0 +1,1577 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Ich kann schneidern","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/front",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/front_hu_93746a393a9b2eee.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5464,
+                            "width": 3811
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/title",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/title_hu_7a5c921910d3072.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/title",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/title",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/title",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5341,
+                            "width": 3676
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/title"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page163",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"163","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page163_hu_c02e4ccbc79fb6b3.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page163",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page163",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page163",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5342,
+                            "width": 3718
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page163"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page164",
+                   "@type":"sc:Canvas","label":"164","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page164_hu_ea7dc03a25925608.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page164",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page164",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page164",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5339,
+                            "width": 3695
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page164"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page165",
+                   "@type":"sc:Canvas","label":"165","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page165_hu_6f58a64e9010e179.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page165",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page165",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page165",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5329,
+                            "width": 3750
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page165"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page166",
+                   "@type":"sc:Canvas","label":"166","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page166_hu_9a9b3e54e2869f5f.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page166",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page166",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page166",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5335,
+                            "width": 3711
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page166"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page167",
+                   "@type":"sc:Canvas","label":"167","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page167_hu_9c84fbc0af56aa3c.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page167",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page167",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page167",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5353,
+                            "width": 3753
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page167"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page168",
+                   "@type":"sc:Canvas","label":"168","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page168_hu_a6f11c82f4efde27.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page168",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page168",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page168",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5347,
+                            "width": 3708
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page168"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page169",
+                   "@type":"sc:Canvas","label":"169","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page169_hu_2d38d18c0651869a.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page169",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page169",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page169",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5354,
+                            "width": 3760
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page169"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page184",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"184","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page184_hu_e3a4a13773fa4da8.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page184",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page184",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page184",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5357,
+                            "width": 3737
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page184"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page232",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"232","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page232_hu_ccbcb87226bc9d.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page232",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page232",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page232",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5342,
+                            "width": 3679
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page232"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page327",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"327","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page327_hu_78a360ef01ac8681.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page327",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page327",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page327",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5331,
+                            "width": 3701
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page327"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page328",
+                   "@type":"sc:Canvas","label":"328","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page328_hu_a2d7053ee24c564e.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page328",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page328",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page328",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5321,
+                            "width": 3687
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page328"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page329",
+                   "@type":"sc:Canvas","label":"329","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page329_hu_75fe9d1b8508a393.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page329",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page329",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page329",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5335,
+                            "width": 3710
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page329"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page330",
+                   "@type":"sc:Canvas","label":"330","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page330_hu_9d6f3ddb4b3bcfc0.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page330",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page330",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page330",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5350,
+                            "width": 3746
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page330"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page331",
+                   "@type":"sc:Canvas","label":"331","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page331_hu_710901eb77fa58d5.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page331",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page331",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page331",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5327,
+                            "width": 3712
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page331"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page332",
+                   "@type":"sc:Canvas","label":"332","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page332_hu_f6ba5e1ecdadb925.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page332",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page332",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page332",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5354,
+                            "width": 3733
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page332"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page333",
+                   "@type":"sc:Canvas","label":"333","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page333_hu_67a9ce513bcd9c52.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page333",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page333",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page333",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5344,
+                            "width": 3723
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page333"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page334",
+                   "@type":"sc:Canvas","label":"334","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page334_hu_20f7fd8fab86702d.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page334",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page334",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page334",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5348,
+                            "width": 3738
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page334"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page335",
+                   "@type":"sc:Canvas","label":"335","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page335_hu_d4f1fa55fd1199b1.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page335",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page335",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page335",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5364,
+                            "width": 3693
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page335"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page354",
+                   "@type":"sc:Canvas","label":"354","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page354_hu_75e124ec20d754ee.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page354",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page354",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page354",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5324,
+                            "width": 3650
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page354"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page355",
+                   "@type":"sc:Canvas","label":"355","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page355_hu_d56492d4f2b90054.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page355",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page355",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page355",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5328,
+                            "width": 3729
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page355"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page360",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"360","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page360_hu_c86b35e85ba96157.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page360",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page360",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page360",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5372,
+                            "width": 3711
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page360"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page364",
+                   "@type":"sc:Canvas","label":"364","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page364_hu_c993b38bbd9f9da8.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page364",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page364",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page364",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5343,
+                            "width": 3734
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page364"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page365",
+                   "@type":"sc:Canvas","label":"365","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page365_hu_a1849ce05b6f8568.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page365",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page365",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page365",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5353,
+                            "width": 3684
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page365"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page392",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"392","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page392_hu_5a6f9a7e565c7d5f.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page392",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page392",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page392",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5348,
+                            "width": 3737
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page392"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page414",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"414","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page414_hu_e6783a3c69705944.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page414",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page414",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page414",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5343,
+                            "width": 3731
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page414"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page422",
+                   "@type":"sc:Canvas","label":"422","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page422_hu_3a888fb000e68f6e.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page422",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page422",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page422",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5360,
+                            "width": 3743
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page422"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page423",
+                   "@type":"sc:Canvas","label":"423","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page423_hu_459dd8326a76c413.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page423",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page423",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page423",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5337,
+                            "width": 3732
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page423"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page424",
+                   "@type":"sc:Canvas","label":"424","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page424_hu_aac218cc457c0c66.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page424",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page424",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page424",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5340,
+                            "width": 3723
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page424"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page425",
+                   "@type":"sc:Canvas","label":"425","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page425_hu_9af120f64e143f9e.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page425",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page425",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page425",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5362,
+                            "width": 3730
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page425"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page426",
+                   "@type":"sc:Canvas","label":"426","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page426_hu_f5fe5926fc127cab.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page426",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page426",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page426",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5357,
+                            "width": 3741
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page426"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page427",
+                   "@type":"sc:Canvas","label":"427","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page427_hu_b64814e9317b7612.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page427",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page427",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page427",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5335,
+                            "width": 3720
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page427"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page428",
+                   "@type":"sc:Canvas","label":"428","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page428_hu_a4a887d695cc8fb5.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page428",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page428",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page428",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5332,
+                            "width": 3719
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page428"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page429",
+                   "@type":"sc:Canvas","label":"429","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page429_hu_1bd2d24a28d03d42.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page429",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page429",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page429",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5358,
+                            "width": 3744
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page429"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page430",
+                   "@type":"sc:Canvas","label":"430","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page430_hu_fc08a80a62852428.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page430",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page430",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page430",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5362,
+                            "width": 3757
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page430"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page431",
+                   "@type":"sc:Canvas","label":"431","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page431_hu_fe12bef8a107409b.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page431",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page431",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page431",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5351,
+                            "width": 3750
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page431"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page432",
+                   "@type":"sc:Canvas","label":"432","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page432_hu_12d947e3211d32d3.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page432",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page432",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page432",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5360,
+                            "width": 3742
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page432"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page433",
+                   "@type":"sc:Canvas","label":"433","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page433_hu_52ddcefbd960aebe.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page433",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page433",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page433",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5327,
+                            "width": 3709
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page433"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page434",
+                   "@type":"sc:Canvas","label":"434","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page434_hu_6673d138c8f9c305.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page434",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page434",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page434",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5315,
+                            "width": 3688
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page434"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page435",
+                   "@type":"sc:Canvas","label":"435","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page435_hu_47d161fce48dd369.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page435",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page435",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page435",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5343,
+                            "width": 3742
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page435"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page436",
+                   "@type":"sc:Canvas","label":"436","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page436_hu_42dea1527526d51a.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page436",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page436",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page436",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5361,
+                            "width": 3733
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page436"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page437",
+                   "@type":"sc:Canvas","label":"437","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page437_hu_e6c31ef624f618bf.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page437",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page437",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page437",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5338,
+                            "width": 3738
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page437"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page452",
+                   "@type":"sc:Canvas","label":"452","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page452_hu_916f88776c106e1d.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page452",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page452",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page452",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5358,
+                            "width": 3722
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page452"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page453",
+                   "@type":"sc:Canvas","label":"453","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page453_hu_befab89481431073.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page453",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page453",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page453",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5322,
+                            "width": 3702
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page453"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page458",
+                   "@type":"sc:Canvas","label":"458","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page458_hu_1545ccd8f65627be.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page458",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page458",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page458",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5367,
+                            "width": 3718
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page458"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page459",
+                   "@type":"sc:Canvas","label":"459","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page459_hu_557d596c0db00cfa.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page459",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page459",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page459",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5337,
+                            "width": 3705
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page459"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page460",
+                   "@type":"sc:Canvas","label":"460","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page460_hu_d05ddcfde5fc301.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page460",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page460",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page460",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5339,
+                            "width": 3674
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page460"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page461",
+                   "@type":"sc:Canvas","label":"461","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page461_hu_13685204765bcfc7.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page461",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page461",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page461",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5343,
+                            "width": 3724
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page461"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page461",
+                   "@type":"sc:Canvas","label":"461","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page461_hu_13685204765bcfc7.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page461",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page461",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page461",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5343,
+                            "width": 3724
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page461"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page462",
+                   "@type":"sc:Canvas","label":"462","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page462_hu_bdf131e543461bd6.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page462",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page462",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page462",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5360,
+                            "width": 3725
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page462"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page463",
+                   "@type":"sc:Canvas","label":"463","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/page463_hu_feead93ef9c449e1.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/annotation/page463",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page463",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/ich-kann-schneidern-1908/page463",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 5340,
+                            "width": 3728
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/ich-kann-schneidern-1908/canvas/page463"
+                    }]
+               }]
+     }
+  ]}

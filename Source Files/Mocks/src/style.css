@@ -1,0 +1,85 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+#topbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 48px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 16px;
+  background: #16171d;
+  color: #f3f4f6;
+  z-index: 10;
+}
+
+#app-title {
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#topbar nav {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+#topbar button {
+  font: inherit;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1px solid #2e303a;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+#topbar button:hover {
+  border-color: #6b7280;
+}
+
+#topbar button[aria-pressed='true'] {
+  background: #aa3bff;
+  border-color: #aa3bff;
+  color: #fff;
+}
+
+main {
+  position: fixed;
+  top: 48px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.viewer {
+  height: 100%;
+}
+
+.viewer[hidden] {
+  display: none;
+}
+
+#mirador,
+#tify {
+  height: 100%;
+}
+
+triiiceratops-viewer {
+  display: block;
+  height: 100%;
+  width: 100%;
+}

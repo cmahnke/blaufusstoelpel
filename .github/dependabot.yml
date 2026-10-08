@@ -26,3 +26,13 @@ updates:
     cooldown:
       exclude:
         - projektemacher-base
+
+  - package-ecosystem: "npm"
+    directory: "/Source Files/Mocks/"
+    versioning-strategy: increase
+    schedule:
+      interval: "weekly"
+    groups:
+      npm-mocks:
+        patterns:
+          - "*"

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalina Leaflet — IIIF Viewer</title>
+  </head>
+  <body>
+    <header id="topbar">
+      <span id="app-title">Catalina Leaflet — IIIF Viewer</span>
+      <nav aria-label="IIIF viewer selection">
+        <button type="button" data-viewer="mirador" aria-pressed="true">Mirador</button>
+        <button type="button" data-viewer="tify" aria-pressed="false">Tify</button>
+        <button type="button" data-viewer="triiiceratops" aria-pressed="false">
+          Triiiceratops
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="viewer" id="view-mirador" aria-label="Mirador viewer">
+        <div id="mirador"></div>
+      </section>
+      <section class="viewer" id="view-tify" aria-label="Tify viewer" hidden>
+        <div id="tify"></div>
+      </section>
+      <section
+        class="viewer"
+        id="view-triiiceratops"
+        aria-label="Triiiceratops viewer"
+        hidden
+      ></section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

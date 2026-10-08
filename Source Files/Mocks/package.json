@@ -1,0 +1,42 @@
+{
+  "name": "mocks-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "predev": "npm run manifest",
+    "build": "tsc && vite build",
+    "prebuild": "npm run manifest",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "manifest": "python3 scripts/generate_iiif_manifest.py",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.12.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.9",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.71.1",
+    "vite": "^8.3.0",
+    "vite-multiple-assets": "^2.2.6"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.11",
+    "@mui/system": "^9.4.0",
+    "mirador": "^4.2.6",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-i18next": "^17.0.16",
+    "tify": "^0.36.2",
+    "triiiceratops": "^1.2.2"
+  }
+}

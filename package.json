@@ -4,7 +4,7 @@
   "bootstrap": "^5.3.8",
   "headroom.js": "^0.12.0",
     "isotope-layout": "^3.0.6",
-    "moment": "^2.30.1"
+    "moment": "^2.31.0"
  },
  "scripts": {
   "header": "svgo --config Source\\ Files/svgo.config.js -i Source\\ Files/Logo/Header.svg -o static/images/header.svg",

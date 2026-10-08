@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="{{ .link | absURL }} ">
     {{ end }}
 
-    {{- partial "html/head/style.html" (dict "context" . "css" (slice "css/style.css") "includes" (slice "node_modules/slick-carousel/slick" "node_modules/bootstrap/scss" )) -}}
+    {{- partial "html/head/style.html" (dict "context" . "css" (slice "css/style.css") "includes" (slice "node_modules/bootstrap/scss" )) -}}
 
     {{/* JavaScript */}}
     {{- if .IsHome  -}}

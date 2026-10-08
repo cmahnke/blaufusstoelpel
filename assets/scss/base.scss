@@ -1,8 +1,4 @@
 @import "bootstrap.scss";
-@import "slick.scss";
-$slick-font-path: "/fonts/slick/";
-$slick-loader-path: "/images/";
-@import "slick-theme.scss";
 @import "icons";
 /*@import "ol"; */
 @import "ol-iiif";
@@ -328,10 +324,6 @@ a:focus,
 a:hover,
 a:visited {
     text-decoration: none;
-}
-
-.slick-list {
-    height: 400px;
 }
 
 .featured-post-slider {
@@ -690,4 +682,64 @@ p.small {
     .badge {
         color: unset;
     }
+}
+
+/* Featured post slider (vanilla replacement for slick-carousel). */
+.featured-post-slider.slider-viewport {
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+}
+
+.featured-post-slider {
+  .slider-track {
+    display: flex;
+    flex-wrap: nowrap;
+    transition: transform 0.3s ease;
+    touch-action: pan-y;
+    cursor: grab;
+    padding-right: unset;
+    padding-left: unset;
+
+    &:active {
+      cursor: grabbing;
+    }
+  }
+
+  .slider-slide {
+    min-width: 0;
+  }
+
+  .slider-arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 3rem;
+    border: 0;
+    background: rgba(0, 0, 0, 0.35);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.55);
+    }
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  .slider-prev {
+    left: 0.5rem;
+  }
+
+  .slider-next {
+    right: 0.5rem;
+  }
 }

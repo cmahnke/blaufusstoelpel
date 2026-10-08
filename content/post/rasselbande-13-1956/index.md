@@ -1,8 +1,7 @@
 ---
 title: Rasselbande 13 1956
 subTitle: Jugendmode zum Selbermachen
-date: 2021-07-14T19:01:38+02:00
-draft: true
+date: 2026-10-01T19:01:38+02:00
 iiifManifest: ./manifest.json
 outputs:
 - html

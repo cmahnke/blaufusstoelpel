@@ -95,6 +95,8 @@ resources:
 
 Da der Sommer vorbei ist, gibt es hier Bademode zu sehen, die ohnehin schon etwas länger aus der Mode ist.
 
+<!--more-->
+
 Dieses Faltblatt ist eine deutsche Werbung für die amerikanische Firma [Catalina Swimwear](https://en.wikipedia.org/wiki/Catalina_Swimwear) (engl.). Auffällig ist, das als Materialien [Lastex](https://en.wikipedia.org/wiki/Lastex) (engl.) und Baumwolle angegeben werden. Das spricht dafür, dass dieses Faltblatt aus den frühen 50ern stammt, denn sonst gäbe es sicher auch Modelle aus Nylon.
 
 Bei der Recherche zu diesem Beitrag ist mir übrigens aufgefallen, dass Bademode und Werbung aus den USA gesammelt werden.

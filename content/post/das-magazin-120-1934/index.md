@@ -2,7 +2,6 @@
 title: Das Magazin Nr 120 August 1939
 subTitle:
 date: 2026-09-24T19:01:38+02:00
-draft: true
 iiifManifest: ./manifest.json
 outputs:
 - html

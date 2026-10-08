@@ -1,7 +1,7 @@
 ---
-title: Das Herrenjournal Juli 1939
+title: Das Magazin Nr 120 August 1939
 subTitle:
-date: 2023-12-07T19:01:38+02:00
+date: 2026-09-24T19:01:38+02:00
 draft: true
 iiifManifest: ./manifest.json
 outputs:

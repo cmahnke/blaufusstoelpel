@@ -79,7 +79,7 @@ def validate_manifest(manifest: dict) -> list[str]:
     except ImportError:
         return [
             "skipped: iiif-prezi3 not installed "
-            "(pip install -r scripts/requirements.txt to enable validation)"
+            "(pip install -r requirements.txt to enable validation)"
         ]
     try:
         Manifest.model_validate(manifest)

@@ -1,0 +1,6 @@
+{{- $leaflet := where .Params.resources "params.hint" "in" (slice "leaflet-front" "leaflet-back") -}}
+{{- if gt ($leaflet | len) 0 -}}
+  {{- partial "iiif/3/manifest-leaflet.json" . -}}
+{{- else -}}
+  {{- partial "iiif/3/manifest.json" . -}}
+{{- end -}}

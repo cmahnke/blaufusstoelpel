@@ -1,0 +1,139 @@
+{{- $debug := partialCached "functions/debug/enabled.html" . -}}
+
+{{- $fullResImgSuffix := "/full/full/0/default.jpg" -}}
+
+{{- $manifestId := (.OutputFormats.Get "iiif-manifest").Permalink -}}
+
+{{- $defaultContentLanguage := hugo.Sites.Default.Language.Lang -}}
+{{ $defaultContentPage := "" }}
+{{- if hugo.IsMultilingual -}}
+  {{- $defaultContentPage = index (where .AllTranslations ".Lang" "eq" $defaultContentLanguage) 0 -}}
+{{- else -}}
+  {{- $defaultContentPage = . -}}
+{{- end -}}
+{{- $urlBase := "" -}}
+{{- $localPath := printf "%s/" (substr (path.Dir $defaultContentPage.RelPermalink) 1) -}}
+{{- if or hugo.IsServer (not (isset .Site.Params "productioniiifurlprefix")) -}}
+  {{- $urlBase = printf "%s%s" hugo.Sites.Default.BaseURL $localPath -}}
+{{- else -}}
+  {{- $urlBase = printf "%s%s" .Site.Params.productionIIIFURLPrefix $localPath -}}
+{{- end -}}
+
+{{- $manifest := dict "@context" "http://iiif.io/api/presentation/3/context.json" "type" "Manifest" "id" $manifestId "viewingDirection" "left-to-right" -}}
+
+{{- with .Params.linkedart -}}
+  {{- $seeAlso := dict "seeAlso" (slice (dict "id" ($.OutputFormats.Get "linkedart").Permalink "type" "Dataset" "format" "application/ld+json" "profile" "https://linked.art/ns/v1/linked-art.json" "label" (dict "en" (slice "Linked Art Metadata")))) -}}
+  {{- $manifest = $manifest | merge $seeAlso -}}
+{{- end -}}
+
+{{- if .Description -}}
+  {{- $summary := partial "iiif/3/manifest-summary.json" . -}}
+  {{- $manifest = $manifest | merge (dict "summary" $summary) -}}
+{{- end -}}
+
+{{- $label := dict $.Site.Language.Lang (slice (printf "%s: %s" .Site.Title .Title)) -}}
+{{- if hugo.IsMultilingual -}}
+  {{- $translations := where .Translations ".Lang" "!=" $.Site.Language.Lang -}}
+  {{- range $translations -}}
+    {{- $label = $label | merge (dict .Lang (slice (printf "%s: %s" .Site.Title .Title))) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $homepage := slice (dict "id" .Permalink "type" "Text" "format" "text/html" "label" $label) -}}
+{{- $label = partial "iiif/3/manifest-label.json" . -}}
+{{- $requiredStatement := partial "iiif/3/required-statement.json" . -}}
+{{- $thumbnails := partial "iiif/3/thumbnail.json" . -}}
+{{- $provider := partialCached "iiif/3/provider.json" . -}}
+
+{{- $manifest = $manifest | merge (dict "provider" $provider) -}}
+{{- $manifest = $manifest | merge (dict "homepage" $homepage) -}}
+{{- $manifest = $manifest | merge (dict "label" $label) -}}
+{{- $manifest = $manifest | merge (dict "requiredStatement" $requiredStatement) -}}
+
+{{- if gt ($thumbnails | len) 0 -}}
+  {{- $manifest = $manifest | merge (dict "thumbnail" $thumbnails) -}}
+{{- end -}}
+
+{{- with .Params.iiif.metadata -}}
+  {{- $manifest = $manifest | merge (dict "metadata" .) -}}
+{{- end -}}
+{{- with .Params.iiif.rights -}}
+  {{- $manifest = $manifest | merge (dict "rights" .Params.iiif.rights) -}}
+{{- end -}}
+{{- with .Params.iiif.structure -}}
+  {{- warnf "[iiif/3/manifest-leaflet.json] .Params.iiif.structure is ignored in leaflet mode, computed ranges win: %s" $.RelPermalink -}}
+{{- end -}}
+
+{{- $iiifResources := where .Params.resources "params.iiif" "ne" nil -}}
+{{- $sided := where $iiifResources "params.hint" "in" (slice "leaflet-front" "leaflet-back") -}}
+{{- if ne ($sided | len) ($iiifResources | len) -}}
+  {{- errorf "[iiif/3/manifest-leaflet.json] leaflet mode requires every iiif resource to carry hint leaflet-front or leaflet-back: %s" .RelPermalink -}}
+{{- end -}}
+
+{{- $front := where $iiifResources "params.hint" "eq" "leaflet-front" -}}
+{{- $back := where $iiifResources "params.hint" "eq" "leaflet-back" -}}
+
+{{- $canvases := slice -}}
+{{- $sideRanges := slice -}}
+{{- range $side := slice (dict "key" "front" "label" "Front" "panels" $front) (dict "key" "back" "label" "Back" "panels" $back) -}}
+  {{- $canvasId := printf "%scanvas/%s" $urlBase $side.key -}}
+  {{- $canvasWidth := 0 -}}
+  {{- $canvasHeight := 0 -}}
+  {{- range $side.panels -}}
+    {{- $imageRes := $.Resources.Get .src -}}
+    {{- if eq $imageRes nil -}}
+      {{- errorf "[iiif/3/manifest-leaflet.json] failed to load image %s for %s" .src $.RelPermalink -}}
+    {{- end -}}
+    {{- if eq (string $imageRes.MediaType) "image/jxl" -}}
+      {{- $imageRes = $.Resources.Get (path.Join (path.Dir .params.iiif) $fullResImgSuffix) -}}
+    {{- end -}}
+    {{- if eq $imageRes nil -}}
+      {{- errorf "[iiif/3/manifest-leaflet.json] failed to load preview for %s (%s)" .src $.RelPermalink -}}
+    {{- end -}}
+    {{- $canvasWidth = add $canvasWidth $imageRes.Width -}}
+    {{- if gt $imageRes.Height $canvasHeight -}}
+      {{- $canvasHeight = $imageRes.Height -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $annotations := slice -}}
+  {{- $pageRanges := slice -}}
+  {{- $x := 0 -}}
+  {{- range $i, $res := $side.panels -}}
+    {{- $imageRes := $.Resources.Get $res.src -}}
+    {{- if eq (string $imageRes.MediaType) "image/jxl" -}}
+      {{- $imageRes = $.Resources.Get (path.Join (path.Dir $res.params.iiif) $fullResImgSuffix) -}}
+    {{- end -}}
+    {{- $w := $imageRes.Width -}}
+    {{- $h := $imageRes.Height -}}
+    {{- $manifestDir := path.Dir $res.params.iiif -}}
+    {{- $serviceId := printf "%s%s" $urlBase $manifestDir -}}
+    {{- $fragment := printf "%d,0,%d,%d" $x $w $h -}}
+    {{- $pageLabel := dict "en" (slice (printf "Page %d (%s)" (add $i 1) $manifestDir)) -}}
+    {{- with $res.params.label -}}
+      {{- $pageLabel = dict "none" (slice .) -}}
+    {{- end -}}
+    {{- $body := dict "id" (printf "%s%s" $serviceId $fullResImgSuffix) "type" "Image" "format" "image/jpeg" "width" $w "height" $h "service" (slice (dict "id" $serviceId "type" "ImageService2" "profile" "level0")) -}}
+    {{- $itemId := printf "%sannotation/%s/p%03d" $urlBase $side.key (add $i 1) -}}
+    {{- $annotations = $annotations | append (dict "id" $itemId "type" "Annotation" "motivation" "painting" "label" (dict "none" (slice $manifestDir)) "body" $body "target" (printf "%s#xywh=%s" $canvasId $fragment)) -}}
+    {{- $pageRanges = $pageRanges | append (dict "id" (printf "%srange/page/%s" $urlBase $manifestDir) "type" "Range" "label" $pageLabel "items" (slice (dict "id" (printf "%s#xywh=%s" $canvasId $fragment) "type" "Canvas"))) -}}
+    {{- $x = add $x $w -}}
+  {{- end -}}
+  {{- $annotationPage := dict "id" (printf "%sannotation/%s" $urlBase $side.key) "type" "AnnotationPage" "items" $annotations -}}
+  {{- $firstRes := index $side.panels 0 -}}
+  {{- $firstImg := $.Resources.Get $firstRes.src -}}
+  {{- if eq (string $firstImg.MediaType) "image/jxl" -}}
+    {{- $firstImg = $.Resources.Get (path.Join (path.Dir $firstRes.params.iiif) $fullResImgSuffix) -}}
+  {{- end -}}
+  {{- $thumbRes := $firstImg.Resize "300x" -}}
+  {{- $canvas := dict "id" $canvasId "type" "Canvas" "label" (dict "en" (slice $side.label)) "width" $canvasWidth "height" $canvasHeight "thumbnail" (slice (dict "id" $thumbRes.Permalink "format" "image/jpeg" "type" "Image" "height" $thumbRes.Height "width" $thumbRes.Width)) "items" (slice $annotationPage) -}}
+  {{- $canvases = $canvases | append $canvas -}}
+  {{- $sideRange := dict "id" (printf "%srange/%s" $urlBase $side.key) "type" "Range" "label" (dict "en" (slice $side.label)) "items" $pageRanges -}}
+  {{- if $.Params.iiifLeafletContinuous -}}
+    {{- $sideRange = merge (dict "behavior" (slice "continuous")) $sideRange -}}
+  {{- end -}}
+  {{- $sideRanges = $sideRanges | append $sideRange -}}
+{{- end -}}
+
+{{- $manifest = $manifest | merge (dict "items" $canvases) -}}
+{{- $manifest = $manifest | merge (dict "structures" $sideRanges) -}}
+{{- $manifest | jsonify -}}

@@ -108,7 +108,7 @@
     {{- $manifestDir := path.Dir $res.params.iiif -}}
     {{- $serviceId := printf "%s%s" $urlBase $manifestDir -}}
     {{- $fragment := printf "%d,0,%d,%d" $x $w $h -}}
-    {{- $pageLabel := dict "en" (slice (printf "Page %d (%s)" (add $i 1) $manifestDir)) -}}
+    {{- $pageLabel := dict "en" (slice (printf "Page %d" (add $i 1))) -}}
     {{- with $res.params.label -}}
       {{- $pageLabel = dict "none" (slice .) -}}
     {{- end -}}

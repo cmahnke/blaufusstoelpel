@@ -1,0 +1,467 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Constanze Strickmode Sonderheft 18","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/front_hu_7b481dcaf3bb857b.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8665,
+                            "width": 6178
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page010",
+                   "@type":"sc:Canvas","label":"10","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/page010_hu_feeec2047b76774.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/page010",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page010",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page010",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8678,
+                            "width": 5855
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page010"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page011",
+                   "@type":"sc:Canvas","label":"11","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/page011_hu_fd1c539efb2af31b.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/page011",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page011",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page011",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8685,
+                            "width": 5905
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page011"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page012",
+                   "@type":"sc:Canvas","label":"12","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/page012_hu_3020171f3500a74f.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/page012",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page012",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page012",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8663,
+                            "width": 5862
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page012"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page013",
+                   "@type":"sc:Canvas","label":"13","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/page013_hu_5c7dee2e422f1e91.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/page013",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page013",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page013",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8674,
+                            "width": 5879
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page013"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page017",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"17","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/page017_hu_98d27587876a8f8c.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/page017",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page017",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page017",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8668,
+                            "width": 5869
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page017"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page020",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"20","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/page020_hu_68f75bbfad423624.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/page020",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page020",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page020",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8667,
+                            "width": 5773
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page020"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page024",
+                   "@type":"sc:Canvas","label":"24","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/page024_hu_91e8200f3ca2a4e7.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/page024",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page024",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page024",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8678,
+                            "width": 5776
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page024"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page025",
+                   "@type":"sc:Canvas","label":"25","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/page025_hu_f497483bc7218717.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/page025",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page025",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page025",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8680,
+                            "width": 5857
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page025"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page036",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"36","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/page036_hu_a09e4e5bf9556277.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/page036",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page036",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page036",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8666,
+                            "width": 5750
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page036"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page052",
+                   "@type":"sc:Canvas","label":"52","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/page052_hu_8e720b4235dc9962.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/page052",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page052",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page052",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8670,
+                            "width": 5707
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page052"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page053",
+                   "@type":"sc:Canvas","label":"53","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/page053_hu_1ee419906e63569e.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/page053",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page053",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page053",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8679,
+                            "width": 5817
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page053"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page056",
+                   "@type":"sc:Canvas","label":"56","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/page056_hu_bdb1cf949bc45ba4.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/page056",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page056",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page056",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8661,
+                            "width": 5768
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page056"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page057",
+                   "@type":"sc:Canvas","label":"57","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/page057_hu_c480a4f66310aed0.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/page057",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page057",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page057",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8656,
+                            "width": 5836
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page057"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page058",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"058","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/page058_hu_9f15b391e8993de5.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/annotation/page058",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page058",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/constanze-strickmode-4-1954/page058",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 8618,
+                            "width": 5728
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/constanze-strickmode-4-1954/canvas/page058"
+                    }]
+               }]
+     }
+  ]}

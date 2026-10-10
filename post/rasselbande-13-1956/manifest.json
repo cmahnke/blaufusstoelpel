@@ -1,0 +1,107 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/rasselbande-13-1956/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Rasselbande 13 1956","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/rasselbande-13-1956/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/rasselbande-13-1956/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/rasselbande-13-1956/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/rasselbande-13-1956/front_hu_a11ff940808a1278.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/rasselbande-13-1956/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/rasselbande-13-1956/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/rasselbande-13-1956/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6215,
+                            "width": 4311
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/rasselbande-13-1956/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/rasselbande-13-1956/canvas/page724",
+                   "@type":"sc:Canvas","label":"724","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/rasselbande-13-1956/page724_hu_6c05aa9a1042a893.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/rasselbande-13-1956/annotation/page724",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/rasselbande-13-1956/page724",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/rasselbande-13-1956/page724",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6183,
+                            "width": 4250
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/rasselbande-13-1956/canvas/page724"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/rasselbande-13-1956/canvas/page725",
+                   "@type":"sc:Canvas","label":"725","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/rasselbande-13-1956/page725_hu_b1dc8a0484a8ac0.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/rasselbande-13-1956/annotation/page725",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/rasselbande-13-1956/page725",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/rasselbande-13-1956/page725",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6231,
+                            "width": 4281
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/rasselbande-13-1956/canvas/page725"
+                    }]
+               }]
+     }
+  ]}

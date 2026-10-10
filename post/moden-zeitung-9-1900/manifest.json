@@ -1,0 +1,137 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Moden Zeitung fürs Deutsche Haus Nr. 9 1900","sequences":[
+      {
+         "@id":"https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/canvas/front",
+         "canvases":[{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/canvas/front",
+                   "@type":"sc:Canvas","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/front_hu_8452c9ca9bed956d.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7174,
+                            "width": 5291
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/canvas/front"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/canvas/page084",
+                   "@type":"sc:Canvas","label":"84","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/page084_hu_329210252dd01ea5.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/annotation/page084",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/page084",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/page084",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7123,
+                            "width": 5358
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/canvas/page084"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/canvas/page085",
+                   "@type":"sc:Canvas","label":"85","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/page085_hu_8554cea309402f36.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/annotation/page085",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/page085",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/page085",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7171,
+                            "width": 5381
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/canvas/page085"
+                    }]
+               },{
+                   "@id":"https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/canvas/page086",
+                   "@type":"sc:Canvas","label":"86","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/page086_hu_f73afadedf8f6195.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/annotation/page086",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/page086",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/blaufusstoelpel/post/moden-zeitung-9-1900/page086",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 7182,
+                            "width": 5326
+                         },
+                         "on":"https://xn--blaufusstlpel-qmb.de/post/moden-zeitung-9-1900/canvas/page086"
+                    }]
+               }]
+     }
+  ]}

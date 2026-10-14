@@ -13,6 +13,7 @@
   description = "Alte Modezeitschriften"
   wikidata = true
   debug = false
+  schemaPerson = "https://christianmahnke.de/person.jsonld"
 
   [params.preview]
     outputPrefix = "ogPreview-overlay"

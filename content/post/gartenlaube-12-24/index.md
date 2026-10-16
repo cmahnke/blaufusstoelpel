@@ -1,11 +1,12 @@
 ---
 title: Gartenlaube Nr. 12 1924
 date: 2020-09-05T17:54:49+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 year: 1924
 month: 3
 tags:

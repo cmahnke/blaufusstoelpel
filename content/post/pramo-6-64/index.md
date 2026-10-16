@@ -2,11 +2,12 @@
 title: Pramo Nr. 6 1964
 subTitle: DDR Boomer seine Mudder
 date: 2024-10-10T17:20:49+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 year: 1964
 month: 6
 tags:

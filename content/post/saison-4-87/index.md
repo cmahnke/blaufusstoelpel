@@ -5,11 +5,12 @@ featured: true
 year: 1987
 month: 12
 date: 2020-10-14T17:20:49+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 tags:
 - 1987
 - DDR

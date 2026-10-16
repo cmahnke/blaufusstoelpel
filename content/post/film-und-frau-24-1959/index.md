@@ -2,11 +2,12 @@
 title: Film und Frau 24 1959
 subTitle: Mit Golddruck
 date: 2021-06-03T16:51:27+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 year: 1959
 month: 12
 tags:

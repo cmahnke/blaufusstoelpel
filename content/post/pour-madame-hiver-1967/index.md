@@ -3,11 +3,12 @@ title: Pour Madame Hiver 1967
 subTitle: Nicht nur dunkelgrün.
 dragt: true
 date: 2024-02-21T17:21:11+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 year: 1967
 month: 10
 tags:

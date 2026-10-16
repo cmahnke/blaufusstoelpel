@@ -2,11 +2,12 @@
 title: Praline 19 1961
 subTitle: Anders als man denkt
 date: 2021-05-06T16:51:27+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 year: 1961
 month: 6
 tags:

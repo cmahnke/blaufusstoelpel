@@ -82,13 +82,6 @@ defaultMarkdownHandler = 'goldmark'
   [mediaTypes."image/jxl"]
     suffixes = ["jxl"]
 
-  [outputFormats.iiif]
-    mediaType = "application/ld+json"
-    isPlainText = true
-    isHTML = false
-    baseName = "manifest"
-    notAlternative = true
-
   [outputFormats.iiif-manifest]
     mediaType = "application/ld+json"
     isPlainText = true
@@ -102,6 +95,9 @@ defaultMarkdownHandler = 'goldmark'
     isHTML = false
     baseName = "collection"
     notAlternative = true
+
+[outputs]
+  home = ["html", "rss", "iiif-collection"]
 
 [sitemap]
   changeFreq = 'weekly'

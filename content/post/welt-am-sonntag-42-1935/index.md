@@ -4,11 +4,12 @@ subTitle: Bilderbeilage der »Prager Presse«
 year: 1935
 month: 10
 date: 2020-11-15T14:20:49+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 tags:
 - 1935
 - 30er

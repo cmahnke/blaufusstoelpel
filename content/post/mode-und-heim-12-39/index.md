@@ -2,11 +2,12 @@
 title: Mode und Heim Nr. 12 1939
 subTitle: Herbstmode 1939
 date: 2020-09-17T17:57:49+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 year: 1939
 month: 6
 featured: true

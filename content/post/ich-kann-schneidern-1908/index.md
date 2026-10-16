@@ -1,11 +1,12 @@
 ---
 title: Ich kann schneidern
 date: 2021-02-26T17:54:49+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 itemType: book
 itemDescription: 'Ich kann schneidern: illustriertes Hausbuch der praktischen Schneiderei von Antonie Steimann, Ullstein, Berlin 1908. <a class="worldcat" href="http://www.worldcat.org/oclc/312332207">&nbsp;</a>'
 year: 1908

@@ -1,12 +1,13 @@
 ---
 title: Für Sie Nr. 8 1968
-date: 2020-04-29T17:54:49+02:00
-iiifManifest: ./manifest.json
 draft: true
+date: 2020-04-29T17:54:49+02:00
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 year: 1968
 month: 8
 tags:

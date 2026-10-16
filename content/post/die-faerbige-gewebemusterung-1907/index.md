@@ -2,11 +2,12 @@
 title: Die färbige Gewebemusterung
 subTitle: Ein Buch über Gewebemuster
 date: 2021-04-08T17:54:49+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 itemType: book
 itemDescription: 'Die färbige Gewebemusterung: ein Lehrgang, Gewebe durch 2-6 färbige Anordnung der Ketten- und Schussfäden zu figurieren von Franz Donat, A. Hartlebens Verlag, Wien 1907. <a class="worldcat" href="http://www.worldcat.org/oclc/56089718">&nbsp;</a>'
 year: 1907

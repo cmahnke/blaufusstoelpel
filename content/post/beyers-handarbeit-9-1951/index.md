@@ -2,12 +2,13 @@
 title: Beyer's Handarbeit und Wäsche 9 1951
 year: 1951
 month: 9
-iiifContext: http://iiif.io/api/presentation/2/context.json
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 date: 2020-09-09T17:56:49+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
+- iiif-manifest
 tags:
 - 1951
 - Kindermode

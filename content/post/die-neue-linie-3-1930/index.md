@@ -2,11 +2,12 @@
 title: die neue linie März 1930
 subTitle: Art déco Mode
 date: 2024-08-14T16:51:27+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 year: 1930
 month: 3
 tags:

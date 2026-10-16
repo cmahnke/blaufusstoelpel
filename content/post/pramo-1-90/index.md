@@ -2,11 +2,12 @@
 title: Pramo Nr. 1 1990
 subTitle: Der letzte Fasching im Sozialismus
 date: 2024-02-12T17:20:49+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 year: 1990
 month: 1
 tags:

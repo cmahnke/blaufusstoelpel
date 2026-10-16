@@ -2,11 +2,12 @@
 title: Er Juni 1968
 subTitle: Ein Herrenmagazin
 date: 2021-04-22T16:51:27+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 year: 1968
 month: 6
 tags:

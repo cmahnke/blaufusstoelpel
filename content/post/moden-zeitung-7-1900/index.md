@@ -1,11 +1,12 @@
 ---
 title: Moden Zeitung fürs Deutsche Haus Nr. 7 1900
 date: 2020-09-25T17:21:11+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 year: 1900
 mMonth: 3
 featured: true

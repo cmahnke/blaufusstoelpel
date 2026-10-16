@@ -1,11 +1,12 @@
 ---
 title: Qui!
 date: 2020-12-21T12:33:49+02:00
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 tags:
 - Frankreich
 - 60er

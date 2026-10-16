@@ -3,11 +3,12 @@ title: Elsa Heft 3 1952
 subTitle: Früher hieß Halloween Schulanfang
 date: 2020-10-31T17:21:01+02:00
 featured: true
-iiifManifest: ./manifest.json
+iiif:
+  manifest: ./manifest.json
 outputs:
 - html
-- iiif
-iiifContext: http://iiif.io/api/presentation/2/context.json
+- iiif-manifest
+iiifcontext: http://iiif.io/api/presentation/3/context.json
 year: 1952
 month: 3
 tags:

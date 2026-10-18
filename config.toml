@@ -69,7 +69,12 @@ defaultMarkdownHandler = 'goldmark'
           rightSingleQuote = '&rsquo;'
 
 [imaging]
-    quality = 95
+    [imaging.jpeg]
+        quality = 95
+    [imaging.webp]
+        quality = 95
+    [imaging.avif]
+        quality = 95
 
 #[outputs]
 #    page = ["HTML", "JSON"]
@@ -114,7 +119,7 @@ defaultMarkdownHandler = 'goldmark'
 
   [[module.mounts]]
     source = "assets/site-css"
-    target = "site-css"
+    target = "assets/site-css"
 
   [[module.mounts]]
     source = "themes/parsa/assets/css"

@@ -40,9 +40,6 @@ case "$OS" in
 esac
 echo "OS is '$OS', sed is '$SED'"
 
-$SED -i -E 's/@import url\("https:\/\/fonts\.googleapis\.com.*//g' themes/parsa/assets/css/style.css
-# Theme now provides 'Open Sans' as variable font under a new family name
-$SED -i -E 's/font-family: "Open Sans", sans-serif;/font-family: "Open Sans Variable", sans-serif;/g' themes/parsa/assets/css/style.css
 #find node_modules/vis-timeline/standalone/ -type f -name '*.js' -exec $SED -i -E 's/\/\*\s*@__PURE__\s*\*\///g' '{}' \;
 #find node_modules/vis-timeline/standalone/ -type f -name '*.js' -exec $SED -i -E 's/_classCallCheck/classCallCheck/g' '{}' \;
 #find node_modules/vis-timeline/standalone/ -type f -name '*.js' -exec $SED -i -E 's/_classCallCheck.*//g' \;

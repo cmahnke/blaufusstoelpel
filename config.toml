@@ -113,6 +113,10 @@ defaultMarkdownHandler = 'goldmark'
     target = "assets/js"
 
   [[module.mounts]]
+    source = "assets/site-css"
+    target = "site-css"
+
+  [[module.mounts]]
     source = "themes/parsa/assets/css"
     target = "assets/css"
 

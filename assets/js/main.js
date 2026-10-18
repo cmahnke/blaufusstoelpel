@@ -1,5 +1,7 @@
 window.bootstrap = require('bootstrap/dist/js/bootstrap.bundle.js');
 
+import 'ts/tabs';
+
 import Headroom from 'headroom.js';
 import Isotope from 'isotope-layout';
 

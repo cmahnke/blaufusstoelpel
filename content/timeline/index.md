@@ -4,7 +4,7 @@ displayinlist: false
 metaPage: true
 layout: timeline
 js:
-  - js/timeline.js
+  - ts/timeline.ts
 ---
 
 Auf diesem Zeitstrahl werden alle Beiträge mit Datumsangabe angezeigt

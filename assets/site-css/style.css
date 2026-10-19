@@ -146,11 +146,6 @@ body {
   overflow-x: hidden;
 }
 
-::-moz-selection {
-  background: #ff8c33;
-  color: #fff;
-}
-
 ::selection {
   background: #ff8c33;
   color: #fff;
@@ -188,18 +183,14 @@ body {
   left: 15px;
   background: #ff6f00;
   border-radius: 50%;
-  -webkit-transform: translateX(0);
   transform: translateX(0);
-  -webkit-animation: dot 2.8s infinite;
   animation: dot 2.8s infinite;
 }
 
 .preloader .loader .dots {
-  -webkit-transform: translateX(0);
   transform: translateX(0);
   margin-top: 12px;
   margin-left: 31px;
-  -webkit-animation: dots 2.8s infinite;
   animation: dots 2.8s infinite;
 }
 
@@ -213,30 +204,14 @@ body {
   border-radius: 50%;
 }
 
-@-webkit-keyframes dot {
-  50% {
-    -webkit-transform: translateX(96px);
-    transform: translateX(96px);
-  }
-}
-
 @keyframes dot {
   50% {
-    -webkit-transform: translateX(96px);
     transform: translateX(96px);
-  }
-}
-
-@-webkit-keyframes dots {
-  50% {
-    -webkit-transform: translateX(-31px);
-    transform: translateX(-31px);
   }
 }
 
 @keyframes dots {
   50% {
-    -webkit-transform: translateX(-31px);
     transform: translateX(-31px);
   }
 }
@@ -430,7 +405,6 @@ textarea.form-control {
 }
 
 .headroom {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
@@ -473,7 +447,6 @@ textarea.form-control {
 .navbar .dropdown:hover .dropdown-menu {
   visibility: visible;
   opacity: 1;
-  -webkit-transform: translateY(0);
   transform: translateY(0);
 }
 
@@ -488,7 +461,6 @@ textarea.form-control {
   visibility: hidden;
   transition: 0.3s ease;
   opacity: 0;
-  -webkit-transform: translateY(-20px);
   transform: translateY(-20px);
   background: #fff;
 }
@@ -498,7 +470,6 @@ textarea.form-control {
     display: none;
     opacity: 1;
     visibility: visible;
-    -webkit-transform: translateY(0);
     transform: translateY(0);
     text-align: center;
   }
@@ -526,7 +497,6 @@ textarea.form-control {
   position: absolute;
   right: 0;
   top: 50%;
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -560,7 +530,6 @@ textarea.form-control {
   height: 2px;
   width: 100px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   bottom: 0px;
   background: #ababab;
@@ -642,7 +611,6 @@ textarea.form-control {
   left: 0;
   right: 0;
   top: 50%;
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   opacity: 0;
   visibility: hidden;
@@ -681,7 +649,6 @@ textarea.form-control {
   position: fixed;
   top: 0;
   left: 50%;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 

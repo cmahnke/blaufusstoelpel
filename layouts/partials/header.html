@@ -1,10 +1,10 @@
 <header class="navigation" id="header">
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand pb-2" href="{{.Site.BaseURL}}">
+    <a class="navbar-brand pb-2" href="{{site.BaseURL}}">
         <div class="header-logo threeD">
-            <img class="logo" src="{{ .Site.Params.logo | absURL }}" alt="Logo">
+            <img class="logo" src="{{ site.Params.logo | absURL }}" alt="Logo">
         </div>
-        <img class="title" src="{{ .Site.Params.header | absURL }}" alt="{{.Site.Title}}">
+        <img class="title" src="{{ site.Params.header | absURL }}" alt="{{site.Title}}">
     </a>
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,9 +14,9 @@
     <div class="collapse navbar-collapse text-center menu mb-4" id="navigation">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link text-uppercase text-dark" href="{{.Site.BaseURL}}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
+          <a class="nav-link text-uppercase text-dark" href="{{site.BaseURL}}">{{ with site.Params.Home }} {{ . }} {{ end }}</a>
         </li>
-        {{ range .Site.Menus.main }}
+        {{ range site.Menus.main }}
             {{ if .HasChildren }}
             <li class="nav-item dropdown">
               <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
@@ -36,9 +36,9 @@
             {{ end }}
         {{ end }}
       </ul>
-      {{ if .Site.Params.search }}
+      {{ if site.Params.search }}
       {{ "<!-- search -->" | safeHTML }}
-      <form class="form-inline position-relative ml-lg-4" action="{{ .Site.BaseURL }}/search">
+      <form class="form-inline position-relative ml-lg-4" action="{{ site.BaseURL }}/search">
         <input class="form-control px-0 w-100" type="search" placeholder="Search" id="search-query" name="s">
         <button class="search-icon" type="submit"><i class="ti-search text-dark"></i></button>
       </form>

@@ -5,8 +5,8 @@
 @import "media-info";
 @import "timeline";
 
-@import "fonts/montserrat";
-@import "fonts/open-sans";
+@import "npm-fonts/montserrat";
+@import "npm-fonts/open-sans";
 @import "npm-fonts/archivo";
 
 @import "iiif/presentation-tify";
@@ -464,11 +464,6 @@ a:visited {
         order: 18;
         width: 100%;
     }
-}
-
-::-moz-selection {
-    background: #adb5bd;
-    color: #fff
 }
 
 ::selection {

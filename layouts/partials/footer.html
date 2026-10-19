@@ -7,7 +7,7 @@
         </div>
         <div class="col-md-3 col-sm-6 design-credit">
              <h6 class="projektemacher">
-                 {{ .Site.Title }} {{ i18n "projektemacher" | safeHTML }} - © {{ .Site.Params.copyright }}
+                 {{ site.Title }} {{ i18n "projektemacher" | safeHTML }} - © {{ site.Params.copyright }}
              </h6>
              <p class="cc"></p>
              <div class="font-secondary text-dark">
@@ -16,8 +16,8 @@
              </div>
         </div>
         <div class="col-md-3 col-sm-6 mb-1 logo">
-          <a href="{{.Site.BaseURL}}">
-              <img src="{{.Site.Params.logo | absURL }}" alt="{{.Site.Title}}" class="img-fluid float-right">
+          <a href="{{site.BaseURL}}">
+              <img src="{{site.Params.logo | absURL }}" alt="{{site.Title}}" class="img-fluid float-right">
           </a>
         </div>
       </div>

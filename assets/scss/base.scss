@@ -1,15 +1,15 @@
 @import "bootstrap.scss";
-@import "icons";
+@use "icons";
 /*@import "ol"; */
-@import "ol-iiif";
-@import "media-info";
-@import "timeline";
+@use "ol-iiif";
+@use "media-info";
+@use "timeline";
 
-@import "npm-fonts/montserrat";
-@import "npm-fonts/open-sans";
-@import "npm-fonts/archivo";
+@use "npm-fonts/montserrat";
+@use "npm-fonts/open-sans";
+@use "npm-fonts/archivo";
 
-@import "iiif/presentation-tify";
+@use "iiif/presentation-tify";
 
 // See https://codepen.io/GeorgePark/pen/jeBbGN
 @keyframes shake {

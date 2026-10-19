@@ -7,7 +7,6 @@
   productionIIIFURLPrefix="https://static.projektemacher.org/blaufusstoelpel/"
   errorimg = "images/blaufusstoelpel.svg"
   copyright = "MMXXI - MMXXVI"
-  disableScale = true
   description = "Alte Modezeitschriften"
   wikidata = true
   debug = false

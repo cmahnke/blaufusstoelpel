@@ -28,5 +28,7 @@
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := (resources.Get "js/script.js" | minify).Content }}
 <script type="text/javascript">
-    {{ $script | safeJS }}
+    document.addEventListener('DOMContentLoaded', function () {
+        {{ $script | safeJS }}
+    });
 </script>

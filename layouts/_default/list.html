@@ -132,7 +132,7 @@
                 {{ end }}
                 <!-- Page numbers. -->
                 {{ range $paginator.Pagers }}
-                {{ $.Scratch.Set "page_number_flag" false }}
+                {{ $page_number_flag := false }}
                 <!-- Advanced page numbers. -->
                 {{ if gt $paginator.TotalPages $max_links }}
                 <!-- Lower limit pages. -->
@@ -140,27 +140,27 @@
                 {{ if le $paginator.PageNumber $lower_limit }}
                 <!-- If the current loop page is less than max_links. -->
                 {{ if le .PageNumber $max_links }}
-                {{ $.Scratch.Set "page_number_flag" true }}
+                {{ $page_number_flag = true }}
                 {{ end }}
                 <!-- Upper limit pages. -->
                 <!-- If the user is on a page which is in the upper limit. -->
                 {{ else if ge $paginator.PageNumber $upper_limit }}
                 <!-- If the current loop page is greater than total pages minus $max_links -->
                 {{ if gt .PageNumber (sub $paginator.TotalPages $max_links) }}
-                {{ $.Scratch.Set "page_number_flag" true }}
+                {{ $page_number_flag = true }}
                 {{ end }}
                 <!-- Middle pages. -->
                 {{ else }}
                 {{ if and ( ge .PageNumber (sub $paginator.PageNumber $adjacent_links) ) ( le .PageNumber (add $paginator.PageNumber $adjacent_links) ) }}
-                {{ $.Scratch.Set "page_number_flag" true }}
+                {{ $page_number_flag = true }}
                 {{ end }}
                 {{ end }}
                 <!-- Simple page numbers. -->
                 {{ else }}
-                {{ $.Scratch.Set "page_number_flag" true }}
+                {{ $page_number_flag = true }}
                 {{ end }}
                 <!-- Output page numbers. -->
-                {{ if eq ($.Scratch.Get "page_number_flag") true }}
+                {{ if $page_number_flag }}
                 <li class="page-item{{ if eq . $paginator }} page-item active {{ end }}">
                   <a href="{{ .URL }}" class="page-link">
                     {{ .PageNumber }}

@@ -1,4 +1,4 @@
-@import "bootstrap.scss";
+@use "bootstrap.scss" as *;
 @use "icons";
 /*@import "ol"; */
 @use "ol-iiif";

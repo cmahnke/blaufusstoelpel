@@ -27,7 +27,7 @@
   // Featured post slider (vanilla, no dependencies).
   // Replicates the previous slick-carousel setup: 2 slides side by side
   // on viewports >= 600px, 1 below, autoplay every 15s, wraparound paging.
-  function initFeaturedSlider(slider) {
+  function initFeaturedSlider(slider: HTMLElement) {
     var slides = Array.prototype.slice.call(slider.children);
     if (slides.length === 0) {
       return;
@@ -58,7 +58,7 @@
     slider.appendChild(nextBtn);
 
     var index = 0;
-    var timer = null;
+    var timer: number | null = null;
     var dragging = false;
     var suppressClick = false;
     var startX = 0;
@@ -82,7 +82,7 @@
       return -index * (slider.clientWidth / visibleCount());
     }
 
-    function goTo(i) {
+    function goTo(i: number) {
       index = Math.max(0, Math.min(i, maxIndex()));
       track.style.transform = 'translateX(' + baseOffset() + 'px)';
       updateArrows();
@@ -182,7 +182,7 @@
     track.addEventListener('pointercancel', endDrag);
     slider.addEventListener(
       'click',
-      function (e) {
+      function (e: Event) {
         if (suppressClick) {
           e.preventDefault();
           e.stopPropagation();
@@ -205,7 +205,7 @@
     start();
   }
 
-  var featuredSlider = document.querySelector('.featured-post-slider');
+  var featuredSlider = document.querySelector<HTMLElement>('.featured-post-slider');
   if (featuredSlider) {
     initFeaturedSlider(featuredSlider);
   }

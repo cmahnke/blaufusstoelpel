@@ -9,6 +9,10 @@
   "scripts": {
     "header": "svgo --config Source\\ Files/svgo.config.js -i Source\\ Files/Logo/Header.svg -o static/images/header.svg",
     "logo": "svgo -i Source\\ Files/Logo/Blaufußtölpel.svg -o static/images/blaufusstoelpel.svg",
-    "svgo": "npm run logo && npm run header"
+    "svgo": "npm run logo && npm run header",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
   }
 }

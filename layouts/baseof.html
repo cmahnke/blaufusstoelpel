@@ -14,6 +14,8 @@
         {{- $class = printf "%s %s" $class "home" -}}
     {{ end }}
     <body class="{{ $class }}">
+        <a class="skip-link" href="#main">{{ i18n "skipToContent" }}</a>
+        <span id="main"></span>
         {{/*
         {{- partial "preloader.html" . -}}
         */}}

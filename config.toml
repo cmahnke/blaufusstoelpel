@@ -118,6 +118,10 @@ defaultMarkdownHandler = 'goldmark'
     target = "assets/js"
 
   [[module.mounts]]
+    source = "assets/ts"
+    target = "assets/ts"
+
+  [[module.mounts]]
     source = "assets/site-css"
     target = "assets/site-css"
 

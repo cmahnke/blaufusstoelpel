@@ -26,7 +26,7 @@
 </footer>
 
 {{ "<!-- Main Script -->" | safeHTML }}
-{{ $script := (resources.Get "js/script.js" | minify).Content }}
+{{ $script := (resources.Get "ts/script.ts" | js.Build (dict "targetPath" "js/script.js" "minify" true)).Content }}
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function () {
         {{ $script | safeJS }}

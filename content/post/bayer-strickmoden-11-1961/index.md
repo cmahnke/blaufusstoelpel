@@ -1,11 +1,12 @@
 ---
 title: Beyer Strickmoden 11 1961
-year: 1961
-month: 11
-iiifcontext: http://iiif.io/api/presentation/3/context.json
+params:
+  year: 1961
+  month: 11
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  iiif:
+    manifest: ./manifest.json
 date: 2020-12-14T17:56:49+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest

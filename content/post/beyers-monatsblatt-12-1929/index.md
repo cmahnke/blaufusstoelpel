@@ -1,14 +1,15 @@
 ---
 title: Beyers Monatsblatt für Handarbeit und Wäsche 12 1929
 date: 2020-08-12T19:01:38+02:00
-iiif:
-  manifest: ./manifest.json
+params:
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1929
+  month: 12
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1929
-month: 12
 tags:
 - 1929
 - 20er

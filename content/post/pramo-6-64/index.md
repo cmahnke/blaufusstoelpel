@@ -1,15 +1,16 @@
 ---
 title: Pramo Nr. 6 1964
-subTitle: DDR Boomer seine Mudder
+params:
+  subTitle: DDR Boomer seine Mudder
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1964
+  month: 6
 date: 2024-10-10T17:20:49+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1964
-month: 6
 tags:
 - Praktische Mode
 - 1964

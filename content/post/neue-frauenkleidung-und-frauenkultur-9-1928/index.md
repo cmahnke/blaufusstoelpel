@@ -1,15 +1,16 @@
 ---
 title: Neue Frauenkleidung und Frauenkultur Nr. 9 1928
-subTitle: Zeitschrift für die gesamten Fraueninteressen
+params:
+  subTitle: Zeitschrift für die gesamten Fraueninteressen
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1928
+  month: 9
 date: 2024-07-31T16:51:27+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1928
-month: 9
 tags:
 - 1928
 - 20er

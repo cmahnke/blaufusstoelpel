@@ -1,10 +1,11 @@
 ---
 title: Zeitstrahl
-displayinlist: false
-metaPage: true
+params:
+  displayinlist: false
+  metaPage: true
+  js:
+    - ts/timeline.ts
 layout: timeline
-js:
-  - ts/timeline.ts
 ---
 
 Auf diesem Zeitstrahl werden alle Beiträge mit Datumsangabe angezeigt

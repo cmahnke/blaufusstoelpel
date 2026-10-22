@@ -1,9 +1,10 @@
 ---
 title: Knittax
-iiifcontext: http://iiif.io/api/presentation/3/context.json
+params:
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  iiif:
+    manifest: ./manifest.json
 date: 2023-10-09T17:56:49+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest

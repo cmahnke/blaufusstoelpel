@@ -1,16 +1,17 @@
 ---
 title: Saison Nr. 4 1987
-subTitle: Großes 80er Spezial
-featured: true
-year: 1987
-month: 12
+params:
+  subTitle: Großes 80er Spezial
+  featured: true
+  year: 1987
+  month: 12
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
 date: 2020-10-14T17:20:49+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
 tags:
 - 1987
 - DDR

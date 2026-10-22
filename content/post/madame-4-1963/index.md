@@ -1,14 +1,15 @@
 ---
 title: Madame April 1963
 date: 2020-08-22T17:20:49+02:00
-iiif:
-  manifest: ./manifest.json
+params:
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1963
+  month: 4
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1963
-month: 4
 tags:
 - 1963
 - 60er

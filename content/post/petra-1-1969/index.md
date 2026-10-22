@@ -1,16 +1,17 @@
 ---
 title: Petra 1 1969
-subTitle: Wir verkleiden uns als Hippies
+params:
+  subTitle: Wir verkleiden uns als Hippies
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1964
+  month: 1
 draft: true
 date: 2021-03-28T19:20:49+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1964
-month: 1
 tags:
 - 1969
 - 60er

@@ -1,16 +1,17 @@
 ---
 title: Illustrirte Frauen-Zeitung
-subTitle: Der bisher älteste Beitrag
+params:
+  subTitle: Der bisher älteste Beitrag
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  itemDescription: 'Illustrirte Frauen-Zeitung - Ausgabe der Modenwelt mit Unterhaltungsblatt, Franz Lipperheide, Berlin'
+  year: 1897
+  month: 12
 date: 2022-07-26T15:54:49+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-itemDescription: 'Illustrirte Frauen-Zeitung - Ausgabe der Modenwelt mit Unterhaltungsblatt, Franz Lipperheide, Berlin'
-year: 1897
-month: 12
 tags:
 - 1897
 - 1890er

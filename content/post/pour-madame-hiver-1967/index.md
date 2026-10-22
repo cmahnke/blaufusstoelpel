@@ -1,16 +1,17 @@
 ---
 title: Pour Madame Hiver 1967
-subTitle: Nicht nur dunkelgrün.
-dragt: true
+params:
+  subTitle: Nicht nur dunkelgrün.
+  dragt: true
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1967
+  month: 10
 date: 2024-02-21T17:21:11+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1967
-month: 10
 tags:
 - Pour Madame
 - Schnittmuster

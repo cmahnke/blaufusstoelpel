@@ -1,14 +1,15 @@
 ---
 title: Constanze Strickmode Sonderheft 18
-subTitle: Nicht nur Pariser Strickmode
+params:
+  subTitle: Nicht nur Pariser Strickmode
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1954
 date: 2021-05-20T19:01:38+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1954
 tags:
 - 1954
 - 50er

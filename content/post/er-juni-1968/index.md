@@ -1,15 +1,16 @@
 ---
 title: Er Juni 1968
-subTitle: Ein Herrenmagazin
+params:
+  subTitle: Ein Herrenmagazin
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1968
+  month: 6
 date: 2021-04-22T16:51:27+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1968
-month: 6
 tags:
 - 1968
 - 60er

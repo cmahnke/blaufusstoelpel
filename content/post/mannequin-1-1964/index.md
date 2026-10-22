@@ -1,14 +1,15 @@
 ---
 title: Mannequin 1 1964
 date: 2021-03-15T19:20:49+02:00
-iiif:
-  manifest: ./manifest.json
+params:
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1964
+  month: 3
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1964
-month: 3
 tags:
 - 1964
 - 60er

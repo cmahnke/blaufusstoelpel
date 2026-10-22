@@ -1,6 +1,7 @@
 ---
 title: Beiträge
-displayinlist: false
+params:
+  displayinlist: false
 sitemap:
   priority: 1.0
 cascade:

@@ -1,15 +1,16 @@
 ---
 title: Praline 19 1961
-subTitle: Anders als man denkt
+params:
+  subTitle: Anders als man denkt
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1961
+  month: 6
 date: 2021-05-06T16:51:27+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1961
-month: 6
 tags:
 - 1961
 - 60er

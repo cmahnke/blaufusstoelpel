@@ -2,14 +2,15 @@
 title: Für Sie Nr. 8 1968
 draft: true
 date: 2020-04-29T17:54:49+02:00
-iiif:
-  manifest: ./manifest.json
+params:
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1968
+  month: 8
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1968
-month: 8
 tags:
 - 1968
 - 60er

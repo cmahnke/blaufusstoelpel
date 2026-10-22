@@ -1,16 +1,17 @@
 ---
 title: Elsa Heft 3 1952
-subTitle: Früher hieß Halloween Schulanfang
+params:
+  subTitle: Früher hieß Halloween Schulanfang
+  featured: true
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1952
+  month: 3
 date: 2020-10-31T17:21:01+02:00
-featured: true
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1952
-month: 3
 tags:
 - 1952
 - Kindermode

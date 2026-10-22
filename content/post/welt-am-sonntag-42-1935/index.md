@@ -1,15 +1,16 @@
 ---
 title: Die Welt am Sonntag Nr. 42 1935
-subTitle: Bilderbeilage der »Prager Presse«
-year: 1935
-month: 10
+params:
+  subTitle: Bilderbeilage der »Prager Presse«
+  year: 1935
+  month: 10
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
 date: 2020-11-15T14:20:49+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
 tags:
 - 1935
 - 30er

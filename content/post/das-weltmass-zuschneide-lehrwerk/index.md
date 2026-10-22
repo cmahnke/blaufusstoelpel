@@ -1,16 +1,17 @@
 ---
 title: Das Weltmass - Zuschneide-Lehrwerk
-subTitle: Das Lehrwerk zur Selbstausbildung im Zuschneiden nach allen Größen
-itemDescription: '"Das Weltmass - Das Lehrwerk zur Selbstausbildung im Zuschneiden nach allen Größen" herausgeben vom Modeverlag Lutterloh, Lindau 1955. <a class="worldcat" href="http://www.worldcat.org/oclc/1399023034">&nbsp;</a>'
+params:
+  subTitle: Das Lehrwerk zur Selbstausbildung im Zuschneiden nach allen Größen
+  itemDescription: '"Das Weltmass - Das Lehrwerk zur Selbstausbildung im Zuschneiden nach allen Größen" herausgeben vom Modeverlag Lutterloh, Lindau 1955. <a class="worldcat" href="http://www.worldcat.org/oclc/1399023034">&nbsp;</a>'
+  iiif:
+    manifest: ./manifest.json
+  itemType: book
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1955
 date: 2024-09-12T16:51:27+02:00
-iiif:
-  manifest: ./manifest.json
-itemType: book
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1955
 tags:
 - 1955
 - 50er

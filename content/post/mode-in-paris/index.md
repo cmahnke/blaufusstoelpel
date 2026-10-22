@@ -1,15 +1,16 @@
 ---
 title: Mode in Paris
 date: 2021-04-15T17:20:49+02:00
-itemType: book
-itemDescription: '"Mode in Paris" von Käthe von Porada, Societäts-Verlag, Frankfurt am Main 1932. <a class="worldcat" href="http://www.worldcat.org/oclc/42138755">&nbsp;</a>'
-iiif:
-  manifest: ./manifest.json
+params:
+  itemType: book
+  itemDescription: '"Mode in Paris" von Käthe von Porada, Societäts-Verlag, Frankfurt am Main 1932. <a class="worldcat" href="http://www.worldcat.org/oclc/42138755">&nbsp;</a>'
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1932
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1932
 tags:
 - 1932
 - 30er

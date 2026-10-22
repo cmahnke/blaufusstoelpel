@@ -1,15 +1,16 @@
 ---
 title: Pelz Revue 79/80
-subTitle: Grausam flauschig
+params:
+  subTitle: Grausam flauschig
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1979
+  month: 11
 date: 2022-12-31T16:51:27+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1979
-month: 11
 tags:
 - 1979
 - Werbung

@@ -1,8 +1,9 @@
 ---
 title: Links
 slug: links
-displayinlist: false
-metaPage: true
+params:
+  displayinlist: false
+  metaPage: true
 ---
 
 # Alte Modezeitschriften und -bücher

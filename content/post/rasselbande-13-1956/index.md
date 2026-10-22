@@ -1,15 +1,16 @@
 ---
 title: Rasselbande 13 1956
-subTitle: Jugendmode zum Selbermachen
+params:
+  subTitle: Jugendmode zum Selbermachen
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1956
+  month: 6
 date: 2026-10-01T19:01:38+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1956
-month: 6
 tags:
 - 1956
 - 50er

@@ -1,14 +1,15 @@
 ---
 title: Gartenlaube Nr. 12 1924
 date: 2020-09-05T17:54:49+02:00
-iiif:
-  manifest: ./manifest.json
+params:
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1924
+  month: 3
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1924
-month: 3
 tags:
 - 1924
 - Handarbeit

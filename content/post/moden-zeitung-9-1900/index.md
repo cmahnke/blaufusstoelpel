@@ -1,15 +1,16 @@
 ---
 title: Moden Zeitung fürs Deutsche Haus Nr. 9 1900
-subTitle: Radfahren und Jugendstil
+params:
+  subTitle: Radfahren und Jugendstil
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1900
+  month: 3
 date: 2021-06-17T17:21:11+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1900
-month: 3
 tags:
 - 1900
 - 00er

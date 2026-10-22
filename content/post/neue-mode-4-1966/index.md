@@ -1,15 +1,16 @@
 ---
 title: Neue Mode April 1966
-subTitle: Geometrische Mode der 60er und mehr
+params:
+  subTitle: Geometrische Mode der 60er und mehr
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1966
+  month: 4
 date: 2024-08-28T16:51:27+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1966
-month: 4
 tags:
 - 1966
 - 60er

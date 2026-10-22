@@ -1,15 +1,16 @@
 ---
 title: Pramo Nr. 7 1974
-subTitle: Die Kragen waren nie breiter!
+params:
+  subTitle: Die Kragen waren nie breiter!
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1974
+  month: 7
 date: 2020-11-07T17:20:49+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1974
-month: 7
 tags:
 - Praktische Mode
 - 1974

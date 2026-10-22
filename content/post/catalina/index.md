@@ -4,9 +4,10 @@ date: 2026-10-08T12:00:00+02:00
 outputs:
 - html
 - iiif-manifest
-iiif:
-  manifest: ./manifest.json
-iiifcontext: http://iiif.io/api/presentation/3/context.json
+params:
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
 tags:
   - 50er
   - Bademode

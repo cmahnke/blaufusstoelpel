@@ -1,16 +1,17 @@
 ---
 title: Mode und Heim Nr. 12 1939
-subTitle: Herbstmode 1939
+params:
+  subTitle: Herbstmode 1939
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1939
+  month: 6
+  featured: true
 date: 2020-09-17T17:57:49+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1939
-month: 6
-featured: true
 tags:
 - 1939
 - Kindermode

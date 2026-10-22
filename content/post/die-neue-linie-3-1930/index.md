@@ -1,15 +1,16 @@
 ---
 title: die neue linie März 1930
-subTitle: Art déco Mode
+params:
+  subTitle: Art déco Mode
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1930
+  month: 3
 date: 2024-08-14T16:51:27+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1930
-month: 3
 tags:
 - 1930
 - 30er

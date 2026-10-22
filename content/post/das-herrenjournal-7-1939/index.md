@@ -1,15 +1,16 @@
 ---
 title: Das Herrenjournal Juli 1934
-subTitle: Für den betuchten Freizeitmatrosen
+params:
+  subTitle: Für den betuchten Freizeitmatrosen
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1934
+  month: 7
 date: 2023-12-24T19:01:38+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1934
-month: 7
 tags:
 - 1934
 - 30er

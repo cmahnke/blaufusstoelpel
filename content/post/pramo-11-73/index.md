@@ -1,14 +1,15 @@
 ---
 title: Pramo Nr. 11 1973
 date: 2020-08-03T17:20:49+02:00
-iiif:
-  manifest: ./manifest.json
+params:
+  iiif:
+    manifest: ./manifest.json
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  year: 1973
+  month: 11
 outputs:
 - html
 - iiif-manifest
-iiifcontext: http://iiif.io/api/presentation/3/context.json
-year: 1973
-month: 11
 tags:
 - Praktische Mode
 - 1973

@@ -1,11 +1,12 @@
 ---
 title: Beyer's Handarbeit und Wäsche 9 1951
-year: 1951
-month: 9
-iiifcontext: http://iiif.io/api/presentation/3/context.json
+params:
+  year: 1951
+  month: 9
+  iiifcontext: http://iiif.io/api/presentation/3/context.json
+  iiif:
+    manifest: ./manifest.json
 date: 2020-09-09T17:56:49+02:00
-iiif:
-  manifest: ./manifest.json
 outputs:
 - html
 - iiif-manifest

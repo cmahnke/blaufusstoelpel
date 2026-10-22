@@ -757,3 +757,11 @@ p.small {
         left: 0;
     }
 }
+
+/*
+ * Parsa theme stylesheet (copy of assets/site-css/style.css).
+ * Imported here because the CSS resource passed via head.html no longer
+ * makes it into the built bundle; appending keeps the original cascade
+ * order (theme rules after site rules).
+ */
+@import "parsa-style";

@@ -151,3 +151,6 @@ defaultMarkdownHandler = 'goldmark'
 
 [params.js]
   format = "esm"
+
+[params.robots]
+  llmsTXT = true

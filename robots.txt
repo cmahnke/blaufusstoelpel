@@ -1,0 +1,17 @@
+User-agent: *
+
+Disallow: /privacy/
+
+Disallow: /meta/_index.en/
+
+
+Disallow: /*.bib$
+
+Disallow: /*.json$
+
+Disallow: /*.xml$
+
+Sitemap: https://xn--blaufusstlpel-qmb.de/sitemap.xml
+
+
+llms-txt: https://xn--blaufusstlpel-qmb.de/llms.txt
